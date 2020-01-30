@@ -2,7 +2,8 @@
 /**
  * Module dependencies.
  */
-
+var index = require('./routes/index');
+var project = require('./routes/project');
 var express = require('express');
 var http = require('http');
 var path = require('path');
@@ -40,6 +41,8 @@ app.get('/', index.view);
 app.get('/hello/:userName', hello.view);
 // Example route
 // app.get('/users', user.list);
+app.get('/', index.view);
+app.get('/project/:name', project.viewProject);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
