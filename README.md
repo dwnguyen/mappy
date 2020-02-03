@@ -1,4 +1,3 @@
-lab4
-====
+mappy
 
-Lab 4: Programming with Javascript
+https://mappy-cogs120.herokuapp.com/
