@@ -5,98 +5,106 @@
 	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap css -->
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Google Font CDN -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<!-- Stylesheet -->
 	<link href="/css/index.css" rel="stylesheet">
-	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>	`
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->        
 </head>
 
 <body>
-	<div class="container">
-		<div class = "row">
-			<div class = "col-xs-2 shop-card" >
-				<img src="images/search-bar.png" class="img">
+	<div class="container screen-bg">
+		<div class="search-bar">
+			<img src="images/search-bar.png" class="img-responsive">
+		</div>
+		{{#each restaurants}}
+			<div class = "row shop-card">
+			<div class="col-xs-4">
+				<img src="images/{{image}}" class="img-responsive vertical-align" alt="{{name}}">
+			</div>
+			<div class = "col-xs-8">
+				<h3 class="card-title">{{name}}</h3>
+				<p class="card-content">Location: {{terminal}} {{gate}}</p>
+				<p class="card-content">Hours: {{hours}}</p>
+			</div>
+			</div>
+		{{/each}}
+		<!--<div class = "row shop-card">
+			<div class="col-xs-4">
+				<img src="images/bankers-hill.png" class="img-responsive vertical-align">
+			</div>
+			<div class = "col-xs-8">
+				<h3 class="card-title">Bankers Hill Bar &amp; Restaurant</h3>
+				<p class="card-content">Location: Terminal 1 Gate 7</p>
+				<p class="card-content">Hours: 6:00AM - 10:30PM (Sat close 8:30)</p>
 			</div>
 		</div>
-		<div class = "row">
-			<div class = "col-xs-2 shop-card" >
-				<img src="images/bankers-hill.png" class="img" style="width:180px;height:200px;">
+		<div class = "row shop-card">
+			<div class = "col-xs-4 vertical-align" >
+				<img src="images/ciao.jpg" class="img-responsive vertical-align">
 			</div>
-			<div class = "col-xs-10">
-				<h2>Bankers Hill Bar & Restaurant</h2>
-				<p>Location: Terminal 1 Gate 7</p>
-				<p>Hours: 6:00AM - 10:30PM (Sat close 8:30)</p>
-			</div>
-		</div>
-		<div class = "row">
-			<div class = "col-xs-2 shop-card" >
-				<img src="images/ciao.jpg" class="img" style="width:180px;height:200px;">
-			</div>
-			<div class = "col-xs-10">
-				<h2>Ciao Gourmet Market</h2>
+			<div class = "col-xs-8">
+				<h3>Ciao Gourmet Market</h3>
 				<p>Location: Terminal 1 Gate 1</p>
 				<p>Hours: 4:30AM - 10:30PM (Sat close 8:30)</p>
 			</div>
 		</div>
-		<div class = "row">
-			<div class = "col-xs-2 shop-card" >
-				<img src="images/Craftbrews.jpg" class="img" style="width:180px;height:200px;">
+		<div class = "row shop-card">
+			<div class = "col-xs-4" >
+				<img src="images/Craftbrews.jpg" class="img-responsive">
 			</div>
-			<div class = "col-xs-10">
-				<h2>Craft Brews on 30th St.</h2>
+			<div class = "col-xs-8">
+				<h3>Craft Brews on 30th St.</h3>
 				<p>Location: Terminal 1 Gate 1</p>
 				<p>Hours: 5:00AM - 8PM</p>
 			</div>
 		</div>	
-		<div class = "row">
-			<div class = "col-xs-2 shop-card" >
-				<img src="images/Einsteins.jpg" class="img" style="width:180px;height:200px;">
+		<div class = "row shop-card">
+			<div class = "col-xs-4" >
+				<img src="images/Einsteins.jpg" class="img-responsive">
 			</div>
-			<div class = "col-xs-10">
-				<h2>Einstein Bros. Bagels</h2>
+			<div class = "col-xs-8">
+				<h3>Einstein Bros. Bagels</h3>
 				<p>Location: Terminal 1 Gate 3</p>
 				<p>Hours: 5:00AM - 10:30PM (Sat close 8:30)</p>
 			</div>
 		</div>	
-		<div class = "row">
-			<div class = "col-xs-2 shop-card" >
-				<img src="images/Emerald.jpg" class="img" style="width:180px;height:200px;">
+		<div class = "row shop-card">
+			<div class = "col-xs-4" >
+				<img src="images/Emerald.jpg" class="img-responsive">
 			</div>
-			<div class = "col-xs-10">
-				<h2>Emerald Express</h2>
+			<div class = "col-xs-8">
+				<h3>Emerald Express</h3>
 				<p>Location: Terminal 1 Pre-Security</p>
 				<p>Hours: 5:00AM - 10:00PM</p>
 			</div>
 		</div>	
-		<div class = "row">
-			<div class = "col-xs-2 shop-card" >
-				<img src="images/Einsteins.jpg" class="img" style="width:180px;height:200px;">
+		<div class = "row shop-card">
+			<div class = "col-xs-4" >
+				<img src="images/Einsteins.jpg" class="img-responsive">
 			</div>
-			<div class = "col-xs-10">
-				<h2>Einstein Bros. Bagels</h2>
+			<div class = "col-xs-8">
+				<h3>Einstein Bros. Bagels</h2>
 				<p>Location: Terminal 1 Gate 3</p>
 				<p>Hours: 5:00AM - 10:30PM (Sat close 8:30)</p>
 			</div>
-		</div>		
+		</div>-->		
 
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		{{#each projects}}
-			<div class="project" location="{{location}}">
-				<a href="restaurants/{{name}}" class="thumbnail">
-					<img src="images/{{image}}" class="img">
-					<p>{{name}}</p>
-				</a>
-			</div>
-		{{/each}}
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
