@@ -8,17 +8,34 @@
      background-size: cover;
 
 }
+.img-gray{
+     filter: grayscale(50%) brightness(60%);
+}
+.options-btn{
+     background-color: white;
+     border: 1vw solid white;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    padding: 3vw;
+    margin: 10vw;
+
+
+
+}
 
 .vertical-align-img{ 
      display: flex;
      align-items: center;
      position: absolute;
-     left: 0vw
+     left: 0vw;
+     background-image: image("images/sandiegomap.png");
 }
 .vertical-align {
+     display: flex;
+     align-items: center;
      position: absolute;
-     left: 30vw;
-     top: 20vw;
      
 }
 
