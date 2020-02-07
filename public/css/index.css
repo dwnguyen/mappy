@@ -13,15 +13,17 @@
 }
 .options-btn{
      background-color: white;
-     border: 1vw solid white;
-    width: 200px;
-    height: 50px;
-    position: absolute;
-    z-index: 1;
-    padding: 3vw;
-    margin: 10vw;
+     padding: 5px;
+     margin: 10px;
+     border-width: 1px;
+     border-radius: 10px;
+     width: 25vw;
 
 
+
+}
+.options-btn h3 {
+     font-size: 35pt;
 
 }
 
