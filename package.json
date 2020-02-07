@@ -18,5 +18,8 @@
     "mongodb": "*",
     "mongoose": "*",
     "node-dijkstra": "^2.5.0"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
