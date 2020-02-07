@@ -31,7 +31,7 @@
 			<img src="images/search-bar.png" class="img-responsive">
 		</div>
 		{{#each restaurants}}
-			<div class = "row shop-card">
+			<a href="/{{name}}"><div class = "row shop-card">
 			<div class="col-xs-4">
 				<img src="images/{{image}}" class="img-responsive vertical-align" alt="{{name}}">
 			</div>
@@ -40,7 +40,7 @@
 				<p class="card-content">Location: {{terminal}} {{gate}}</p>
 				<p class="card-content">Hours: {{hours}}</p>
 			</div>
-			</div>
+			</div></a>
 		{{/each}}
 		<!--<div class = "row shop-card">
 			<div class="col-xs-4">
