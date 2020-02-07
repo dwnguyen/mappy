@@ -8,8 +8,7 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link href="/css/introHCI.css" rel="stylesheet">
-	<link href="/css/index.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,22 +20,21 @@
 </head>
 
 <body>
-	<div class="container" class="vertical-align">
-	
-		<img src="images/sandiegomap.png" class="img-gray" alt="airport">
-          <div class="row options-btn">
-              <h3 class="col-xs-8"> Shop </h3>
-          </div>
-          <div class="row options-btn">
-              <h3 class="col-xs-8"> Food </h3>
-          </div>
-          
-			<a href="restaurants.handlebars">
-          <div class="row options-btn">
-              <h3 class="col-xs-8"> Rest</h3>
-          </div>
-          </a>
-
+	<div class="container map-bg">
+        <div class="search-bar">
+			<img src="images/search-bar.png" class="img-responsive">
+		</div>
+          <div class="row btn-container">
+            <div class="col-xs-3 options-btn"> 
+                <h4 class="btn-text"> Shop </h4>
+            </div>
+            <div class="col-xs-3 options-btn"> 
+                <a href="restaurants.handlebars"><h4 class="btn-text"> Eat </h4></a>
+            </div>
+            <div class="col-xs-3 options-btn"> 
+                <h4 class="btn-text"> Rest </h4>
+            </div>
+            </div>
 				
 		<!--<div class="vertical-align-img">
 			<img src="images/sandiegomap.png" alt="map of airport">
@@ -44,7 +42,7 @@
 			<img src="images/search-bar.png" class="img-responsive">
 		</div>-->
 	
-		  <a href="restaurants.handlebars">
+		 <!-- <a href="restaurants.handlebars">
           <div class="row options-btn">
               <h3 class="col-xs-8"> Shop </h3>
           </div>
@@ -60,10 +58,9 @@
               <h3 class="col-xs-8"> Rest</h3>
           </div>
           </a>
-      </div>
+      </div>-->
 		
 
-	</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>

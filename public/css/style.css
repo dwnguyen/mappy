@@ -1,51 +1,50 @@
+/*Utilities*/
 *{
      font-family: 'Roboto', sans-serif;
 }
-.body {
-     opacity: 75%;
-     height: 90vw;
-     background-position: center;
-     background-size: cover;
-
-}
-.img-gray{
-     filter: grayscale(50%) brightness(60%);
-}
-.options-btn{
-     background-color: white;
-     padding: 5px;
-     margin: 10px;
-     border-width: 1px;
-     border-radius: 10px;
-     width: 25vw;
-
-
-
-}
-.options-btn h3 {
-     font-size: 35pt;
-
-}
-
-.vertical-align-img{ 
-     display: flex;
-     align-items: center;
-     position: absolute;
-     left: 0vw;
-     background-image: image("images/sandiegomap.png");
-}
-.vertical-align {
-     display: flex;
-     align-items: center;
-     position: absolute;
-     
-}
 
 .search-bar{
+     padding: 5px;
      position: -webkit-sticky; /* Safari */
      position: sticky;
      top: 0;
      z-index: 1;
+}
+
+
+/* Index Screen */
+.map-bg {
+     height: 100vh;
+     width: auto;
+     background-image: url("../images/sandiegomap.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.img-gray{
+     filter: grayscale(50%) brightness(60%);
+}
+.btn-container{
+     position: fixed;
+     bottom: 5px;
+     width: 100vw;
+     margin: auto;
+}
+
+.options-btn{
+     border-style: solid;
+     border-color: gray;
+     background-color: white;
+     padding: 5px;
+     margin: 10px;
+     border-width: 2px;
+     border-radius: 10px;
+
+}
+
+.btn-text{
+     text-align: center;
+
 }
 
 /* Shops Screen CSS */
