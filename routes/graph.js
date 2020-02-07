@@ -40,12 +40,12 @@ function findShortestPath(startNode, endNode,data){
     return;
   }
   for (var i = 0; i < path.length; i++) {
-    var pathNode = nodes.find(node => node.id === path[i]);
+    var pathNode = nodes.find(function(node){ return node.id === path[i]});
     pathNodes.push(pathNode);
     if(i<path.length-1){
       var newEdge = {};
       newEdge.source = pathNode.id;
-      newEdge.target = nodes.find(node => node.id === path[i+1]).id;
+      newEdge.target = nodes.find(function(node){ node.id === path[i+1].id});
       edges.push(newEdge)
 
     }
