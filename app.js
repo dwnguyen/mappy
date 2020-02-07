@@ -11,9 +11,9 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var restaurants = require('./routes/restaurants');
+var graph = require('./routes/graph');
 // Example route
 // var user = require('./routes/user');
-
 var app = express();
 
 // all environments
@@ -43,7 +43,9 @@ app.get('/restaurants', restaurants.view);
 // app.get('/users', user.list);
 app.get('/', index.view);
 app.get('/project/:name', project.viewProject);
-
-http.createServer(app).listen(app.get('port'), function(){
+app.get('/graph', graph.renderGraph);
+app.get('/graph/:startNode/:endNode', graph.renderGraph);
+app.get('/graph/:startNode', graph.renderGraph);
+http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });
