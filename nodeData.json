@@ -4,7 +4,7 @@
     "x": 178,
     "y": 1524,
     "edges": [
-      1
+      "node1"
     ],
     "JSON_edges": {
       "node1": 926600
@@ -15,9 +15,9 @@
     "x": 1140,
     "y": 1490,
     "edges": [
-      0,
-      2,
-      3
+      "node0",
+      "node2",
+      "node3"
     ],
     "JSON_edges": {
       "node0": 926600,
@@ -30,7 +30,7 @@
     "x": 1150,
     "y": 369,
     "edges": [
-      1
+      "node1"
     ],
     "JSON_edges": {
       "node1": 1256741
@@ -41,8 +41,8 @@
     "x": 2008,
     "y": 1591,
     "edges": [
-      1,
-      4
+      "node1",
+      "node4"
     ],
     "JSON_edges": {
       "node1": 763625,
@@ -54,10 +54,23 @@
     "x": 2423,
     "y": 1616,
     "edges": [
-      3
+      "node3",
+      "node5"
     ],
     "JSON_edges": {
-      "node3": 172850
+      "node3": 172850,
+      "node5": 925508
+    }
+  },
+  {
+    "id": "node5",
+    "x": 2431,
+    "y": 654,
+    "edges": [
+      "node4"
+    ],
+    "JSON_edges": {
+      "node4": 925508
     }
   }
 ]

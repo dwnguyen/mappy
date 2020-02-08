@@ -3,7 +3,6 @@
  * Module dependencies.
  */
 var index = require('./routes/index');
-var project = require('./routes/project');
 var express = require('express');
 var http = require('http');
 var path = require('path');
@@ -11,7 +10,6 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var restaurants = require('./routes/restaurants');
-var graph = require('./routes/graph');
 // Example route
 // var user = require('./routes/user');
 var app = express();
@@ -41,11 +39,8 @@ app.get('/', index.view);
 app.get('/restaurants', restaurants.view);
 // Example route
 // app.get('/users', user.list);
-app.get('/', index.view);
-app.get('/project/:name', project.viewProject);
-app.get('/graph', graph.renderGraph);
-app.get('/graph/:startNode/:endNode', graph.renderGraph);
-app.get('/graph/:startNode', graph.renderGraph);
+app.get('/map/:startNode/:endNode', index.view);
+app.get('/map/:startNode', index.view);
 http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });

@@ -11,10 +11,10 @@ for (var i =0; i<nodes.length;i++){
     if(curTarget>=nodes.length){
       console.log("OUT OF RANGE ERROR")
     }
-    var targetNode = nodes[curTarget];
+    var targetNode = nodes.find(function(node){return node.id === curTarget});
     var dist = Math.pow(curNode.x - targetNode.x,2) +
         Math.pow(curNode.y - targetNode.y,2);
-    newEdges[targetNode.id] = dist;
+    newEdges[curTarget] = dist;
   }
   curNode["JSON_edges"] = newEdges;
 }

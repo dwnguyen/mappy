@@ -24,11 +24,10 @@ function renderGraph(data) {
         .data(data.nodes)
         .enter().append("circle")
         .attr("class", "node")
+        .attr("id", function(d) {return d.id})
         .attr("cx", function (d) { return d.x })
         .attr("cy", function (d) { return d.y });
 
-    console.log(nodes.data()[0])
-    console.log(edges.data()[0].source);
     edges.attr("x1", function (d) {
         return nodes.data().find(node => node.id === d.source).x
     }).attr("y1", function (d) {

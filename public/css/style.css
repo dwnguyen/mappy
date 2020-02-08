@@ -2,6 +2,12 @@
 *{
      font-family: 'Roboto', sans-serif;
 }
+.node{
+     r:10px;
+}
+.edge{
+     stroke:rgb(7, 7, 7)
+}
 
 .search-bar{
      padding: 5px;
