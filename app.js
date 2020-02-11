@@ -39,8 +39,8 @@ app.get('/', index.view);
 app.get('/restaurants', restaurants.view);
 // Example route
 // app.get('/users', user.list);
-app.get('/map/:startNode/:endNode', index.view);
-app.get('/map/:startNode', index.view);
+app.get('/map/:startNodes/:endNodes', index.view);
+app.get('/map/:startNodes', index.view);
 http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });

@@ -7,14 +7,34 @@ const Graph = require('node-dijkstra');
 var nodes = require('../nodeData.json');
 exports.view = function (req, res) {
   var data = {};
-  var startNode = req.params.startNode
-  var endNode = req.params.endNode
-  if (startNode != "" && endNode != "") {
-    findShortestPath(startNode, endNode, data);
-  }
-  if (startNode == "test") {
+  data.nodes =[];
+  data.edges =[];
+  var startNodes = req.params.startNodes;
+  var endNodes = req.params.endNodes;
+  console.log(startNodes);
+  console.log(endNodes);
+  if (startNodes == "test") {
     testGraph(data);
   }
+  if (startNodes != undefined && endNodes != undefined) {
+    startNodesArray = startNodes.split("+");
+    endNodesArray = endNodes.split("+");
+    if(startNodesArray.length != endNodesArray.length){
+      console.log("ARRAY MISMATCH");
+      console.log(startNodesArray);
+      console.log(endNodesArray);
+    }
+    else{
+      for (var i = 0; i<startNodesArray.length; i++){
+        var startNode = startNodesArray[i];
+        var endNode = endNodesArray[i];
+        findShortestPath(startNode, endNode, data);
+      }
+
+    }
+
+  }
+  
   data.stringify = JSON.stringify(data);
   res.render('index', {
     'data': data,
@@ -27,8 +47,6 @@ function findShortestPath(startNode, endNode, data) {
   for (var i = 0; i < nodes.length; i++) {
     route.addNode('node' + i, nodes[i].JSON_edges);
   }
-  var pathNodes = [];
-  var edges = [];
   var path = route.path(startNode, endNode);
   if (path == null) {
     data = {};
@@ -36,19 +54,18 @@ function findShortestPath(startNode, endNode, data) {
   }
   for (var i = 0; i < path.length; i++) {
     var pathNode = nodes.find(function (node) { return node.id === path[i] });
-    pathNodes.push(pathNode);
+    data.nodes.push(pathNode);
     if (i < path.length - 1) {
       var newEdge = {};
       newEdge.source = pathNode.id;
       newEdge.target = nodes.find(function (node) {
         return node.id === path[i + 1]}).id;
-      edges.push(newEdge)
+      
+      data.edges.push(newEdge)
 
     }
 
   }
-  data.nodes = pathNodes;
-  data.edges = edges;
   return data;
 
 }
