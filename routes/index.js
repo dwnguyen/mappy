@@ -7,8 +7,11 @@ const Graph = require('node-dijkstra');
 var nodes = require('../nodeData.json');
 exports.view = function (req, res) {
   var data = {};
-  data.nodes =[];
-  data.edges =[];
+  var addedNodes = {};
+  data.nodes = [];
+  data.edges = [];
+  data.startNodesStr = "";
+  data.endNodesStr = "";
   var startNodes = req.params.startNodes;
   var endNodes = req.params.endNodes;
   console.log(startNodes);
@@ -17,36 +20,43 @@ exports.view = function (req, res) {
     testGraph(data);
   }
   if (startNodes != undefined && endNodes != undefined) {
+
     startNodesArray = startNodes.split("+");
     endNodesArray = endNodes.split("+");
-    if(startNodesArray.length != endNodesArray.length){
+    if (startNodesArray.length != endNodesArray.length) {
       console.log("ARRAY MISMATCH");
       console.log(startNodesArray);
       console.log(endNodesArray);
     }
-    else{
-      for (var i = 0; i<startNodesArray.length; i++){
+    else {
+      const route = new Graph();
+      for (var i = 0; i < nodes.length; i++) {
+        route.addNode('node' + i, nodes[i].JSON_edges);
+      }
+      for (var i = 0; i < startNodesArray.length; i++) {
         var startNode = startNodesArray[i];
         var endNode = endNodesArray[i];
-        findShortestPath(startNode, endNode, data);
+        data.startNodesStr += "#" + startNode;
+        data.endNodesStr += "#" + endNode;
+        if (i != startNodesArray.length - 1) {
+          data.startNodesStr += ",";
+          data.endNodesStr += ",";
+        }
+        findShortestPath(startNode, endNode, data,route, addedNodes);
       }
 
     }
 
   }
-  
+
   data.stringify = JSON.stringify(data);
   res.render('index', {
     'data': data,
   });
 };
 
-function findShortestPath(startNode, endNode, data) {
-  const route = new Graph();
+function findShortestPath(startNode, endNode, data, route,addedNodes) {
 
-  for (var i = 0; i < nodes.length; i++) {
-    route.addNode('node' + i, nodes[i].JSON_edges);
-  }
   var path = route.path(startNode, endNode);
   if (path == null) {
     data = {};
@@ -54,13 +64,18 @@ function findShortestPath(startNode, endNode, data) {
   }
   for (var i = 0; i < path.length; i++) {
     var pathNode = nodes.find(function (node) { return node.id === path[i] });
-    data.nodes.push(pathNode);
+    if(addedNodes[pathNode.id] != 1){
+      data.nodes.push(pathNode);
+      addedNodes[pathNode.id] = 1;
+    }
+
     if (i < path.length - 1) {
       var newEdge = {};
       newEdge.source = pathNode.id;
       newEdge.target = nodes.find(function (node) {
-        return node.id === path[i + 1]}).id;
-      
+        return node.id === path[i + 1]
+      }).id;
+
       data.edges.push(newEdge)
 
     }

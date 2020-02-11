@@ -6,7 +6,17 @@
      r:10px;
 }
 .edge{
-     stroke:rgb(7, 7, 7)
+     stroke:rgba(1,1,1,1)
+}
+.start{
+     fill: rgba(255,0,0,1) 
+}
+.end{
+     fill: rgba(0,0,255,1) 
+}
+.dest{
+     fill: rgba(0,255,0,1) 
+
 }
 
 .search-bar{

@@ -37,6 +37,11 @@ function renderGraph(data) {
     }).attr("y2", function (d) {
         return nodes.data().find(node => node.id === d.target).y
     });
+    
+    svg.selectAll(data.startNodesStr).attr("class", "node start");
+    svg.selectAll(data.endNodesStr).filter(".start").attr("class","node dest");
+    svg.selectAll(data.endNodesStr).filter("*:not(.dest)")
+        .attr("class","node end");
 }
 
 
