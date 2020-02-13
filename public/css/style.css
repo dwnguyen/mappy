@@ -2,6 +2,16 @@
 *{
      font-family: 'Roboto', sans-serif;
 }
+
+.search-bar{
+     padding: 5px;
+     position: -webkit-sticky; /* Safari */
+     position: sticky;
+     top: 0;
+     z-index: 1;
+}
+
+/*Map CSS*/
 .node{
      r:10px;
 }
@@ -19,14 +29,10 @@
 
 }
 
-.search-bar{
-     padding: 5px;
-     position: -webkit-sticky; /* Safari */
-     position: sticky;
-     top: 0;
-     z-index: 1;
+/*Login Screen*/
+.login-logo{
+     padding-top: 35%;
 }
-
 
 /* Index Screen */
 .map-bg {
