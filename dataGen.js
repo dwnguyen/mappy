@@ -1,5 +1,5 @@
 var fs = require('fs');
-var nodes = require('./rawNodeData.json')
+var nodes = require('./json/rawNodeData.json')
 console.log(nodes);
 for (var i =0; i<nodes.length;i++){
   var curNode = nodes[i];
@@ -20,7 +20,7 @@ for (var i =0; i<nodes.length;i++){
 }
 console.log(nodes);
 var json = JSON.stringify(nodes,null,2);
-fs.writeFile('nodeData.json', json, 'utf8',null);
+fs.writeFile('./json/nodeData.json', json, 'utf8',null);
 
 /*
 for (var i = 0; i < edgeData.length; i++) {

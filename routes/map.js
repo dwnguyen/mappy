@@ -4,7 +4,7 @@
  */
 
 const Graph = require('node-dijkstra');
-var nodes = require('../nodeData.json');
+var nodes = require('../json/nodeData.json');
 exports.view = function (req, res) {
   var data = {};
   var addedNodes = {};
@@ -52,6 +52,8 @@ exports.view = function (req, res) {
   data.stringify = JSON.stringify(data);
   res.render('map', {
     'data': data,
+    'startNodes': startNodes,
+    'endNodes': endNodes
   });
 };
 

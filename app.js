@@ -38,15 +38,12 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/restaurants', restaurants.view);
+app.get('/restaurants/:startNodes/:endNodes', restaurants.view);
 // Example route
 // app.get('/users', user.list);
 app.get('/map/:startNodes/:endNodes', map.view);
 app.get('/map/:startNodes', map.view);
 app.get('/map', map.view);
-app.post('/test', function(req,res){
-  var writer = fs.createWriteStream('public/json/test.json');
-  writer.write(JSON.stringify(req.body))
-});
 http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });

@@ -247,7 +247,9 @@ exports.view = function(req, res){
       'gate': 'Gate 13',
       'hours': '5:00AM - 6:00PM'
       },
-    ]
+    ],
+  startNodes: req.params.startNodes,
+  endNodes: req.params.endNodes
     
   });
 };
