@@ -31,7 +31,8 @@
 
 /*Login Screen*/
 .login-logo{
-     padding-top: 35%;
+     padding-top: 50%;
+     padding-left: 45px;
 }
 
 /* Index Screen */
@@ -48,26 +49,49 @@
 }
 .btn-container{
      position: fixed;
-     bottom: 5px;
-     width: 100vw;
-     margin: auto;
-}
-
-.options-btn{
-     border-style: solid;
-     border-color: gray;
+     width:80vw;
+     bottom: 5%;
+     margin-left: 5%;
+     margin-right: 5%;
+     border-radius: 5%;
      background-color: white;
-     padding: 5px;
-     margin: 10px;
-     border-width: 2px;
-     border-radius: 10px;
-
+     box-shadow: 2px 4px 10px gray;
 }
 
-.btn-text{
-     text-align: center;
-
+.br-btn{
+     float: right;
+     right: 5%;
+     bottom: 5%;
+     border-radius: 5%;
+     background-color: white;
+     box-shadow: 2px 4px 10px gray;
 }
+
+.optn-text{
+     color: #4D595E;
+     padding-left: 16px;
+}
+
+.shop-optn{
+     background-color:#F7E9A0;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     margin-bottom: 5px;
+}
+
+.eat-optn{
+     background-color:#F76D6D;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     margin-bottom: 5px;
+}
+
+.rest-optn{
+     background-color:#A8D1E7;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     margin-bottom: 5px;
+
 
 /* Shops Screen CSS */
 .screen-bg{
