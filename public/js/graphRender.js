@@ -5,6 +5,9 @@
 // OR
 // node: x, y, id, {nodes which this node has directed edge to}
 
+$("button").click(function(){
+    $.post("/test", data)
+})
 console.log(data)
 if (JSON.stringify(data) != JSON.stringify({})) {
     renderGraph(data);

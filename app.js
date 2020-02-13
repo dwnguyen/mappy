@@ -7,10 +7,10 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
-
+var fs = require('fs');
 var index = require('./routes/index');
 var restaurants = require('./routes/restaurants');
-var login = require('./routes/login');
+var map = require('./routes/map');
 // Example route
 // var user = require('./routes/user');
 var app = express();
@@ -38,11 +38,15 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/restaurants', restaurants.view);
-app.get('/login', login.view);
 // Example route
 // app.get('/users', user.list);
-app.get('/map/:startNodes/:endNodes', index.view);
-app.get('/map/:startNodes', index.view);
+app.get('/map/:startNodes/:endNodes', map.view);
+app.get('/map/:startNodes', map.view);
+app.get('/map', map.view);
+app.post('/test', function(req,res){
+  var writer = fs.createWriteStream('public/json/test.json');
+  writer.write(JSON.stringify(req.body))
+});
 http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });
