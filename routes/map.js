@@ -8,8 +8,6 @@ var nodes = require('../json/nodeData.json');
 exports.view = function (req, res) {
   var data = {};
   var addedNodes = {};
-  data.nodes = [];
-  data.edges = [];
   var startNodes = req.params.startNodes;
   var endNodes = req.params.endNodes;
   console.log(startNodes);
@@ -58,6 +56,8 @@ exports.view = function (req, res) {
 };
 
 function findShortestPath(startNode, endNode, data, route,addedNodes) {
+  data.nodes = [];
+  data.edges = [];
 
   var path = route.path(startNode, endNode);
   if (path == null) {

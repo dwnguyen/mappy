@@ -6,7 +6,7 @@
 exports.view = function(req, res){
   res.render("restaurants", {
     "restaurants": [
-      { "name": 'Bankers Hill Bar & Restaurant',
+      { "name": 'Bankers Hill Bar and Restaurant',
         "image": 'bankers-hill.png',
         "terminal": 'Terminal 1',
         "gate": 'Gate 7',
@@ -18,7 +18,7 @@ exports.view = function(req, res){
         'gate': 'Gate 1',
         'hours': '4:30AM - 10:30PM (Sat close 8:30)'
       },
-      { 'name': 'Craft Brews on 30th St.',
+      { 'name': 'Craft Brews on 30th St',
          'image': 'Craftbrews.jpg',
          'terminal': 'Terminal 1',
          'gate': 'Gate 1',

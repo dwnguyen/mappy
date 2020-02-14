@@ -37,7 +37,7 @@
 			<img src="/images/search-bar.png" class="img-responsive">
 		</div>
 		{{#each restaurants}}
-		<a class="rLink" id="{{name}}" href="/{{name}}">
+		<a class="rLink" id="{{name}}" href="/map">
 			<div class="row shop-card">
 				<div class="col-xs-4">
 					<img src="/images/{{image}}" class="img-responsive vertical-align" alt="{{name}}">
@@ -49,13 +49,6 @@
 				</div>
 			</div>
 		</a>
-		<script>
-			if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
-				$("#{{name}}").attr("href", "/map/{{startNodes}}+{{name}}/combStr");
-
-			}
-
-		</script>
 		{{/each}}
 		<script>
 			if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
@@ -68,7 +61,9 @@
 					var rightStr = endNodesStr.substring(index + 1, endNodesStr.length);
 					var combStr = leftStr + this.id + rightStr;
 					var linkStr = '/map/{{startNodes}}' +this.Id+'/'+combStr; 
-					$(this.id).attr('href',linkStr);
+					var id = "#" + this.id;
+					console.log(id)
+					$(id).attr('href',linkStr);
 				})
 			}
 

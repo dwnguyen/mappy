@@ -1,76 +1,1810 @@
 [
   {
-    "id": "node0",
-    "x": 178,
-    "y": 1524,
-    "edges": [
-      "node1"
-    ],
+    "id": "ThePradoAtBalboaPark",
+    "x": 2222,
+    "y": 435,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "The Prado At Balboa Park"
+  },
+  {
+    "id": "BeRelaxSpa",
+    "x": 2329,
+    "y": 465,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beRelax-3.jpg",
+    "hours": "TBD",
+    "name": "Be Relax Spa"
+  },
+  {
+    "id": "MindWorks",
+    "x": 2339,
+    "y": 493,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Mind Works"
+  },
+  {
+    "id": "JackInTheBox",
+    "x": 2234,
+    "y": 528,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/gallery-Chicken.jpg",
+    "hours": "TBD",
+    "name": "Jack In The Box"
+  },
+  {
+    "id": "PandaExpress",
+    "x": 2236,
+    "y": 559,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/panda-gallery2.jpg",
+    "hours": "TBD",
+    "name": "Panda Express"
+  },
+  {
+    "id": "CaliforniaPizzaKitchen",
+    "x": 2239,
+    "y": 589,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/CPK-1.jpg",
+    "hours": "TBD",
+    "name": "California Pizza Kitchen"
+  },
+  {
+    "id": "PeetsCoffeeTea",
+    "x": 2252,
+    "y": 616,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
+    "hours": "TBD",
+    "name": "Peets Coffee Tea"
+  },
+  {
+    "id": "Bathroom1",
+    "x": 188,
+    "y": 1373,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 1"
+  },
+  {
+    "id": "Bathroom2",
+    "x": 304,
+    "y": 1190,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 2"
+  },
+  {
+    "id": "Bathroom3",
+    "x": 342,
+    "y": 1190,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 3"
+  },
+  {
+    "id": "InMotion",
+    "x": 2343,
+    "y": 518,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/MW-gallery1.jpg",
+    "hours": "TBD",
+    "name": "In Motion"
+  },
+  {
+    "id": "BrightonCollectibles2",
+    "x": 2274,
+    "y": 645,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Brighton Collectibles 2"
+  },
+  {
+    "id": "OldTownNewsAndMarket",
+    "x": 2351,
+    "y": 550,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Old Town News And Market"
+  },
+  {
+    "id": "UrbanCrave",
+    "x": 401,
+    "y": 1168,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Urban Crave"
+  },
+  {
+    "id": "SeesCandies",
+    "x": 2389,
+    "y": 1067,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Sees Candies"
+  },
+  {
+    "id": "GaslampQuarterNews",
+    "x": 473,
+    "y": 1166,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gaslamp Quarter News"
+  },
+  {
+    "id": "Bathroom4",
+    "x": 624,
+    "y": 1192,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 4"
+  },
+  {
+    "id": "Bathroom5",
+    "x": 662,
+    "y": 1185,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 5"
+  },
+  {
+    "id": "SunglassHut",
+    "x": 721,
+    "y": 1166,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Sunglass Hut"
+  },
+  {
+    "id": "USReportAndWorldNews",
+    "x": 2299,
+    "y": 1116,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "USReport And World News"
+  },
+  {
+    "id": "ArtisianMarket",
+    "x": 2269,
+    "y": 1156,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/artisan-1.jpg",
+    "hours": "TBD",
+    "name": "Artisian Market"
+  },
+  {
+    "id": "BrightonCollectibles1",
+    "x": 756,
+    "y": 1151,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Brighton Collectibles 1"
+  },
+  {
+    "id": "Soundbalance",
+    "x": 786,
+    "y": 1127,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Soundbalance"
+  },
+  {
+    "id": "QdobaMexicanGrill",
+    "x": 736,
+    "y": 1089,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Qdoba Mexican Grill"
+  },
+  {
+    "id": "AirspaceLounge",
+    "x": 2188,
+    "y": 1148,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Airspace Lounge"
+  },
+  {
+    "id": "RedMango",
+    "x": 775,
+    "y": 1076,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Red Mango"
+  },
+  {
+    "id": "SkyFreeShop",
+    "x": 822,
+    "y": 1079,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Sky Free Shop"
+  },
+  {
+    "id": "BubblesSeafoodAndWineBar",
+    "x": 771,
+    "y": 983,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Bubbles-1.jpg",
+    "hours": "TBD",
+    "name": "Bubbles Seafood And Wine Bar"
+  },
+  {
+    "id": "ApricotLaneBoutique",
+    "x": 924,
+    "y": 998,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Apricot Lane Boutique"
+  },
+  {
+    "id": "SaffronThai",
+    "x": 894,
+    "y": 962,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Saffron Thai"
+  },
+  {
+    "id": "TommyV’sPizzeria",
+    "x": 924,
+    "y": 908,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Tommy V’s Pizzeria"
+  },
+  {
+    "id": "PGATourShops",
+    "x": 961,
+    "y": 947,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "PGATour Shops"
+  },
+  {
+    "id": "Swarovski",
+    "x": 983,
+    "y": 908,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Swarovski"
+  },
+  {
+    "id": "Warwick’sOfLaJolla",
+    "x": 989,
+    "y": 810,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Warwick’s Of La Jolla"
+  },
+  {
+    "id": "Peet’sCoffee&Tea",
+    "x": 1013,
+    "y": 1024,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
+    "hours": "TBD",
+    "name": "Peet’s Coffee & Tea"
+  },
+  {
+    "id": "KidsLoveSanDiego",
+    "x": 1021,
+    "y": 994,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Kids Love San Diego"
+  },
+  {
+    "id": "Brookstone",
+    "x": 1032,
+    "y": 964,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Brookstone"
+  },
+  {
+    "id": "CamdenFoodCo.",
+    "x": 1047,
+    "y": 917,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/camden-1.jpg",
+    "hours": "TBD",
+    "name": "Camden Food Co."
+  },
+  {
+    "id": "StoneBrewingCompany",
+    "x": 1070,
+    "y": 1009,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Stone Brewing Company"
+  },
+  {
+    "id": "Bathroom7",
+    "x": 987,
+    "y": 517,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 7"
+  },
+  {
+    "id": "Bathroom8",
+    "x": 987,
+    "y": 564,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 8"
+  },
+  {
+    "id": "Bathroom9",
+    "x": 1120,
+    "y": 357,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 9"
+  },
+  {
+    "id": "Bathroom10",
+    "x": 1128,
+    "y": 920,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 10"
+  },
+  {
+    "id": "BeaudevinWineAndTapasBar",
+    "x": 1086,
+    "y": 80,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beaudevin-3.jpg",
+    "hours": "TBD",
+    "name": "Beaudevin Wine And Tapas Bar"
+  },
+  {
+    "id": "Phil'sBBQ",
+    "x": 1011,
+    "y": 225,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Phil's BBQ"
+  },
+  {
+    "id": "StellarNews",
+    "x": 1134,
+    "y": 238,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Stellar News"
+  },
+  {
+    "id": "Gate50",
+    "x": 162,
+    "y": 1151,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 50"
+  },
+  {
+    "id": "Gate49",
+    "x": 261,
+    "y": 1151,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 49"
+  },
+  {
+    "id": "Gate48",
+    "x": 579,
+    "y": 1151,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 48"
+  },
+  {
+    "id": "Gate51",
+    "x": 29,
+    "y": 1142,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 51"
+  },
+  {
+    "id": "Gate47",
+    "x": 954,
+    "y": 696,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 47"
+  },
+  {
+    "id": "Gate46",
+    "x": 996,
+    "y": 371,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 46"
+  },
+  {
+    "id": "Gate45",
+    "x": 969,
+    "y": 120,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 45"
+  },
+  {
+    "id": "Gate44",
+    "x": 996,
+    "y": 63,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 44"
+  },
+  {
+    "id": "Bathroom12",
+    "x": 2329,
+    "y": 435,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 12"
+  },
+  {
+    "id": "Starbucks",
+    "x": 1054,
+    "y": 624,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Starbucks"
+  },
+  {
+    "id": "Bathroom13",
+    "x": 1605,
+    "y": 1240,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 13"
+  },
+  {
+    "id": "Bathroom14",
+    "x": 1263,
+    "y": 1193,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 14"
+  },
+  {
+    "id": "Gate33",
+    "x": 1952,
+    "y": 1245,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 33"
+  },
+  {
+    "id": "Gate23",
+    "x": 2333,
+    "y": 942,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 23"
+  },
+  {
+    "id": "Gate25",
+    "x": 2309,
+    "y": 689,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 25"
+  },
+  {
+    "id": "Gate24",
+    "x": 2369,
+    "y": 746,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 24"
+  },
+  {
+    "id": "Gate26",
+    "x": 2354,
+    "y": 612,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 26"
+  },
+  {
+    "id": "Gate27",
+    "x": 2204,
+    "y": 439,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 27"
+  },
+  {
+    "id": "Gate29",
+    "x": 2106,
+    "y": 318,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 29"
+  },
+  {
+    "id": "Gate31",
+    "x": 2174,
+    "y": 318,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 31"
+  },
+  {
+    "id": "Gate32",
+    "x": 2413,
+    "y": 285,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 32"
+  },
+  {
+    "id": "Gate30",
+    "x": 2428,
+    "y": 270,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 30"
+  },
+  {
+    "id": "Gate28",
+    "x": 2434,
+    "y": 285,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 28"
+  },
+  {
+    "id": "Gate22",
+    "x": 2456,
+    "y": 1126,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 22"
+  },
+  {
+    "id": "Gate21",
+    "x": 2804,
+    "y": 1299,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 21"
+  },
+  {
+    "id": "Gate20",
+    "x": 3098,
+    "y": 1252,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 20"
+  },
+  {
+    "id": "Bathroom15",
+    "x": 2288,
+    "y": 829,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 15"
+  },
+  {
+    "id": "Bathroom16",
+    "x": 2368,
+    "y": 424,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 16"
+  },
+  {
+    "id": "MACCosmetics",
+    "x": 991,
+    "y": 1079,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "MACCosmetics"
+  },
+  {
+    "id": "Bathroom17",
+    "x": 624,
+    "y": 1192,
+    "edges": "",
+    "category": "rest",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Bathroom 17"
+  },
+  {
+    "id": 2,
+    "x": 218,
+    "y": 1258,
+    "edges": "Gate51,Gate50,Gate49,Bathroom2,Bathroom1,Bathroom3,1",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
     "JSON_edges": {
-      "node1": 926600
+      "1": 52069,
+      "Gate51": 49177,
+      "Gate50": 14585,
+      "Gate49": 13298,
+      "Bathroom2": 12020,
+      "Bathroom1": 14125,
+      "Bathroom3": 20000
     }
   },
   {
-    "id": "node1",
-    "x": 1140,
-    "y": 1490,
-    "edges": [
-      "node0",
-      "node2",
-      "node3"
-    ],
+    "id": 1,
+    "x": 443,
+    "y": 1220,
+    "edges": "UrbanCrave,GaslampQuarterNews,3",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
     "JSON_edges": {
-      "node0": 926600,
-      "node2": 1256741,
-      "node3": 763625
+      "3": 10226,
+      "UrbanCrave": 4468,
+      "GaslampQuarterNews": 3816
     }
   },
   {
-    "id": "node2",
-    "x": 1150,
-    "y": 369,
-    "edges": [
-      "node1"
-    ],
+    "id": 3,
+    "x": 544,
+    "y": 1215,
+    "edges": "Gate48,Bathroom17,Bathroom5,SunglassHut,BrightonCollectibles1,5",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
     "JSON_edges": {
-      "node1": 1256741
+      "5": 110144,
+      "Gate48": 5321,
+      "Bathroom17": 6929,
+      "Bathroom5": 14824,
+      "SunglassHut": 33730,
+      "BrightonCollectibles1": 49040
     }
   },
   {
-    "id": "node3",
-    "x": 2008,
-    "y": 1591,
-    "edges": [
-      "node1",
-      "node4"
-    ],
+    "id": 5,
+    "x": 864,
+    "y": 1127,
+    "edges": "Soundbalance,6,7",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
     "JSON_edges": {
-      "node1": 763625,
-      "node4": 172850
+      "6": 7744,
+      "7": 21218,
+      "Soundbalance": 6084
     }
   },
   {
-    "id": "node4",
-    "x": 2423,
-    "y": 1616,
-    "edges": [
-      "node3",
-      "node5"
-    ],
+    "id": 6,
+    "x": 864,
+    "y": 1039,
+    "edges": "SkyFreeShop,18,19,7",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
     "JSON_edges": {
-      "node3": 172850,
-      "node5": 925508
+      "7": 10834,
+      "18": 6309,
+      "19": 12465,
+      "SkyFreeShop": 3364
     }
   },
   {
-    "id": "node5",
-    "x": 2431,
-    "y": 654,
-    "edges": [
-      "node4"
-    ],
+    "id": 18,
+    "x": 786,
+    "y": 1024,
+    "edges": "RedMango,QdobaMexicanGrill,BubblesSeafoodAndWineBar,19",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
     "JSON_edges": {
-      "node4": 925508
+      "19": 13572,
+      "RedMango": 2825,
+      "QdobaMexicanGrill": 6725,
+      "BubblesSeafoodAndWineBar": 1906
+    }
+  },
+  {
+    "id": 19,
+    "x": 852,
+    "y": 928,
+    "edges": "TommyV’sPizzeria,SaffronThai",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "TommyV’sPizzeria": 5584,
+      "SaffronThai": 2920
+    }
+  },
+  {
+    "id": 7,
+    "x": 967,
+    "y": 1024,
+    "edges": "ApricotLaneBoutique,Peet’sCoffee&Tea,KidsLoveSanDiego,MACCosmetics,Brookstone,9,PGATourShops",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "9": 14834,
+      "ApricotLaneBoutique": 2525,
+      "Peet’sCoffee&Tea": 2116,
+      "KidsLoveSanDiego": 3816,
+      "MACCosmetics": 3601,
+      "Brookstone": 7825,
+      "PGATourShops": 5965
+    }
+  },
+  {
+    "id": "GaslampMarketPlace",
+    "x": 999,
+    "y": 324,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gaslamp Market Place"
+  },
+  {
+    "id": "PannikinCoffeeAndTea",
+    "x": 1124,
+    "y": 297,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/pannikin-2.jpg",
+    "hours": "TBD",
+    "name": "Pannikin Coffee And Tea"
+  },
+  {
+    "id": "ElegantDesserts",
+    "x": 1060,
+    "y": 422,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/elegantDesserts-detail.jpg",
+    "hours": "TBD",
+    "name": "Elegant Desserts"
+  },
+  {
+    "id": 20,
+    "x": 1143,
+    "y": 90,
+    "edges": "BeaudevinWineAndTapasBar,Gate42,Gate41,Gate40,16",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "16": 17173,
+      "BeaudevinWineAndTapasBar": 3349,
+      "Gate42": 6977,
+      "Gate41": 2617,
+      "Gate40": 1629
+    }
+  },
+  {
+    "id": 17,
+    "x": 1030,
+    "y": 105,
+    "edges": "Gate44,Gate45,BeaudevinWineAndTapasBar,Gate43,16",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "16": 13745,
+      "Gate44": 2920,
+      "Gate45": 3946,
+      "BeaudevinWineAndTapasBar": 3761,
+      "Gate43": 6050
+    }
+  },
+  {
+    "id": 16,
+    "x": 1086,
+    "y": 208,
+    "edges": "Phil'sBBQ,StellarNews,15,Gate39",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "15": 17837,
+      "Phil'sBBQ": 5914,
+      "StellarNews": 3204,
+      "Gate39": 13730
+    }
+  },
+  {
+    "id": 15,
+    "x": 1060,
+    "y": 339,
+    "edges": "GaslampMarketPlace,PannikinCoffeeAndTea,Bathroom9,Gate38,Gate46,ElegantDesserts,14",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "14": 50850,
+      "GaslampMarketPlace": 3946,
+      "PannikinCoffeeAndTea": 5860,
+      "Bathroom9": 3924,
+      "Gate38": 7444,
+      "Gate46": 5120,
+      "ElegantDesserts": 6889
+    }
+  },
+  {
+    "id": "Gate43",
+    "x": 1041,
+    "y": 28,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 43"
+  },
+  {
+    "id": "Gate42",
+    "x": 1099,
+    "y": 19,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 42"
+  },
+  {
+    "id": "Gate41",
+    "x": 1147,
+    "y": 39,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 41"
+  },
+  {
+    "id": "Gate40",
+    "x": 1173,
+    "y": 63,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 40"
+  },
+  {
+    "id": "Gate39",
+    "x": 1195,
+    "y": 165,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 39"
+  },
+  {
+    "id": "Gate38",
+    "x": 1120,
+    "y": 401,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 38"
+  },
+  {
+    "id": "Gate37",
+    "x": 1117,
+    "y": 587,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 37"
+  },
+  {
+    "id": "Gate36",
+    "x": 1119,
+    "y": 870,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 36"
+  },
+  {
+    "id": "Gate35",
+    "x": 1322,
+    "y": 1173,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 35"
+  },
+  {
+    "id": "Gate34",
+    "x": 1705,
+    "y": 1240,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Gate 34"
+  },
+  {
+    "id": "PGATourGrill",
+    "x": 1158,
+    "y": 1173,
+    "edges": "",
+    "category": "food",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "PGATour Grill"
+  },
+  {
+    "id": "CNBCNewsSanDiego",
+    "x": 1216,
+    "y": 1075,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "CNBCNews San Diego"
+  },
+  {
+    "id": 21,
+    "x": 1103,
+    "y": 486,
+    "edges": "Gate38,ElegantDesserts,13",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "13": 9448,
+      "Gate38": 7514,
+      "ElegantDesserts": 5945
+    }
+  },
+  {
+    "id": 13,
+    "x": 1045,
+    "y": 564,
+    "edges": "Bathroom7,Bathroom8,14,Starbucks,Gate37",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "14": 0,
+      "Bathroom7": 5573,
+      "Bathroom8": 3364,
+      "Starbucks": 3681,
+      "Gate37": 5713
+    }
+  },
+  {
+    "id": 22,
+    "x": 1078,
+    "y": 651,
+    "edges": "Starbucks,Gate37,RipCurl,HudsonNews,TechOnTheGo,11",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "11": 7785,
+      "Starbucks": 1305,
+      "Gate37": 5617,
+      "RipCurl": 1517,
+      "HudsonNews": 1594,
+      "TechOnTheGo": 3578
+    }
+  },
+  {
+    "id": 11,
+    "x": 1027,
+    "y": 723,
+    "edges": "Gate47,Warwick'sOfLaJolla,12,8",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "8": 21645,
+      "12": 18610,
+      "Gate47": 6058,
+      "Warwick'sOfLaJolla": 9013
+    }
+  },
+  {
+    "id": 8,
+    "x": 1021,
+    "y": 870,
+    "edges": "Warwick'sOfLaJolla,12,SaffronThai,Swarovski,7",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "7": 26632,
+      "12": 5437,
+      "Warwick'sOfLaJolla": 4624,
+      "SaffronThai": 24593,
+      "Swarovski": 2888
+    }
+  },
+  {
+    "id": 12,
+    "x": 1090,
+    "y": 844,
+    "edges": "Gate36,23",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "23": 12769,
+      "Gate36": 1517
+    }
+  },
+  {
+    "id": 23,
+    "x": 1105,
+    "y": 956,
+    "edges": "SaffronThai,Bathroom10,10,StoneBrewingCompany,CNBCNewsSanDiego,9",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "9": 18914,
+      "10": 7993,
+      "SaffronThai": 44557,
+      "Bathroom10": 1825,
+      "StoneBrewingCompany": 4034,
+      "CNBCNewsSanDiego": 26482
+    }
+  },
+  {
+    "id": 24,
+    "x": 1217,
+    "y": 1134,
+    "edges": "CNBCNewsSanDiego,PGATourGrill,Bathroom14,Gate35",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "CNBCNewsSanDiego": 3482,
+      "PGATourGrill": 5002,
+      "Bathroom14": 5597,
+      "Gate35": 12546
+    }
+  },
+  {
+    "id": 9,
+    "x": 1070,
+    "y": 1089,
+    "edges": "StoneBrewingCompany,MACCosmetics,PGATourGrill",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "StoneBrewingCompany": 6400,
+      "MACCosmetics": 6341,
+      "PGATourGrill": 14800
+    }
+  },
+  {
+    "id": 25,
+    "x": 1352,
+    "y": 1215,
+    "edges": "24,Bathroom14,Gate35",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "24": 24786,
+      "Bathroom14": 8405,
+      "Gate35": 2664
+    }
+  },
+  {
+    "id": 26,
+    "x": 1549,
+    "y": 1270,
+    "edges": "Bathroom13,27,Gate34,25",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "25": 41834,
+      "27": 40804,
+      "Bathroom13": 4036,
+      "Gate34": 25236
+    }
+  },
+  {
+    "id": 27,
+    "x": 1751,
+    "y": 1270,
+    "edges": "Gate34,Gate33,28",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "28": 80314,
+      "Gate34": 3016,
+      "Gate33": 41026
+    }
+  },
+  {
+    "id": 28,
+    "x": 2034,
+    "y": 1285,
+    "edges": "Gate33,29",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "29": 13226,
+      "Gate33": 8324
+    }
+  },
+  {
+    "id": 29,
+    "x": 2135,
+    "y": 1230,
+    "edges": "AirspaceLounge,30",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "30": 34821,
+      "AirspaceLounge": 9533
+    }
+  },
+  {
+    "id": 30,
+    "x": 2321,
+    "y": 1215,
+    "edges": "AirspaceLounge,ArtisianMarket,USReportAndWorldNews,31",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "31": 10537,
+      "AirspaceLounge": 22178,
+      "ArtisianMarket": 6185,
+      "USReportAndWorldNews": 10285
+    }
+  },
+  {
+    "id": 31,
+    "x": 2380,
+    "y": 1131,
+    "edges": "USReportAndWorldNews,SeesCandies,Gate22,32",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "32": 14713,
+      "USReportAndWorldNews": 6786,
+      "SeesCandies": 4177,
+      "Gate22": 5801
+    }
+  },
+  {
+    "id": 32,
+    "x": 2348,
+    "y": 1014,
+    "edges": "SeesCandies,Gate23,33",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "33": 19649,
+      "SeesCandies": 4490,
+      "Gate23": 5409
+    }
+  },
+  {
+    "id": 33,
+    "x": 2341,
+    "y": 874,
+    "edges": "Gate23,Bathroom15,34",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "34": 15665,
+      "Gate23": 4688,
+      "Bathroom15": 4834
+    }
+  },
+  {
+    "id": 34,
+    "x": 2309,
+    "y": 753,
+    "edges": "Bathroom15,Gate24,Gate25,35",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "35": 9081,
+      "Bathroom15": 6217,
+      "Gate24": 3649,
+      "Gate25": 4096
+    }
+  },
+  {
+    "id": 35,
+    "x": 2354,
+    "y": 669,
+    "edges": "Gate25,Gate26,Gate24,BrightonCollectibles2,36",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "36": 18241,
+      "Gate25": 2425,
+      "Gate26": 3249,
+      "Gate24": 6154,
+      "BrightonCollectibles2": 6976
+    }
+  },
+  {
+    "id": 36,
+    "x": 2294,
+    "y": 548,
+    "edges": "BrightonCollectibles2,PeetsCoffeeTea,CaliforniaPizzaKitchen,PandaExpress,JackInTheBox,Gate26,OldTownNewsAndMarket,InMotion,MindWorks,BeRelaxSpa,37",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "37": 5125,
+      "BrightonCollectibles2": 9809,
+      "PeetsCoffeeTea": 6388,
+      "CaliforniaPizzaKitchen": 4706,
+      "PandaExpress": 3485,
+      "JackInTheBox": 4000,
+      "Gate26": 7696,
+      "OldTownNewsAndMarket": 3253,
+      "InMotion": 3301,
+      "MindWorks": 5050,
+      "BeRelaxSpa": 8114
+    }
+  },
+  {
+    "id": 37,
+    "x": 2279,
+    "y": 478,
+    "edges": "BrightonCollectibles2,PeetsCoffeeTea,CaliforniaPizzaKitchen,PandaExpress,JackInTheBox,OldTownNewsAndMarket,InMotion,MindWorks,BeRelaxSpa,ThePradoAtBalboaPark,Gate27,Bathroom12,38",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "38": 10026,
+      "BrightonCollectibles2": 27914,
+      "PeetsCoffeeTea": 19773,
+      "CaliforniaPizzaKitchen": 13921,
+      "PandaExpress": 8410,
+      "JackInTheBox": 4525,
+      "OldTownNewsAndMarket": 10368,
+      "InMotion": 5696,
+      "MindWorks": 3825,
+      "BeRelaxSpa": 2669,
+      "ThePradoAtBalboaPark": 5098,
+      "Gate27": 7146,
+      "Bathroom12": 4349
+    }
+  },
+  {
+    "id": 38,
+    "x": 2294,
+    "y": 379,
+    "edges": "ThePradoAtBalboaPark,Gate27,Bathroom12,Bathroom16,39,40",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "39": 24021,
+      "40": 16661,
+      "ThePradoAtBalboaPark": 8320,
+      "Gate27": 11700,
+      "Bathroom12": 4361,
+      "Bathroom16": 7501
+    }
+  },
+  {
+    "id": 39,
+    "x": 2144,
+    "y": 340,
+    "edges": "Gate31,Gate29",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "Gate31": 1384,
+      "Gate29": 1928
+    }
+  },
+  {
+    "id": 40,
+    "x": 2413,
+    "y": 329,
+    "edges": "Gate28,Gate30,Gate32",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "Gate28": 2377,
+      "Gate30": 3706,
+      "Gate32": 1936
+    }
+  },
+  {
+    "id": 14,
+    "x": 1045,
+    "y": 564,
+    "edges": "",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": ""
+  },
+  {
+    "id": "RipCurl",
+    "x": 1112,
+    "y": 632,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Rip Curl"
+  },
+  {
+    "id": "HudsonNews",
+    "x": 1115,
+    "y": 666,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Hudson News"
+  },
+  {
+    "id": "TechOnTheGo",
+    "x": 1115,
+    "y": 698,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Tech On The Go"
+  },
+  {
+    "id": "Warwick'sOfLaJolla",
+    "x": 989,
+    "y": 810,
+    "edges": "",
+    "category": "shop",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "Warwick's Of La Jolla"
+  },
+  {
+    "id": 10,
+    "x": 1158,
+    "y": 1028,
+    "edges": "StoneBrewingCompany,9,24,CNBCNewsSanDiego",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "9": 11465,
+      "24": 14717,
+      "StoneBrewingCompany": 8105,
+      "CNBCNewsSanDiego": 5573
+    }
+  },
+  {
+    "id": 41,
+    "x": 2543,
+    "y": 1166,
+    "edges": "Gate22,31,42",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "31": 27794,
+      "42": 15997,
+      "Gate22": 9169
+    }
+  },
+  {
+    "id": 42,
+    "x": 2669,
+    "y": 1177,
+    "edges": 43,
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "43": 15289
+    }
+  },
+  {
+    "id": 43,
+    "x": 2709,
+    "y": 1294,
+    "edges": 44,
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "44": 9250
+    }
+  },
+  {
+    "id": 44,
+    "x": 2804,
+    "y": 1309,
+    "edges": "Gate21,46",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "46": 25108,
+      "Gate21": 100
+    }
+  },
+  {
+    "id": 46,
+    "x": 2962,
+    "y": 1297,
+    "edges": 45,
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "45": 12136
+    }
+  },
+  {
+    "id": 45,
+    "x": 3068,
+    "y": 1267,
+    "edges": "Gate20",
+    "category": "",
+    "terminal": 2,
+    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
+    "hours": "TBD",
+    "name": "",
+    "JSON_edges": {
+      "Gate20": 1125
     }
   }
 ]
