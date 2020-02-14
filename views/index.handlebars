@@ -26,15 +26,15 @@
     <div class="container">
         <div class="center-block">
             <img class="img-responsive login-logo center-block" src="/images/mappy_logo.svg">
+            <br>
             <div action="/map" class="form" method="get">
-            <h3 class="text-center">Select Current Location:</h3>
             <select id="start" class="custom-select-lg center-block startgate">
                 <option>Select Current Location</option>
                 {{#each gates}}
                 <option value="{{id}}">{{name}}</option>
                 {{/each}}
             </select>
-            <h3 class="text-center">Select Destination Gate:</h3>
+            <br>
             <select id="end" class="custom-select-lg center-block endgate">
                 <option>Select Destination Gate</option>
                 {{#each gates}}
@@ -42,9 +42,13 @@
                 {{/each}}
             </select>
             <br>
-            <a id='gotomap'>Go to map</a>
+            <a id='gotomap'><button class="center-block">Map Me!</button></a>
             <!--<button type="button" class="btn center-block">Map Me!</button>-->
             </div>
+            <br>
+            <p class="text-muted text-center">OR</p>
+            <br>
+            <a href="/login"><button class="center-block"><h4>Login with Expedia</h4></button></a>
         </div>
     </div>
     <script>
