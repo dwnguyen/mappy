@@ -1,5 +1,4 @@
 var nodes = require('../json/nodeData.json');
-var $ = require('jquery')
 
 exports.view = function(req, res){
     var gates = [];

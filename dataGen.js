@@ -8,6 +8,7 @@ for (var i = 0; i < nodes.length; i++) {
 for (var i = 0; i < nodes.length; i++) {
   var curNode = nodes[i];
   var name = "";
+  curNode.id = curNode.id.toString();
   for (var j = 0; j < curNode.id.length; j++) {
     var curChar = curNode.id.charAt(j);
     var nextChar = '';
@@ -26,22 +27,23 @@ for (var i = 0; i < nodes.length; i++) {
     }
   }
   curNode.name = name;
-  var newEdges = {};
   var curEdges = curNode.edges.toString().split(",");
   if (curEdges[0] != '') {
     for (var j = 0; j < curEdges.length; j++) {
       var curTarget = curEdges[j];
-
+      
       if (curTarget >= nodes.length) {
         console.log("OUT OF RANGE ERROR")
       }
       var targetNode = nodes.find(function (node) { return node.id.toString() === curTarget });
       var dist = Math.pow(curNode.x - targetNode.x, 2) +
         Math.pow(curNode.y - targetNode.y, 2);
-      newEdges[curTarget] = dist;
+      if(curNode.JSON_edges == undefined) curNode.JSON_edges = {};
+      if(targetNode.JSON_edges == undefined) targetNode.JSON_edges = {};
+      curNode.JSON_edges[targetNode.id] = dist;
+      targetNode.JSON_edges[curNode.id] = dist;
 
     }
-    curNode["JSON_edges"] = newEdges;
   }
 
 }

@@ -14,9 +14,12 @@
 /*Map CSS*/
 .node{
      r:10px;
+     stroke:rgba(1,1,1,1);
+     fill: rgba(255,255,255,1);
 }
 .edge{
-     stroke:rgba(1,1,1,1)
+     stroke:rgba(1,1,1,1);
+     pointer-events: none;
 }
 .start{
      fill: rgba(255,0,0,1) 
@@ -92,7 +95,7 @@
      padding-top: 2px;
      padding-bottom: 2px;
      margin-bottom: 5px;
-
+}
 
 /* Shops Screen CSS */
 .screen-bg{

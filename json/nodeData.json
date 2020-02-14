@@ -8,7 +8,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/prado-gallery3.jpg",
     "hours": "TBD",
-    "name": "The Prado At Balboa Park"
+    "name": "The Prado At Balboa Park",
+    "JSON_edges": {
+      "37": 5098,
+      "38": 8320
+    }
   },
   {
     "id": "BeRelaxSpa",
@@ -19,7 +23,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beRelax-3.jpg",
     "hours": "TBD",
-    "name": "Be Relax Spa"
+    "name": "Be Relax Spa",
+    "JSON_edges": {
+      "36": 8114,
+      "37": 2669
+    }
   },
   {
     "id": "MindWorks",
@@ -30,7 +38,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Mind Works"
+    "name": "Mind Works",
+    "JSON_edges": {
+      "36": 5050,
+      "37": 3825
+    }
   },
   {
     "id": "JackInTheBox",
@@ -41,7 +53,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/gallery-Chicken.jpg",
     "hours": "TBD",
-    "name": "Jack In The Box"
+    "name": "Jack In The Box",
+    "JSON_edges": {
+      "36": 4000,
+      "37": 4525
+    }
   },
   {
     "id": "PandaExpress",
@@ -52,7 +68,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/panda-gallery2.jpg",
     "hours": "TBD",
-    "name": "Panda Express"
+    "name": "Panda Express",
+    "JSON_edges": {
+      "36": 3485,
+      "37": 8410
+    }
   },
   {
     "id": "CaliforniaPizzaKitchen",
@@ -63,7 +83,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/CPK-1.jpg",
     "hours": "TBD",
-    "name": "California Pizza Kitchen"
+    "name": "California Pizza Kitchen",
+    "JSON_edges": {
+      "36": 4706,
+      "37": 13921
+    }
   },
   {
     "id": "PeetsCoffeeTea",
@@ -74,7 +98,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
     "hours": "TBD",
-    "name": "Peets Coffee Tea"
+    "name": "Peets Coffee Tea",
+    "JSON_edges": {
+      "36": 6388,
+      "37": 19773
+    }
   },
   {
     "id": "Bathroom1",
@@ -85,7 +113,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 1"
+    "name": "Bathroom 1",
+    "JSON_edges": {
+      "2": 14125
+    }
   },
   {
     "id": "Bathroom2",
@@ -96,7 +127,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 2"
+    "name": "Bathroom 2",
+    "JSON_edges": {
+      "2": 12020
+    }
   },
   {
     "id": "Bathroom3",
@@ -107,7 +141,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 3"
+    "name": "Bathroom 3",
+    "JSON_edges": {
+      "2": 20000
+    }
   },
   {
     "id": "InMotion",
@@ -118,7 +155,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/MW-gallery1.jpg",
     "hours": "TBD",
-    "name": "In Motion"
+    "name": "In Motion",
+    "JSON_edges": {
+      "36": 3301,
+      "37": 5696
+    }
   },
   {
     "id": "BrightonCollectibles2",
@@ -129,7 +170,12 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/brighton-1.jpg",
     "hours": "TBD",
-    "name": "Brighton Collectibles 2"
+    "name": "Brighton Collectibles 2",
+    "JSON_edges": {
+      "35": 6976,
+      "36": 9809,
+      "37": 27914
+    }
   },
   {
     "id": "OldTownNewsAndMarket",
@@ -140,7 +186,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/OldTownNewsMarket-(1)_365.jpg",
     "hours": "TBD",
-    "name": "Old Town News And Market"
+    "name": "Old Town News And Market",
+    "JSON_edges": {
+      "36": 3253,
+      "37": 10368
+    }
   },
   {
     "id": "UrbanCrave",
@@ -151,7 +201,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/urban-1.jpg",
     "hours": "TBD",
-    "name": "Urban Crave"
+    "name": "Urban Crave",
+    "JSON_edges": {
+      "1": 4468
+    }
   },
   {
     "id": "SeesCandies",
@@ -162,7 +215,11 @@
     "terminal": 2,
     "image": "https://media.flysfo.com/SeesCandiesT3Hub_850x677.gif",
     "hours": "TBD",
-    "name": "Sees Candies"
+    "name": "Sees Candies",
+    "JSON_edges": {
+      "31": 4177,
+      "32": 4490
+    }
   },
   {
     "id": "GaslampQuarterNews",
@@ -173,7 +230,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/GQN-main.jpg",
     "hours": "TBD",
-    "name": "Gaslamp Quarter News"
+    "name": "Gaslamp Quarter News",
+    "JSON_edges": {
+      "1": 3816
+    }
   },
   {
     "id": "Bathroom4",
@@ -195,7 +255,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 5"
+    "name": "Bathroom 5",
+    "JSON_edges": {
+      "4": 2880
+    }
   },
   {
     "id": "SunglassHut",
@@ -206,7 +269,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/sunglass_hut-2.jpg",
     "hours": "TBD",
-    "name": "Sunglass Hut"
+    "name": "Sunglass Hut",
+    "JSON_edges": {
+      "4": 1970
+    }
   },
   {
     "id": "USReportAndWorldNews",
@@ -217,7 +283,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/USNews-4.jpg",
     "hours": "TBD",
-    "name": "USReport And World News"
+    "name": "USReport And World News",
+    "JSON_edges": {
+      "30": 10285,
+      "31": 6786
+    }
   },
   {
     "id": "ArtisianMarket",
@@ -228,7 +298,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/artisan-1.jpg",
     "hours": "TBD",
-    "name": "Artisian Market"
+    "name": "Artisian Market",
+    "JSON_edges": {
+      "30": 6185
+    }
   },
   {
     "id": "BrightonCollectibles1",
@@ -239,7 +312,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/brighton-1.jpg",
     "hours": "TBD",
-    "name": "Brighton Collectibles 1"
+    "name": "Brighton Collectibles 1",
+    "JSON_edges": {
+      "4": 5480
+    }
   },
   {
     "id": "Soundbalance",
@@ -250,7 +326,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/SB_1A_226x226.jpg",
     "hours": "TBD",
-    "name": "Soundbalance"
+    "name": "Soundbalance",
+    "JSON_edges": {
+      "5": 6084
+    }
   },
   {
     "id": "QdobaMexicanGrill",
@@ -261,7 +340,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/qdoba-1.png",
     "hours": "TBD",
-    "name": "Qdoba Mexican Grill"
+    "name": "Qdoba Mexican Grill",
+    "JSON_edges": {
+      "18": 6725
+    }
   },
   {
     "id": "AirspaceLounge",
@@ -272,7 +354,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/airspace_detail2.jpg",
     "hours": "TBD",
-    "name": "Airspace Lounge"
+    "name": "Airspace Lounge",
+    "JSON_edges": {
+      "29": 9533,
+      "30": 22178
+    }
   },
   {
     "id": "RedMango",
@@ -283,7 +369,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/red_mango-1.jpg",
     "hours": "TBD",
-    "name": "Red Mango"
+    "name": "Red Mango",
+    "JSON_edges": {
+      "18": 2825
+    }
   },
   {
     "id": "SkyFreeShop",
@@ -294,7 +383,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/SKY%20SAN%206.JPG",
     "hours": "TBD",
-    "name": "Sky Free Shop"
+    "name": "Sky Free Shop",
+    "JSON_edges": {
+      "6": 3364
+    }
   },
   {
     "id": "BubblesSeafoodAndWineBar",
@@ -305,7 +397,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Bubbles-1.jpg",
     "hours": "TBD",
-    "name": "Bubbles Seafood And Wine Bar"
+    "name": "Bubbles Seafood And Wine Bar",
+    "JSON_edges": {
+      "18": 1906
+    }
   },
   {
     "id": "ApricotLaneBoutique",
@@ -316,7 +411,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/AL-4.jpg",
     "hours": "TBD",
-    "name": "Apricot Lane Boutique"
+    "name": "Apricot Lane Boutique",
+    "JSON_edges": {
+      "7": 2525
+    }
   },
   {
     "id": "SaffronThai",
@@ -327,7 +425,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/saffron-1.png",
     "hours": "TBD",
-    "name": "Saffron Thai"
+    "name": "Saffron Thai",
+    "JSON_edges": {
+      "19": 2920
+    }
   },
   {
     "id": "TommyV’sPizzeria",
@@ -338,7 +439,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Tommy-Vs-2.jpg",
     "hours": "TBD",
-    "name": "Tommy V’s Pizzeria"
+    "name": "Tommy V’s Pizzeria",
+    "JSON_edges": {
+      "19": 5584
+    }
   },
   {
     "id": "PGATourShops",
@@ -349,7 +453,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/PGA_Grill-1.jpg",
     "hours": "TBD",
-    "name": "PGATour Shops"
+    "name": "PGATour Shops",
+    "JSON_edges": {
+      "7": 5965
+    }
   },
   {
     "id": "Swarovski",
@@ -360,7 +467,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Swarovski-2.jpg",
     "hours": "TBD",
-    "name": "Swarovski"
+    "name": "Swarovski",
+    "JSON_edges": {
+      "8": 2888
+    }
   },
   {
     "id": "Warwick’sOfLaJolla",
@@ -382,7 +492,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
     "hours": "TBD",
-    "name": "Peet’s Coffee & Tea"
+    "name": "Peet’s Coffee & Tea",
+    "JSON_edges": {
+      "7": 2116
+    }
   },
   {
     "id": "KidsLoveSanDiego",
@@ -393,7 +506,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/klsd-4.jpg",
     "hours": "TBD",
-    "name": "Kids Love San Diego"
+    "name": "Kids Love San Diego",
+    "JSON_edges": {
+      "7": 3816
+    }
   },
   {
     "id": "Brookstone",
@@ -404,7 +520,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/T2W_Brookstone_365.jpg",
     "hours": "TBD",
-    "name": "Brookstone"
+    "name": "Brookstone",
+    "JSON_edges": {
+      "7": 7825
+    }
   },
   {
     "id": "CamdenFoodCo.",
@@ -426,7 +545,12 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/stone-7.jpg",
     "hours": "TBD",
-    "name": "Stone Brewing Company"
+    "name": "Stone Brewing Company",
+    "JSON_edges": {
+      "9": 6400,
+      "10": 8105,
+      "23": 4034
+    }
   },
   {
     "id": "Bathroom7",
@@ -437,7 +561,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 7"
+    "name": "Bathroom 7",
+    "JSON_edges": {
+      "13": 5573
+    }
   },
   {
     "id": "Bathroom8",
@@ -448,7 +575,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 8"
+    "name": "Bathroom 8",
+    "JSON_edges": {
+      "13": 3364
+    }
   },
   {
     "id": "Bathroom9",
@@ -459,7 +589,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 9"
+    "name": "Bathroom 9",
+    "JSON_edges": {
+      "15": 3924
+    }
   },
   {
     "id": "Bathroom10",
@@ -470,7 +603,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 10"
+    "name": "Bathroom 10",
+    "JSON_edges": {
+      "23": 1825
+    }
   },
   {
     "id": "BeaudevinWineAndTapasBar",
@@ -481,7 +617,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beaudevin-3.jpg",
     "hours": "TBD",
-    "name": "Beaudevin Wine And Tapas Bar"
+    "name": "Beaudevin Wine And Tapas Bar",
+    "JSON_edges": {
+      "17": 3761,
+      "20": 3349
+    }
   },
   {
     "id": "Phil'sBBQ",
@@ -492,7 +632,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/phils-1.png",
     "hours": "TBD",
-    "name": "Phil's BBQ"
+    "name": "Phil's BBQ",
+    "JSON_edges": {
+      "16": 5914
+    }
   },
   {
     "id": "StellarNews",
@@ -503,7 +646,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/T2W_StellarNews-365.jpg",
     "hours": "TBD",
-    "name": "Stellar News"
+    "name": "Stellar News",
+    "JSON_edges": {
+      "16": 3204
+    }
   },
   {
     "id": "Gate50",
@@ -514,7 +660,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 50"
+    "name": "Gate 50",
+    "JSON_edges": {
+      "2": 14585
+    }
   },
   {
     "id": "Gate49",
@@ -525,7 +674,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 49"
+    "name": "Gate 49",
+    "JSON_edges": {
+      "2": 13298
+    }
   },
   {
     "id": "Gate48",
@@ -536,7 +688,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 48"
+    "name": "Gate 48",
+    "JSON_edges": {
+      "3": 5321
+    }
   },
   {
     "id": "Gate51",
@@ -547,7 +702,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 51"
+    "name": "Gate 51",
+    "JSON_edges": {
+      "2": 49177
+    }
   },
   {
     "id": "Gate47",
@@ -558,7 +716,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 47"
+    "name": "Gate 47",
+    "JSON_edges": {
+      "11": 6058
+    }
   },
   {
     "id": "Gate46",
@@ -569,7 +730,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 46"
+    "name": "Gate 46",
+    "JSON_edges": {
+      "15": 5120
+    }
   },
   {
     "id": "Gate45",
@@ -580,7 +744,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 45"
+    "name": "Gate 45",
+    "JSON_edges": {
+      "17": 3946
+    }
   },
   {
     "id": "Gate44",
@@ -591,7 +758,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 44"
+    "name": "Gate 44",
+    "JSON_edges": {
+      "17": 2920
+    }
   },
   {
     "id": "Bathroom12",
@@ -602,7 +772,11 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 12"
+    "name": "Bathroom 12",
+    "JSON_edges": {
+      "37": 4349,
+      "38": 4361
+    }
   },
   {
     "id": "Starbucks",
@@ -613,7 +787,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/starbucks-2.jpg",
     "hours": "TBD",
-    "name": "Starbucks"
+    "name": "Starbucks",
+    "JSON_edges": {
+      "13": 3681,
+      "22": 1305
+    }
   },
   {
     "id": "Bathroom13",
@@ -624,7 +802,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 13"
+    "name": "Bathroom 13",
+    "JSON_edges": {
+      "26": 4036
+    }
   },
   {
     "id": "Bathroom14",
@@ -635,7 +816,11 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 14"
+    "name": "Bathroom 14",
+    "JSON_edges": {
+      "24": 5597,
+      "25": 8405
+    }
   },
   {
     "id": "Gate33",
@@ -646,7 +831,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 33"
+    "name": "Gate 33",
+    "JSON_edges": {
+      "27": 41026,
+      "28": 8324
+    }
   },
   {
     "id": "Gate23",
@@ -657,7 +846,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 23"
+    "name": "Gate 23",
+    "JSON_edges": {
+      "32": 5409,
+      "33": 4688
+    }
   },
   {
     "id": "Gate25",
@@ -668,7 +861,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 25"
+    "name": "Gate 25",
+    "JSON_edges": {
+      "34": 4096,
+      "35": 2425
+    }
   },
   {
     "id": "Gate24",
@@ -679,7 +876,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 24"
+    "name": "Gate 24",
+    "JSON_edges": {
+      "34": 3649,
+      "35": 6154
+    }
   },
   {
     "id": "Gate26",
@@ -690,7 +891,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 26"
+    "name": "Gate 26",
+    "JSON_edges": {
+      "35": 3249,
+      "36": 7696
+    }
   },
   {
     "id": "Gate27",
@@ -701,7 +906,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 27"
+    "name": "Gate 27",
+    "JSON_edges": {
+      "37": 7146,
+      "38": 11700
+    }
   },
   {
     "id": "Gate29",
@@ -712,7 +921,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 29"
+    "name": "Gate 29",
+    "JSON_edges": {
+      "39": 1928
+    }
   },
   {
     "id": "Gate31",
@@ -723,7 +935,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 31"
+    "name": "Gate 31",
+    "JSON_edges": {
+      "39": 1384
+    }
   },
   {
     "id": "Gate32",
@@ -734,7 +949,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 32"
+    "name": "Gate 32",
+    "JSON_edges": {
+      "40": 1936
+    }
   },
   {
     "id": "Gate30",
@@ -745,7 +963,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 30"
+    "name": "Gate 30",
+    "JSON_edges": {
+      "40": 3706
+    }
   },
   {
     "id": "Gate28",
@@ -756,7 +977,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 28"
+    "name": "Gate 28",
+    "JSON_edges": {
+      "40": 2377
+    }
   },
   {
     "id": "Gate22",
@@ -767,7 +991,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 22"
+    "name": "Gate 22",
+    "JSON_edges": {
+      "31": 5801,
+      "41": 9169
+    }
   },
   {
     "id": "Gate21",
@@ -778,7 +1006,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 21"
+    "name": "Gate 21",
+    "JSON_edges": {
+      "44": 100
+    }
   },
   {
     "id": "Gate20",
@@ -789,7 +1020,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 20"
+    "name": "Gate 20",
+    "JSON_edges": {
+      "45": 1125
+    }
   },
   {
     "id": "Bathroom15",
@@ -800,7 +1034,11 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 15"
+    "name": "Bathroom 15",
+    "JSON_edges": {
+      "33": 4834,
+      "34": 6217
+    }
   },
   {
     "id": "Bathroom16",
@@ -811,7 +1049,10 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 16"
+    "name": "Bathroom 16",
+    "JSON_edges": {
+      "38": 7501
+    }
   },
   {
     "id": "MACCosmetics",
@@ -822,7 +1063,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/pallet.jpg",
     "hours": "TBD",
-    "name": "MACCosmetics"
+    "name": "MACCosmetics",
+    "JSON_edges": {
+      "7": 3601,
+      "9": 6341
+    }
   },
   {
     "id": "Bathroom17",
@@ -833,10 +1078,13 @@
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
     "hours": "TBD",
-    "name": "Bathroom 17"
+    "name": "Bathroom 17",
+    "JSON_edges": {
+      "3": 6929
+    }
   },
   {
-    "id": 2,
+    "id": "2",
     "x": 218,
     "y": 1258,
     "edges": "Gate51,Gate50,Gate49,Bathroom2,Bathroom1,Bathroom3,1",
@@ -844,7 +1092,7 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "2",
     "JSON_edges": {
       "1": 52069,
       "Gate51": 49177,
@@ -856,7 +1104,7 @@
     }
   },
   {
-    "id": 1,
+    "id": "1",
     "x": 443,
     "y": 1220,
     "edges": "UrbanCrave,GaslampQuarterNews,3",
@@ -864,15 +1112,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "2": 52069,
       "3": 10226,
       "UrbanCrave": 4468,
       "GaslampQuarterNews": 3816
-    }
+    },
+    "name": "1"
   },
   {
-    "id": 3,
+    "id": "3",
     "x": 544,
     "y": 1215,
     "edges": "Gate48,Bathroom17,4",
@@ -880,15 +1129,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "1": 10226,
       "4": 27592,
       "Gate48": 5321,
       "Bathroom17": 6929
-    }
+    },
+    "name": "3"
   },
   {
-    "id": 4,
+    "id": "4",
     "x": 710,
     "y": 1209,
     "edges": "Bathroom5,SunglassHut,BrightonCollectibles1,5",
@@ -896,16 +1146,17 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "3": 27592,
       "5": 30440,
       "Bathroom5": 2880,
       "SunglassHut": 1970,
       "BrightonCollectibles1": 5480
-    }
+    },
+    "name": "4"
   },
   {
-    "id": 5,
+    "id": "5",
     "x": 864,
     "y": 1127,
     "edges": "Soundbalance,6,7",
@@ -913,15 +1164,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "4": 30440,
       "6": 7744,
       "7": 21218,
       "Soundbalance": 6084
-    }
+    },
+    "name": "5"
   },
   {
-    "id": 6,
+    "id": "6",
     "x": 864,
     "y": 1039,
     "edges": "SkyFreeShop,18,19,7",
@@ -929,16 +1181,17 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "5": 7744,
       "7": 10834,
       "18": 6309,
       "19": 12465,
       "SkyFreeShop": 3364
-    }
+    },
+    "name": "6"
   },
   {
-    "id": 18,
+    "id": "18",
     "x": 786,
     "y": 1024,
     "edges": "RedMango,QdobaMexicanGrill,BubblesSeafoodAndWineBar,19",
@@ -946,16 +1199,17 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "6": 6309,
       "19": 13572,
       "RedMango": 2825,
       "QdobaMexicanGrill": 6725,
       "BubblesSeafoodAndWineBar": 1906
-    }
+    },
+    "name": "18"
   },
   {
-    "id": 19,
+    "id": "19",
     "x": 852,
     "y": 928,
     "edges": "TommyV’sPizzeria,SaffronThai",
@@ -963,14 +1217,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "6": 12465,
+      "18": 13572,
       "TommyV’sPizzeria": 5584,
       "SaffronThai": 2920
-    }
+    },
+    "name": "19"
   },
   {
-    "id": 7,
+    "id": "7",
     "x": 967,
     "y": 1024,
     "edges": "ApricotLaneBoutique,Peet’sCoffee&Tea,KidsLoveSanDiego,MACCosmetics,Brookstone,9,PGATourShops",
@@ -978,8 +1234,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "5": 21218,
+      "6": 10834,
+      "8": 26632,
       "9": 14834,
       "ApricotLaneBoutique": 2525,
       "Peet’sCoffee&Tea": 2116,
@@ -987,7 +1245,8 @@
       "MACCosmetics": 3601,
       "Brookstone": 7825,
       "PGATourShops": 5965
-    }
+    },
+    "name": "7"
   },
   {
     "id": "GaslampMarketPlace",
@@ -998,7 +1257,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/glm-11.jpg",
     "hours": "TBD",
-    "name": "Gaslamp Market Place"
+    "name": "Gaslamp Market Place",
+    "JSON_edges": {
+      "15": 3946
+    }
   },
   {
     "id": "PannikinCoffeeAndTea",
@@ -1009,7 +1271,10 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/pannikin-2.jpg",
     "hours": "TBD",
-    "name": "Pannikin Coffee And Tea"
+    "name": "Pannikin Coffee And Tea",
+    "JSON_edges": {
+      "15": 5860
+    }
   },
   {
     "id": "ElegantDesserts",
@@ -1020,10 +1285,14 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/elegantDesserts-detail.jpg",
     "hours": "TBD",
-    "name": "Elegant Desserts"
+    "name": "Elegant Desserts",
+    "JSON_edges": {
+      "15": 6889,
+      "21": 5945
+    }
   },
   {
-    "id": 20,
+    "id": "20",
     "x": 1143,
     "y": 90,
     "edges": "BeaudevinWineAndTapasBar,Gate42,Gate41,Gate40,16",
@@ -1031,7 +1300,7 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "20",
     "JSON_edges": {
       "16": 17173,
       "BeaudevinWineAndTapasBar": 3349,
@@ -1041,7 +1310,7 @@
     }
   },
   {
-    "id": 17,
+    "id": "17",
     "x": 1030,
     "y": 105,
     "edges": "Gate44,Gate45,BeaudevinWineAndTapasBar,Gate43,16",
@@ -1049,7 +1318,7 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "17",
     "JSON_edges": {
       "16": 13745,
       "Gate44": 2920,
@@ -1059,7 +1328,7 @@
     }
   },
   {
-    "id": 16,
+    "id": "16",
     "x": 1086,
     "y": 208,
     "edges": "Phil'sBBQ,StellarNews,15,Gate39",
@@ -1067,33 +1336,36 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
       "15": 17837,
+      "17": 13745,
+      "20": 17173,
       "Phil'sBBQ": 5914,
       "StellarNews": 3204,
       "Gate39": 13730
-    }
+    },
+    "name": "16"
   },
   {
-    "id": 15,
+    "id": "15",
     "x": 1060,
     "y": 339,
-    "edges": "GaslampMarketPlace,PannikinCoffeeAndTea,Bathroom9,Gate38,Gate46,ElegantDesserts,14",
+    "edges": "GaslampMarketPlace,PannikinCoffeeAndTea,Bathroom9,Gate38,Gate46,ElegantDesserts,13",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
-      "14": 50850,
+      "13": 50850,
+      "16": 17837,
       "GaslampMarketPlace": 3946,
       "PannikinCoffeeAndTea": 5860,
       "Bathroom9": 3924,
       "Gate38": 7444,
       "Gate46": 5120,
       "ElegantDesserts": 6889
-    }
+    },
+    "name": "15"
   },
   {
     "id": "Gate43",
@@ -1104,6 +1376,9 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
+    "JSON_edges": {
+      "17": 6050
+    },
     "name": "Gate 43"
   },
   {
@@ -1115,6 +1390,9 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
+    "JSON_edges": {
+      "20": 6977
+    },
     "name": "Gate 42"
   },
   {
@@ -1126,6 +1404,9 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
+    "JSON_edges": {
+      "20": 2617
+    },
     "name": "Gate 41"
   },
   {
@@ -1137,6 +1418,9 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
+    "JSON_edges": {
+      "20": 1629
+    },
     "name": "Gate 40"
   },
   {
@@ -1148,6 +1432,9 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
+    "JSON_edges": {
+      "16": 13730
+    },
     "name": "Gate 39"
   },
   {
@@ -1159,6 +1446,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
+    "JSON_edges": {
+      "15": 7444,
+      "21": 7514
+    },
     "name": "Gate 38"
   },
   {
@@ -1170,7 +1461,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 37"
+    "name": "Gate 37",
+    "JSON_edges": {
+      "13": 5713,
+      "22": 5617
+    }
   },
   {
     "id": "Gate36",
@@ -1181,7 +1476,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 36"
+    "name": "Gate 36",
+    "JSON_edges": {
+      "12": 1517
+    }
   },
   {
     "id": "Gate35",
@@ -1192,7 +1490,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 35"
+    "name": "Gate 35",
+    "JSON_edges": {
+      "24": 12546,
+      "25": 2664
+    }
   },
   {
     "id": "Gate34",
@@ -1203,7 +1505,11 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "Gate 34"
+    "name": "Gate 34",
+    "JSON_edges": {
+      "26": 25236,
+      "27": 3016
+    }
   },
   {
     "id": "PGATourGrill",
@@ -1214,7 +1520,11 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/PGA_Grill-1.jpg",
     "hours": "TBD",
-    "name": "PGATour Grill"
+    "name": "PGATour Grill",
+    "JSON_edges": {
+      "9": 14800,
+      "24": 5002
+    }
   },
   {
     "id": "CNBCNewsSanDiego",
@@ -1225,10 +1535,15 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/CNBCExpress-(2)_365.jpg",
     "hours": "TBD",
-    "name": "CNBCNews San Diego"
+    "name": "CNBCNews San Diego",
+    "JSON_edges": {
+      "10": 5573,
+      "23": 26482,
+      "24": 3482
+    }
   },
   {
-    "id": 21,
+    "id": "21",
     "x": 1103,
     "y": 486,
     "edges": "Gate38,ElegantDesserts,13",
@@ -1236,7 +1551,7 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "21",
     "JSON_edges": {
       "13": 9448,
       "Gate38": 7514,
@@ -1244,26 +1559,27 @@
     }
   },
   {
-    "id": 13,
+    "id": "13",
     "x": 1045,
     "y": 564,
-    "edges": "Bathroom7,Bathroom8,14,Starbucks,Gate37,22",
+    "edges": "Bathroom7,Bathroom8,Starbucks,Gate37,22",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
-      "14": 0,
+      "15": 50850,
+      "21": 9448,
       "22": 8658,
       "Bathroom7": 5573,
       "Bathroom8": 3364,
       "Starbucks": 3681,
       "Gate37": 5713
-    }
+    },
+    "name": "13"
   },
   {
-    "id": 22,
+    "id": "22",
     "x": 1078,
     "y": 651,
     "edges": "Starbucks,Gate37,RipCurl,HudsonNews,TechOnTheGo,11",
@@ -1271,18 +1587,19 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
       "11": 7785,
+      "13": 8658,
       "Starbucks": 1305,
       "Gate37": 5617,
       "RipCurl": 1517,
       "HudsonNews": 1594,
       "TechOnTheGo": 3578
-    }
+    },
+    "name": "22"
   },
   {
-    "id": 11,
+    "id": "11",
     "x": 1027,
     "y": 723,
     "edges": "Gate47,Warwick'sOfLaJolla,12,8",
@@ -1290,34 +1607,35 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
       "8": 21645,
       "12": 18610,
+      "22": 7785,
       "Gate47": 6058,
       "Warwick'sOfLaJolla": 9013
-    }
+    },
+    "name": "11"
   },
   {
-    "id": 8,
+    "id": "8",
     "x": 1021,
     "y": 870,
-    "edges": "Warwick'sOfLaJolla,12,SaffronThai,Swarovski,7",
+    "edges": "Warwick'sOfLaJolla,12,Swarovski,7",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
       "7": 26632,
+      "11": 21645,
       "12": 5437,
       "Warwick'sOfLaJolla": 4624,
-      "SaffronThai": 24593,
       "Swarovski": 2888
-    }
+    },
+    "name": "8"
   },
   {
-    "id": 12,
+    "id": "12",
     "x": 1090,
     "y": 844,
     "edges": "Gate36,23",
@@ -1325,33 +1643,35 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "8": 5437,
+      "11": 18610,
       "23": 12769,
       "Gate36": 1517
-    }
+    },
+    "name": "12"
   },
   {
-    "id": 23,
+    "id": "23",
     "x": 1105,
     "y": 956,
-    "edges": "SaffronThai,Bathroom10,10,StoneBrewingCompany,CNBCNewsSanDiego,9",
+    "edges": "Bathroom10,10,StoneBrewingCompany,CNBCNewsSanDiego,9",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
       "9": 18914,
       "10": 7993,
-      "SaffronThai": 44557,
+      "12": 12769,
       "Bathroom10": 1825,
       "StoneBrewingCompany": 4034,
       "CNBCNewsSanDiego": 26482
-    }
+    },
+    "name": "23"
   },
   {
-    "id": 24,
+    "id": "24",
     "x": 1217,
     "y": 1134,
     "edges": "CNBCNewsSanDiego,PGATourGrill,Bathroom14,Gate35",
@@ -1359,8 +1679,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "24",
     "JSON_edges": {
+      "10": 14717,
+      "25": 24786,
       "CNBCNewsSanDiego": 3482,
       "PGATourGrill": 5002,
       "Bathroom14": 5597,
@@ -1368,7 +1690,7 @@
     }
   },
   {
-    "id": 9,
+    "id": "9",
     "x": 1070,
     "y": 1089,
     "edges": "StoneBrewingCompany,MACCosmetics,PGATourGrill",
@@ -1376,15 +1698,18 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "7": 14834,
+      "10": 11465,
+      "23": 18914,
       "StoneBrewingCompany": 6400,
       "MACCosmetics": 6341,
       "PGATourGrill": 14800
-    }
+    },
+    "name": "9"
   },
   {
-    "id": 25,
+    "id": "25",
     "x": 1352,
     "y": 1215,
     "edges": "24,Bathroom14,Gate35",
@@ -1392,15 +1717,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "25",
     "JSON_edges": {
       "24": 24786,
+      "26": 41834,
       "Bathroom14": 8405,
       "Gate35": 2664
     }
   },
   {
-    "id": 26,
+    "id": "26",
     "x": 1549,
     "y": 1270,
     "edges": "Bathroom13,27,Gate34,25",
@@ -1408,7 +1734,7 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "26",
     "JSON_edges": {
       "25": 41834,
       "27": 40804,
@@ -1417,7 +1743,7 @@
     }
   },
   {
-    "id": 27,
+    "id": "27",
     "x": 1751,
     "y": 1270,
     "edges": "Gate34,Gate33,28",
@@ -1425,15 +1751,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "26": 40804,
       "28": 80314,
       "Gate34": 3016,
       "Gate33": 41026
-    }
+    },
+    "name": "27"
   },
   {
-    "id": 28,
+    "id": "28",
     "x": 2034,
     "y": 1285,
     "edges": "Gate33,29",
@@ -1441,14 +1768,15 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "27": 80314,
       "29": 13226,
       "Gate33": 8324
-    }
+    },
+    "name": "28"
   },
   {
-    "id": 29,
+    "id": "29",
     "x": 2135,
     "y": 1230,
     "edges": "AirspaceLounge,30",
@@ -1456,14 +1784,15 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "28": 13226,
       "30": 34821,
       "AirspaceLounge": 9533
-    }
+    },
+    "name": "29"
   },
   {
-    "id": 30,
+    "id": "30",
     "x": 2321,
     "y": 1215,
     "edges": "AirspaceLounge,ArtisianMarket,USReportAndWorldNews,31",
@@ -1471,16 +1800,17 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "29": 34821,
       "31": 10537,
       "AirspaceLounge": 22178,
       "ArtisianMarket": 6185,
       "USReportAndWorldNews": 10285
-    }
+    },
+    "name": "30"
   },
   {
-    "id": 31,
+    "id": "31",
     "x": 2380,
     "y": 1131,
     "edges": "USReportAndWorldNews,SeesCandies,Gate22,32",
@@ -1488,16 +1818,18 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "30": 10537,
       "32": 14713,
+      "41": 27794,
       "USReportAndWorldNews": 6786,
       "SeesCandies": 4177,
       "Gate22": 5801
-    }
+    },
+    "name": "31"
   },
   {
-    "id": 32,
+    "id": "32",
     "x": 2348,
     "y": 1014,
     "edges": "SeesCandies,Gate23,33",
@@ -1505,15 +1837,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "31": 14713,
       "33": 19649,
       "SeesCandies": 4490,
       "Gate23": 5409
-    }
+    },
+    "name": "32"
   },
   {
-    "id": 33,
+    "id": "33",
     "x": 2341,
     "y": 874,
     "edges": "Gate23,Bathroom15,34",
@@ -1521,15 +1854,16 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "32": 19649,
       "34": 15665,
       "Gate23": 4688,
       "Bathroom15": 4834
-    }
+    },
+    "name": "33"
   },
   {
-    "id": 34,
+    "id": "34",
     "x": 2309,
     "y": 753,
     "edges": "Bathroom15,Gate24,Gate25,35",
@@ -1537,16 +1871,17 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "33": 15665,
       "35": 9081,
       "Bathroom15": 6217,
       "Gate24": 3649,
       "Gate25": 4096
-    }
+    },
+    "name": "34"
   },
   {
-    "id": 35,
+    "id": "35",
     "x": 2354,
     "y": 669,
     "edges": "Gate25,Gate26,Gate24,BrightonCollectibles2,36",
@@ -1554,17 +1889,18 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "34": 9081,
       "36": 18241,
       "Gate25": 2425,
       "Gate26": 3249,
       "Gate24": 6154,
       "BrightonCollectibles2": 6976
-    }
+    },
+    "name": "35"
   },
   {
-    "id": 36,
+    "id": "36",
     "x": 2294,
     "y": 548,
     "edges": "BrightonCollectibles2,PeetsCoffeeTea,CaliforniaPizzaKitchen,PandaExpress,JackInTheBox,Gate26,OldTownNewsAndMarket,InMotion,MindWorks,BeRelaxSpa,37",
@@ -1572,8 +1908,8 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "35": 18241,
       "37": 5125,
       "BrightonCollectibles2": 9809,
       "PeetsCoffeeTea": 6388,
@@ -1585,10 +1921,11 @@
       "InMotion": 3301,
       "MindWorks": 5050,
       "BeRelaxSpa": 8114
-    }
+    },
+    "name": "36"
   },
   {
-    "id": 37,
+    "id": "37",
     "x": 2279,
     "y": 478,
     "edges": "BrightonCollectibles2,PeetsCoffeeTea,CaliforniaPizzaKitchen,PandaExpress,JackInTheBox,OldTownNewsAndMarket,InMotion,MindWorks,BeRelaxSpa,ThePradoAtBalboaPark,Gate27,Bathroom12,38",
@@ -1596,8 +1933,8 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "36": 5125,
       "38": 10026,
       "BrightonCollectibles2": 27914,
       "PeetsCoffeeTea": 19773,
@@ -1611,10 +1948,11 @@
       "ThePradoAtBalboaPark": 5098,
       "Gate27": 7146,
       "Bathroom12": 4349
-    }
+    },
+    "name": "37"
   },
   {
-    "id": 38,
+    "id": "38",
     "x": 2294,
     "y": 379,
     "edges": "ThePradoAtBalboaPark,Gate27,Bathroom12,Bathroom16,39,40",
@@ -1622,18 +1960,19 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "37": 10026,
       "39": 24021,
       "40": 16661,
       "ThePradoAtBalboaPark": 8320,
       "Gate27": 11700,
       "Bathroom12": 4361,
       "Bathroom16": 7501
-    }
+    },
+    "name": "38"
   },
   {
-    "id": 39,
+    "id": "39",
     "x": 2144,
     "y": 340,
     "edges": "Gate31,Gate29",
@@ -1641,14 +1980,15 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "38": 24021,
       "Gate31": 1384,
       "Gate29": 1928
-    }
+    },
+    "name": "39"
   },
   {
-    "id": 40,
+    "id": "40",
     "x": 2413,
     "y": 329,
     "edges": "Gate28,Gate30,Gate32",
@@ -1656,23 +1996,13 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "38": 16661,
       "Gate28": 2377,
       "Gate30": 3706,
       "Gate32": 1936
-    }
-  },
-  {
-    "id": 14,
-    "x": 1045,
-    "y": 564,
-    "edges": "",
-    "category": "",
-    "terminal": 2,
-    "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
-    "name": ""
+    },
+    "name": "40"
   },
   {
     "id": "RipCurl",
@@ -1683,6 +2013,9 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/RipCurl_store_gallery1.jpg",
     "hours": "TBD",
+    "JSON_edges": {
+      "22": 1517
+    },
     "name": "Rip Curl"
   },
   {
@@ -1694,6 +2027,9 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/hudson_store_gallery1.jpg",
     "hours": "TBD",
+    "JSON_edges": {
+      "22": 1594
+    },
     "name": "Hudson News"
   },
   {
@@ -1705,6 +2041,9 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/techonthego_store_gallery1.jpg",
     "hours": "TBD",
+    "JSON_edges": {
+      "22": 3578
+    },
     "name": "Tech On The Go"
   },
   {
@@ -1716,10 +2055,14 @@
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/WARWICKS-PIC-365.jpg",
     "hours": "TBD",
+    "JSON_edges": {
+      "8": 4624,
+      "11": 9013
+    },
     "name": "Warwick's Of La Jolla"
   },
   {
-    "id": 10,
+    "id": "10",
     "x": 1158,
     "y": 1028,
     "edges": "StoneBrewingCompany,9,24,CNBCNewsSanDiego",
@@ -1727,16 +2070,17 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
       "9": 11465,
+      "23": 7993,
       "24": 14717,
       "StoneBrewingCompany": 8105,
       "CNBCNewsSanDiego": 5573
-    }
+    },
+    "name": "10"
   },
   {
-    "id": 41,
+    "id": "41",
     "x": 2543,
     "y": 1166,
     "edges": "Gate22,31,42",
@@ -1744,7 +2088,7 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
+    "name": "41",
     "JSON_edges": {
       "31": 27794,
       "42": 15997,
@@ -1752,7 +2096,7 @@
     }
   },
   {
-    "id": 42,
+    "id": "42",
     "x": 2669,
     "y": 1177,
     "edges": 43,
@@ -1760,13 +2104,14 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "41": 15997,
       "43": 15289
-    }
+    },
+    "name": "42"
   },
   {
-    "id": 43,
+    "id": "43",
     "x": 2709,
     "y": 1294,
     "edges": 44,
@@ -1774,13 +2119,14 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "42": 15289,
       "44": 9250
-    }
+    },
+    "name": "43"
   },
   {
-    "id": 44,
+    "id": "44",
     "x": 2804,
     "y": 1309,
     "edges": "Gate21,46",
@@ -1788,14 +2134,15 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "43": 9250,
       "46": 25108,
       "Gate21": 100
-    }
+    },
+    "name": "44"
   },
   {
-    "id": 46,
+    "id": "46",
     "x": 2962,
     "y": 1297,
     "edges": 45,
@@ -1803,13 +2150,14 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "44": 25108,
       "45": 12136
-    }
+    },
+    "name": "46"
   },
   {
-    "id": 45,
+    "id": "45",
     "x": 3068,
     "y": 1267,
     "edges": "Gate20",
@@ -1817,9 +2165,10 @@
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
     "hours": "TBD",
-    "name": "",
     "JSON_edges": {
+      "46": 12136,
       "Gate20": 1125
-    }
+    },
+    "name": "45"
   }
 ]

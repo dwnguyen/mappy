@@ -12,9 +12,7 @@ exports.view = function (req, res) {
   var endNodes = req.params.endNodes;
   console.log(startNodes);
   console.log(endNodes);
-  if (startNodes == "test") {
-    testGraph(data);
-  }
+  testGraph(data);
   if (startNodes != undefined && endNodes != undefined) {
     data.startNodesStr = "";
     data.endNodesStr = "";
@@ -29,7 +27,21 @@ exports.view = function (req, res) {
     else {
       const route = new Graph();
       for (var i = 0; i < nodes.length; i++) {
-        route.addNode('node' + i, nodes[i].JSON_edges);
+        var node = nodes[i]
+        console.log(node);
+        if(node.JSON_edges !=undefined && (!isNaN(node.id) || 
+          startNodesArray.includes(node.id) || endNodesArray.includes(node.id))){
+          newJsonEdges = {}
+          for(edge in node.JSON_edges){
+            if (!isNaN(edge) || startNodesArray.includes(edge) || 
+              endNodesArray.includes(edge)){
+                newJsonEdges[edge] = node.JSON_edges[edge];
+              }
+
+          }
+          route.addNode(node.id, newJsonEdges);
+
+        }
       }
       for (var i = 0; i < startNodesArray.length; i++) {
         var startNode = startNodesArray[i];
