@@ -10,7 +10,8 @@
     <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
-	<script src="https://code.easypz.io/easypz.latest.min.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
     <!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -25,18 +26,38 @@
     <div class="container">
         <div class="center-block">
             <img class="img-responsive login-logo center-block" src="/images/mappy_logo.svg">
-            <div class="form-group">
+            <div action="/map" class="form" method="get">
             <h3 class="text-center">Select Current Location:</h3>
-            <select class="custom-select-lg center-block">
+            <select id="start" class="custom-select-lg center-block startgate">
                 <option>Select Current Location</option>
+                {{#each gates}}
+                <option value="{{id}}">{{name}}</option>
+                {{/each}}
             </select>
             <h3 class="text-center">Select Destination Gate:</h3>
-            <select class="custom-select-lg center-block">
+            <select id="end" class="custom-select-lg center-block endgate">
                 <option>Select Destination Gate</option>
+                {{#each gates}}
+                <option value="{{id}}">{{name}}</option>
+                {{/each}}
             </select>
             <br>
-            <a href="/map"><button type="button" class="btn center-block">Map Me!</button></a>
+            <a id='gotomap'>Go to map</a>
+            <!--<button type="button" class="btn center-block">Map Me!</button>-->
             </div>
         </div>
     </div>
+    <script>
+
+    $("select.startgate").change(setLink);
+    $("select.endgate").change(setLink);
+    function setLink(){
+        var startGate = $("#start").val();
+        var endGate =$("#end").val();
+        var linkStr = "/map" + '/'+ startGate + '/' + endGate;
+        $("#gotomap").attr("href", linkStr);
+    }
+
+    </script>
 </body>
+

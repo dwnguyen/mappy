@@ -46,7 +46,7 @@ for (var i = 0; i < nodes.length; i++) {
 
 }
 var json = JSON.stringify(nodes, null, 2);
-fs.writeFile('./json/nodeData.json', json, 'utf8', null);
+fs.writeFile('./json/nodeData.json', json, 'utf8', function(){});
 
 /*
 for (var i = 0; i < edgeData.length; i++) {
