@@ -1,6 +1,6 @@
 /*Utilities*/
 *{
-     font-family: 'Roboto', sans-serif;
+     font-family: 'fboto', sans-serif;
 }
 
 .search-bar{
@@ -9,6 +9,46 @@
      position: sticky;
      top: 0;
      z-index: 1;
+}
+
+.search-box{
+
+     position: absolute;
+     top: 5%;
+     left: 40%;
+     transform: translate(-50%,-50%);
+     background: #c4c4c4;
+     height: 40px;
+     width: 40%;
+     border-radius: 40px;
+     padding: 8px;
+     align-items: center;
+}
+
+.search-btn{
+     color: #ffffff;
+     float: right;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background: w3-red;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.search-txt{
+
+     border: 4px;
+     background: none;
+     outline: none;
+     float: left;
+     padding: 10;
+     color: white;
+     font-size: 14px;
+     transition: 0.4s;
+     line-height: 0px;
 }
 
 /*Map CSS*/
@@ -50,6 +90,12 @@
 .img-gray{
      filter: grayscale(50%) brightness(60%);
 }
+
+.back-btn{
+     left: 5%;
+     top: 5%;
+}
+
 .btn-container{
      position: fixed;
      width:80vw;
@@ -99,16 +145,29 @@
 
 /* Shops Screen CSS */
 .screen-bg{
-     background-color: lightgray;
+     background-color: #A8D1E7;
+}
+
+.screen-bg-rest{
+     background-color: #A8D1E7;
+}
+
+.screen-bg-restaurants{
+     background-color: #F76D6D;
+}
+
+
+.screen-bg-shops{
+     background-color: #F7E9A0;
 }
 
 .shop-card {
      background-color:white;
-     padding: 5px;
-     margin: 10px;
+     padding: 16px;
+     margin: 0px;
      border-style: outset;
      border-width: 1px;
-     border-radius: 10px;
+     border-radius: 0px;
 }
 
 .card-title{
@@ -120,3 +179,4 @@
      font-size: small;
      margin-bottom: 0px;
 }
+

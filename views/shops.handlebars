@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>Mappy: Restaurants</title>
+	<title>Mappy: Shops</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,22 +26,22 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </head>
-
 <style>
 	body {
-		background-color: #F76D6D
+		background-color: #F7E9A0
 	}
 </style>
 <body>
-	<div class="container screen-bg-restaurants">
+	<div class="container screen-bg-shops">
 		<a id="back" href="/map">
 			<h5>Back</h5>
 		</a>
 
 		<div class="search-bar">
 			<img src="/images/search-bar.png" class="img-responsive">
+			<input type="text" placeholder="Search.."> /* search bar input */
 		</div>
-		{{#each restaurants}}
+		{{#each shops}}
 		<a class="rLink" id="{{id}}" href="/map">
 			<div class="row shop-card">
 				<div class="col-xs-4">
