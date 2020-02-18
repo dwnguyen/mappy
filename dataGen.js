@@ -3,7 +3,7 @@ var nodes = require('./json/rawNodeData.json')
 for (var i = 0; i < nodes.length; i++) {
   var node = nodes[i];
   node.x -= 5;
-  node.y += 10;
+  node.y += 15;
 }
 for (var i = 0; i < nodes.length; i++) {
   var curNode = nodes[i];
