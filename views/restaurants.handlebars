@@ -65,10 +65,12 @@
 				var endNodesStr = "{{endNodes}}"
 				var index = endNodesStr.lastIndexOf("+");
 				var leftStr = endNodesStr.substring(0, index);
+				if(index != -1) leftStr+="+"
 				var rightStr = "+" + endNodesStr.substring(index + 1, endNodesStr.length);
 				var combStr = leftStr + this.id + rightStr;
 				console.log(leftStr)
 				console.log(rightStr)
+				console.log(index)
 				var linkStr = '/map/{{startNodes}}+' + this.id + '/' + combStr;
 				var id = "#" + this.id;
 				$(id).attr('href', linkStr);

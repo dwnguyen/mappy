@@ -340,7 +340,7 @@
     "hours": "TBD"
   },
   {
-    "id": "Peet’sCoffee&Tea",
+    "id": "Peet’sCoffeeAndTea",
     "x": 1018,
     "y": 1014,
     "edges": "",
@@ -370,7 +370,7 @@
     "hours": "TBD"
   },
   {
-    "id": "CamdenFoodCo.",
+    "id": "CamdenFoodCo",
     "x": 1052,
     "y": 907,
     "edges": "",
@@ -440,7 +440,7 @@
     "hours": "TBD"
   },
   {
-    "id": "Phil'sBBQ",
+    "id": "Phil’sBBQ",
     "x": 1016,
     "y": 215,
     "edges": "",
@@ -843,7 +843,7 @@
     "id": 7,
     "x": 972,
     "y": 1014,
-    "edges": "ApricotLaneBoutique,Peet’sCoffee&Tea,KidsLoveSanDiego,MACCosmetics,Brookstone,9,PGATourShops",
+    "edges": "ApricotLaneBoutique,Peet’sCoffeeAndTea,KidsLoveSanDiego,MACCosmetics,Brookstone,9,PGATourShops",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
@@ -903,7 +903,7 @@
     "id": 16,
     "x": 1091,
     "y": 198,
-    "edges": "Phil'sBBQ,StellarNews,15,Gate39",
+    "edges": "Phil’sBBQ,StellarNews,15,Gate39",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",

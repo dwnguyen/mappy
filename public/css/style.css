@@ -53,22 +53,25 @@
 
 /*Map CSS*/
 .node{
-     r:10px;
-     stroke:rgba(1,1,1,1);
-     fill: rgba(255,255,255,1);
+     r:20px;
+     fill: rgba(255,255,255,0);
+}
+.nodeText{
+     pointer-events: none;
+     fill: #999;
 }
 .edge{
      stroke:rgba(1,1,1,1);
      pointer-events: none;
 }
 .start{
-     fill: rgba(255,0,0,1) 
+     fill: rgba(255,0,0,0) 
 }
 .end{
-     fill: rgba(0,0,255,1) 
+     fill: rgba(0,0,255,0) 
 }
 .dest{
-     fill: rgba(0,255,0,1) 
+     fill: rgba(0,255,0,0) 
 
 }
 

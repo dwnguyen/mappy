@@ -2,7 +2,7 @@
   {
     "id": "ThePradoAtBalboaPark",
     "x": 2222,
-    "y": 435,
+    "y": 440,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -17,7 +17,7 @@
   {
     "id": "BeRelaxSpa",
     "x": 2329,
-    "y": 465,
+    "y": 470,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -32,7 +32,7 @@
   {
     "id": "MindWorks",
     "x": 2339,
-    "y": 493,
+    "y": 498,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -47,7 +47,7 @@
   {
     "id": "JackInTheBox",
     "x": 2234,
-    "y": 528,
+    "y": 533,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -62,7 +62,7 @@
   {
     "id": "PandaExpress",
     "x": 2236,
-    "y": 559,
+    "y": 564,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -77,7 +77,7 @@
   {
     "id": "CaliforniaPizzaKitchen",
     "x": 2239,
-    "y": 589,
+    "y": 594,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -92,7 +92,7 @@
   {
     "id": "PeetsCoffeeTea",
     "x": 2252,
-    "y": 616,
+    "y": 621,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -107,7 +107,7 @@
   {
     "id": "Bathroom1",
     "x": 188,
-    "y": 1373,
+    "y": 1378,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -121,7 +121,7 @@
   {
     "id": "Bathroom2",
     "x": 304,
-    "y": 1190,
+    "y": 1195,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -135,7 +135,7 @@
   {
     "id": "Bathroom3",
     "x": 342,
-    "y": 1190,
+    "y": 1195,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -149,7 +149,7 @@
   {
     "id": "InMotion",
     "x": 2343,
-    "y": 518,
+    "y": 523,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -164,7 +164,7 @@
   {
     "id": "BrightonCollectibles2",
     "x": 2274,
-    "y": 645,
+    "y": 650,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -180,7 +180,7 @@
   {
     "id": "OldTownNewsAndMarket",
     "x": 2351,
-    "y": 550,
+    "y": 555,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -195,7 +195,7 @@
   {
     "id": "UrbanCrave",
     "x": 401,
-    "y": 1168,
+    "y": 1173,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -209,7 +209,7 @@
   {
     "id": "SeesCandies",
     "x": 2389,
-    "y": 1067,
+    "y": 1072,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -224,7 +224,7 @@
   {
     "id": "GaslampQuarterNews",
     "x": 473,
-    "y": 1166,
+    "y": 1171,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -238,7 +238,7 @@
   {
     "id": "Bathroom4",
     "x": 624,
-    "y": 1192,
+    "y": 1197,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -249,7 +249,7 @@
   {
     "id": "Bathroom5",
     "x": 662,
-    "y": 1185,
+    "y": 1190,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -263,7 +263,7 @@
   {
     "id": "SunglassHut",
     "x": 721,
-    "y": 1166,
+    "y": 1171,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -277,7 +277,7 @@
   {
     "id": "USReportAndWorldNews",
     "x": 2299,
-    "y": 1116,
+    "y": 1121,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -292,7 +292,7 @@
   {
     "id": "ArtisianMarket",
     "x": 2269,
-    "y": 1156,
+    "y": 1161,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -306,7 +306,7 @@
   {
     "id": "BrightonCollectibles1",
     "x": 756,
-    "y": 1151,
+    "y": 1156,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -320,7 +320,7 @@
   {
     "id": "Soundbalance",
     "x": 786,
-    "y": 1127,
+    "y": 1132,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -334,7 +334,7 @@
   {
     "id": "QdobaMexicanGrill",
     "x": 736,
-    "y": 1089,
+    "y": 1094,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -348,7 +348,7 @@
   {
     "id": "AirspaceLounge",
     "x": 2188,
-    "y": 1148,
+    "y": 1153,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -363,7 +363,7 @@
   {
     "id": "RedMango",
     "x": 775,
-    "y": 1076,
+    "y": 1081,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -377,7 +377,7 @@
   {
     "id": "SkyFreeShop",
     "x": 822,
-    "y": 1079,
+    "y": 1084,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -391,7 +391,7 @@
   {
     "id": "BubblesSeafoodAndWineBar",
     "x": 771,
-    "y": 983,
+    "y": 988,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -405,7 +405,7 @@
   {
     "id": "ApricotLaneBoutique",
     "x": 924,
-    "y": 998,
+    "y": 1003,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -419,7 +419,7 @@
   {
     "id": "SaffronThai",
     "x": 894,
-    "y": 962,
+    "y": 967,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -433,7 +433,7 @@
   {
     "id": "TommyV’sPizzeria",
     "x": 924,
-    "y": 908,
+    "y": 913,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -447,7 +447,7 @@
   {
     "id": "PGATourShops",
     "x": 961,
-    "y": 947,
+    "y": 952,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -461,7 +461,7 @@
   {
     "id": "Swarovski",
     "x": 983,
-    "y": 908,
+    "y": 913,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -475,7 +475,7 @@
   {
     "id": "Warwick’sOfLaJolla",
     "x": 989,
-    "y": 810,
+    "y": 815,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -484,15 +484,15 @@
     "name": "Warwick’s Of La Jolla"
   },
   {
-    "id": "Peet’sCoffee&Tea",
+    "id": "Peet’sCoffeeAndTea",
     "x": 1013,
-    "y": 1024,
+    "y": 1029,
     "edges": "",
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
     "hours": "TBD",
-    "name": "Peet’s Coffee & Tea",
+    "name": "Peet’s Coffee And Tea",
     "JSON_edges": {
       "7": 2116
     }
@@ -500,7 +500,7 @@
   {
     "id": "KidsLoveSanDiego",
     "x": 1021,
-    "y": 994,
+    "y": 999,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -514,7 +514,7 @@
   {
     "id": "Brookstone",
     "x": 1032,
-    "y": 964,
+    "y": 969,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -526,20 +526,20 @@
     }
   },
   {
-    "id": "CamdenFoodCo.",
+    "id": "CamdenFoodCo",
     "x": 1047,
-    "y": 917,
+    "y": 922,
     "edges": "",
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/camden-1.jpg",
     "hours": "TBD",
-    "name": "Camden Food Co."
+    "name": "Camden Food Co"
   },
   {
     "id": "StoneBrewingCompany",
     "x": 1070,
-    "y": 1009,
+    "y": 1014,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -555,7 +555,7 @@
   {
     "id": "Bathroom7",
     "x": 987,
-    "y": 517,
+    "y": 522,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -569,7 +569,7 @@
   {
     "id": "Bathroom8",
     "x": 987,
-    "y": 564,
+    "y": 569,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -583,7 +583,7 @@
   {
     "id": "Bathroom9",
     "x": 1120,
-    "y": 357,
+    "y": 362,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -597,7 +597,7 @@
   {
     "id": "Bathroom10",
     "x": 1128,
-    "y": 920,
+    "y": 925,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -611,7 +611,7 @@
   {
     "id": "BeaudevinWineAndTapasBar",
     "x": 1086,
-    "y": 80,
+    "y": 85,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -624,15 +624,15 @@
     }
   },
   {
-    "id": "Phil'sBBQ",
+    "id": "Phil’sBBQ",
     "x": 1011,
-    "y": 225,
+    "y": 230,
     "edges": "",
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/phils-1.png",
     "hours": "TBD",
-    "name": "Phil's BBQ",
+    "name": "Phil’s BBQ",
     "JSON_edges": {
       "16": 5914
     }
@@ -640,7 +640,7 @@
   {
     "id": "StellarNews",
     "x": 1134,
-    "y": 238,
+    "y": 243,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -654,7 +654,7 @@
   {
     "id": "Gate50",
     "x": 162,
-    "y": 1151,
+    "y": 1156,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -668,7 +668,7 @@
   {
     "id": "Gate49",
     "x": 261,
-    "y": 1151,
+    "y": 1156,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -682,7 +682,7 @@
   {
     "id": "Gate48",
     "x": 579,
-    "y": 1151,
+    "y": 1156,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -696,7 +696,7 @@
   {
     "id": "Gate51",
     "x": 29,
-    "y": 1142,
+    "y": 1147,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -710,7 +710,7 @@
   {
     "id": "Gate47",
     "x": 954,
-    "y": 696,
+    "y": 701,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -724,7 +724,7 @@
   {
     "id": "Gate46",
     "x": 996,
-    "y": 371,
+    "y": 376,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -738,7 +738,7 @@
   {
     "id": "Gate45",
     "x": 969,
-    "y": 120,
+    "y": 125,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -752,7 +752,7 @@
   {
     "id": "Gate44",
     "x": 996,
-    "y": 63,
+    "y": 68,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -766,7 +766,7 @@
   {
     "id": "Bathroom12",
     "x": 2329,
-    "y": 435,
+    "y": 440,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -781,7 +781,7 @@
   {
     "id": "Starbucks",
     "x": 1054,
-    "y": 624,
+    "y": 629,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -796,7 +796,7 @@
   {
     "id": "Bathroom13",
     "x": 1605,
-    "y": 1240,
+    "y": 1245,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -810,7 +810,7 @@
   {
     "id": "Bathroom14",
     "x": 1263,
-    "y": 1193,
+    "y": 1198,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -825,7 +825,7 @@
   {
     "id": "Gate33",
     "x": 1952,
-    "y": 1245,
+    "y": 1250,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -840,7 +840,7 @@
   {
     "id": "Gate23",
     "x": 2333,
-    "y": 942,
+    "y": 947,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -855,7 +855,7 @@
   {
     "id": "Gate25",
     "x": 2309,
-    "y": 689,
+    "y": 694,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -870,7 +870,7 @@
   {
     "id": "Gate24",
     "x": 2369,
-    "y": 746,
+    "y": 751,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -885,7 +885,7 @@
   {
     "id": "Gate26",
     "x": 2354,
-    "y": 612,
+    "y": 617,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -900,7 +900,7 @@
   {
     "id": "Gate27",
     "x": 2204,
-    "y": 439,
+    "y": 444,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -915,7 +915,7 @@
   {
     "id": "Gate29",
     "x": 2106,
-    "y": 318,
+    "y": 323,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -929,7 +929,7 @@
   {
     "id": "Gate31",
     "x": 2174,
-    "y": 318,
+    "y": 323,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -943,7 +943,7 @@
   {
     "id": "Gate32",
     "x": 2413,
-    "y": 285,
+    "y": 290,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -957,7 +957,7 @@
   {
     "id": "Gate30",
     "x": 2428,
-    "y": 270,
+    "y": 275,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -971,7 +971,7 @@
   {
     "id": "Gate28",
     "x": 2434,
-    "y": 285,
+    "y": 290,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -985,7 +985,7 @@
   {
     "id": "Gate22",
     "x": 2456,
-    "y": 1126,
+    "y": 1131,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1000,7 +1000,7 @@
   {
     "id": "Gate21",
     "x": 2804,
-    "y": 1299,
+    "y": 1304,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1014,7 +1014,7 @@
   {
     "id": "Gate20",
     "x": 3098,
-    "y": 1252,
+    "y": 1257,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1028,7 +1028,7 @@
   {
     "id": "Bathroom15",
     "x": 2288,
-    "y": 829,
+    "y": 834,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -1043,7 +1043,7 @@
   {
     "id": "Bathroom16",
     "x": 2368,
-    "y": 424,
+    "y": 429,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -1057,7 +1057,7 @@
   {
     "id": "MACCosmetics",
     "x": 991,
-    "y": 1079,
+    "y": 1084,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -1072,7 +1072,7 @@
   {
     "id": "Bathroom17",
     "x": 624,
-    "y": 1192,
+    "y": 1197,
     "edges": "",
     "category": "rest",
     "terminal": 2,
@@ -1086,7 +1086,7 @@
   {
     "id": "2",
     "x": 218,
-    "y": 1258,
+    "y": 1263,
     "edges": "Gate51,Gate50,Gate49,Bathroom2,Bathroom1,Bathroom3,1",
     "category": "",
     "terminal": 2,
@@ -1106,7 +1106,7 @@
   {
     "id": "1",
     "x": 443,
-    "y": 1220,
+    "y": 1225,
     "edges": "UrbanCrave,GaslampQuarterNews,3",
     "category": "",
     "terminal": 2,
@@ -1123,7 +1123,7 @@
   {
     "id": "3",
     "x": 544,
-    "y": 1215,
+    "y": 1220,
     "edges": "Gate48,Bathroom17,4",
     "category": "",
     "terminal": 2,
@@ -1140,7 +1140,7 @@
   {
     "id": "4",
     "x": 710,
-    "y": 1209,
+    "y": 1214,
     "edges": "Bathroom5,SunglassHut,BrightonCollectibles1,5",
     "category": "",
     "terminal": 2,
@@ -1158,7 +1158,7 @@
   {
     "id": "5",
     "x": 864,
-    "y": 1127,
+    "y": 1132,
     "edges": "Soundbalance,6,7",
     "category": "",
     "terminal": 2,
@@ -1175,7 +1175,7 @@
   {
     "id": "6",
     "x": 864,
-    "y": 1039,
+    "y": 1044,
     "edges": "SkyFreeShop,18,19,7",
     "category": "",
     "terminal": 2,
@@ -1193,7 +1193,7 @@
   {
     "id": "18",
     "x": 786,
-    "y": 1024,
+    "y": 1029,
     "edges": "RedMango,QdobaMexicanGrill,BubblesSeafoodAndWineBar,19",
     "category": "",
     "terminal": 2,
@@ -1211,7 +1211,7 @@
   {
     "id": "19",
     "x": 852,
-    "y": 928,
+    "y": 933,
     "edges": "TommyV’sPizzeria,SaffronThai",
     "category": "",
     "terminal": 2,
@@ -1228,8 +1228,8 @@
   {
     "id": "7",
     "x": 967,
-    "y": 1024,
-    "edges": "ApricotLaneBoutique,Peet’sCoffee&Tea,KidsLoveSanDiego,MACCosmetics,Brookstone,9,PGATourShops",
+    "y": 1029,
+    "edges": "ApricotLaneBoutique,Peet’sCoffeeAndTea,KidsLoveSanDiego,MACCosmetics,Brookstone,9,PGATourShops",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
@@ -1240,7 +1240,7 @@
       "8": 26632,
       "9": 14834,
       "ApricotLaneBoutique": 2525,
-      "Peet’sCoffee&Tea": 2116,
+      "Peet’sCoffeeAndTea": 2116,
       "KidsLoveSanDiego": 3816,
       "MACCosmetics": 3601,
       "Brookstone": 7825,
@@ -1251,7 +1251,7 @@
   {
     "id": "GaslampMarketPlace",
     "x": 999,
-    "y": 324,
+    "y": 329,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -1265,7 +1265,7 @@
   {
     "id": "PannikinCoffeeAndTea",
     "x": 1124,
-    "y": 297,
+    "y": 302,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -1279,7 +1279,7 @@
   {
     "id": "ElegantDesserts",
     "x": 1060,
-    "y": 422,
+    "y": 427,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -1294,7 +1294,7 @@
   {
     "id": "20",
     "x": 1143,
-    "y": 90,
+    "y": 95,
     "edges": "BeaudevinWineAndTapasBar,Gate42,Gate41,Gate40,16",
     "category": "",
     "terminal": 2,
@@ -1312,7 +1312,7 @@
   {
     "id": "17",
     "x": 1030,
-    "y": 105,
+    "y": 110,
     "edges": "Gate44,Gate45,BeaudevinWineAndTapasBar,Gate43,16",
     "category": "",
     "terminal": 2,
@@ -1330,8 +1330,8 @@
   {
     "id": "16",
     "x": 1086,
-    "y": 208,
-    "edges": "Phil'sBBQ,StellarNews,15,Gate39",
+    "y": 213,
+    "edges": "Phil’sBBQ,StellarNews,15,Gate39",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
@@ -1340,7 +1340,7 @@
       "15": 17837,
       "17": 13745,
       "20": 17173,
-      "Phil'sBBQ": 5914,
+      "Phil’sBBQ": 5914,
       "StellarNews": 3204,
       "Gate39": 13730
     },
@@ -1349,7 +1349,7 @@
   {
     "id": "15",
     "x": 1060,
-    "y": 339,
+    "y": 344,
     "edges": "GaslampMarketPlace,PannikinCoffeeAndTea,Bathroom9,Gate38,Gate46,ElegantDesserts,13",
     "category": "",
     "terminal": 2,
@@ -1370,7 +1370,7 @@
   {
     "id": "Gate43",
     "x": 1041,
-    "y": 28,
+    "y": 33,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1384,7 +1384,7 @@
   {
     "id": "Gate42",
     "x": 1099,
-    "y": 19,
+    "y": 24,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1398,7 +1398,7 @@
   {
     "id": "Gate41",
     "x": 1147,
-    "y": 39,
+    "y": 44,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1412,7 +1412,7 @@
   {
     "id": "Gate40",
     "x": 1173,
-    "y": 63,
+    "y": 68,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1426,7 +1426,7 @@
   {
     "id": "Gate39",
     "x": 1195,
-    "y": 165,
+    "y": 170,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1440,7 +1440,7 @@
   {
     "id": "Gate38",
     "x": 1120,
-    "y": 401,
+    "y": 406,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1455,7 +1455,7 @@
   {
     "id": "Gate37",
     "x": 1117,
-    "y": 587,
+    "y": 592,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1470,7 +1470,7 @@
   {
     "id": "Gate36",
     "x": 1119,
-    "y": 870,
+    "y": 875,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1484,7 +1484,7 @@
   {
     "id": "Gate35",
     "x": 1322,
-    "y": 1173,
+    "y": 1178,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1499,7 +1499,7 @@
   {
     "id": "Gate34",
     "x": 1705,
-    "y": 1240,
+    "y": 1245,
     "edges": "",
     "category": "gate",
     "terminal": 2,
@@ -1514,7 +1514,7 @@
   {
     "id": "PGATourGrill",
     "x": 1158,
-    "y": 1173,
+    "y": 1178,
     "edges": "",
     "category": "food",
     "terminal": 2,
@@ -1529,7 +1529,7 @@
   {
     "id": "CNBCNewsSanDiego",
     "x": 1216,
-    "y": 1075,
+    "y": 1080,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -1545,7 +1545,7 @@
   {
     "id": "21",
     "x": 1103,
-    "y": 486,
+    "y": 491,
     "edges": "Gate38,ElegantDesserts,13",
     "category": "",
     "terminal": 2,
@@ -1561,7 +1561,7 @@
   {
     "id": "13",
     "x": 1045,
-    "y": 564,
+    "y": 569,
     "edges": "Bathroom7,Bathroom8,Starbucks,Gate37,22",
     "category": "",
     "terminal": 2,
@@ -1581,7 +1581,7 @@
   {
     "id": "22",
     "x": 1078,
-    "y": 651,
+    "y": 656,
     "edges": "Starbucks,Gate37,RipCurl,HudsonNews,TechOnTheGo,11",
     "category": "",
     "terminal": 2,
@@ -1601,7 +1601,7 @@
   {
     "id": "11",
     "x": 1027,
-    "y": 723,
+    "y": 728,
     "edges": "Gate47,Warwick'sOfLaJolla,12,8",
     "category": "",
     "terminal": 2,
@@ -1619,7 +1619,7 @@
   {
     "id": "8",
     "x": 1021,
-    "y": 870,
+    "y": 875,
     "edges": "Warwick'sOfLaJolla,12,Swarovski,7",
     "category": "",
     "terminal": 2,
@@ -1637,7 +1637,7 @@
   {
     "id": "12",
     "x": 1090,
-    "y": 844,
+    "y": 849,
     "edges": "Gate36,23",
     "category": "",
     "terminal": 2,
@@ -1654,7 +1654,7 @@
   {
     "id": "23",
     "x": 1105,
-    "y": 956,
+    "y": 961,
     "edges": "Bathroom10,10,StoneBrewingCompany,CNBCNewsSanDiego,9",
     "category": "",
     "terminal": 2,
@@ -1673,7 +1673,7 @@
   {
     "id": "24",
     "x": 1217,
-    "y": 1134,
+    "y": 1139,
     "edges": "CNBCNewsSanDiego,PGATourGrill,Bathroom14,Gate35",
     "category": "",
     "terminal": 2,
@@ -1692,7 +1692,7 @@
   {
     "id": "9",
     "x": 1070,
-    "y": 1089,
+    "y": 1094,
     "edges": "StoneBrewingCompany,MACCosmetics,PGATourGrill",
     "category": "",
     "terminal": 2,
@@ -1711,7 +1711,7 @@
   {
     "id": "25",
     "x": 1352,
-    "y": 1215,
+    "y": 1220,
     "edges": "24,Bathroom14,Gate35",
     "category": "",
     "terminal": 2,
@@ -1728,7 +1728,7 @@
   {
     "id": "26",
     "x": 1549,
-    "y": 1270,
+    "y": 1275,
     "edges": "Bathroom13,27,Gate34,25",
     "category": "",
     "terminal": 2,
@@ -1745,7 +1745,7 @@
   {
     "id": "27",
     "x": 1751,
-    "y": 1270,
+    "y": 1275,
     "edges": "Gate34,Gate33,28",
     "category": "",
     "terminal": 2,
@@ -1762,7 +1762,7 @@
   {
     "id": "28",
     "x": 2034,
-    "y": 1285,
+    "y": 1290,
     "edges": "Gate33,29",
     "category": "",
     "terminal": 2,
@@ -1778,7 +1778,7 @@
   {
     "id": "29",
     "x": 2135,
-    "y": 1230,
+    "y": 1235,
     "edges": "AirspaceLounge,30",
     "category": "",
     "terminal": 2,
@@ -1794,7 +1794,7 @@
   {
     "id": "30",
     "x": 2321,
-    "y": 1215,
+    "y": 1220,
     "edges": "AirspaceLounge,ArtisianMarket,USReportAndWorldNews,31",
     "category": "",
     "terminal": 2,
@@ -1812,7 +1812,7 @@
   {
     "id": "31",
     "x": 2380,
-    "y": 1131,
+    "y": 1136,
     "edges": "USReportAndWorldNews,SeesCandies,Gate22,32",
     "category": "",
     "terminal": 2,
@@ -1831,7 +1831,7 @@
   {
     "id": "32",
     "x": 2348,
-    "y": 1014,
+    "y": 1019,
     "edges": "SeesCandies,Gate23,33",
     "category": "",
     "terminal": 2,
@@ -1848,7 +1848,7 @@
   {
     "id": "33",
     "x": 2341,
-    "y": 874,
+    "y": 879,
     "edges": "Gate23,Bathroom15,34",
     "category": "",
     "terminal": 2,
@@ -1865,7 +1865,7 @@
   {
     "id": "34",
     "x": 2309,
-    "y": 753,
+    "y": 758,
     "edges": "Bathroom15,Gate24,Gate25,35",
     "category": "",
     "terminal": 2,
@@ -1883,7 +1883,7 @@
   {
     "id": "35",
     "x": 2354,
-    "y": 669,
+    "y": 674,
     "edges": "Gate25,Gate26,Gate24,BrightonCollectibles2,36",
     "category": "",
     "terminal": 2,
@@ -1902,7 +1902,7 @@
   {
     "id": "36",
     "x": 2294,
-    "y": 548,
+    "y": 553,
     "edges": "BrightonCollectibles2,PeetsCoffeeTea,CaliforniaPizzaKitchen,PandaExpress,JackInTheBox,Gate26,OldTownNewsAndMarket,InMotion,MindWorks,BeRelaxSpa,37",
     "category": "",
     "terminal": 2,
@@ -1927,7 +1927,7 @@
   {
     "id": "37",
     "x": 2279,
-    "y": 478,
+    "y": 483,
     "edges": "BrightonCollectibles2,PeetsCoffeeTea,CaliforniaPizzaKitchen,PandaExpress,JackInTheBox,OldTownNewsAndMarket,InMotion,MindWorks,BeRelaxSpa,ThePradoAtBalboaPark,Gate27,Bathroom12,38",
     "category": "",
     "terminal": 2,
@@ -1954,7 +1954,7 @@
   {
     "id": "38",
     "x": 2294,
-    "y": 379,
+    "y": 384,
     "edges": "ThePradoAtBalboaPark,Gate27,Bathroom12,Bathroom16,39,40",
     "category": "",
     "terminal": 2,
@@ -1974,7 +1974,7 @@
   {
     "id": "39",
     "x": 2144,
-    "y": 340,
+    "y": 345,
     "edges": "Gate31,Gate29",
     "category": "",
     "terminal": 2,
@@ -1990,7 +1990,7 @@
   {
     "id": "40",
     "x": 2413,
-    "y": 329,
+    "y": 334,
     "edges": "Gate28,Gate30,Gate32",
     "category": "",
     "terminal": 2,
@@ -2007,7 +2007,7 @@
   {
     "id": "RipCurl",
     "x": 1112,
-    "y": 632,
+    "y": 637,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -2021,7 +2021,7 @@
   {
     "id": "HudsonNews",
     "x": 1115,
-    "y": 666,
+    "y": 671,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -2035,7 +2035,7 @@
   {
     "id": "TechOnTheGo",
     "x": 1115,
-    "y": 698,
+    "y": 703,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -2049,7 +2049,7 @@
   {
     "id": "Warwick'sOfLaJolla",
     "x": 989,
-    "y": 810,
+    "y": 815,
     "edges": "",
     "category": "shop",
     "terminal": 2,
@@ -2064,7 +2064,7 @@
   {
     "id": "10",
     "x": 1158,
-    "y": 1028,
+    "y": 1033,
     "edges": "StoneBrewingCompany,9,24,CNBCNewsSanDiego",
     "category": "",
     "terminal": 2,
@@ -2082,7 +2082,7 @@
   {
     "id": "41",
     "x": 2543,
-    "y": 1166,
+    "y": 1171,
     "edges": "Gate22,31,42",
     "category": "",
     "terminal": 2,
@@ -2098,7 +2098,7 @@
   {
     "id": "42",
     "x": 2669,
-    "y": 1177,
+    "y": 1182,
     "edges": 43,
     "category": "",
     "terminal": 2,
@@ -2113,7 +2113,7 @@
   {
     "id": "43",
     "x": 2709,
-    "y": 1294,
+    "y": 1299,
     "edges": 44,
     "category": "",
     "terminal": 2,
@@ -2128,7 +2128,7 @@
   {
     "id": "44",
     "x": 2804,
-    "y": 1309,
+    "y": 1314,
     "edges": "Gate21,46",
     "category": "",
     "terminal": 2,
@@ -2144,7 +2144,7 @@
   {
     "id": "46",
     "x": 2962,
-    "y": 1297,
+    "y": 1302,
     "edges": 45,
     "category": "",
     "terminal": 2,
@@ -2159,7 +2159,7 @@
   {
     "id": "45",
     "x": 3068,
-    "y": 1267,
+    "y": 1272,
     "edges": "Gate20",
     "category": "",
     "terminal": 2,
