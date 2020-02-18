@@ -12,8 +12,9 @@ exports.view = function (req, res) {
   var endNodes = req.params.endNodes;
   console.log(startNodes);
   console.log(endNodes);
-  testGraph(data);
   if (startNodes != undefined && endNodes != undefined) {
+    data.nodes = [];
+    data.edges = [];
     data.startNodesStr = "";
     data.endNodesStr = "";
 
@@ -29,14 +30,14 @@ exports.view = function (req, res) {
       for (var i = 0; i < nodes.length; i++) {
         var node = nodes[i]
         console.log(node);
-        if(node.JSON_edges !=undefined && (!isNaN(node.id) || 
-          startNodesArray.includes(node.id) || endNodesArray.includes(node.id))){
+        if (node.JSON_edges != undefined && (!isNaN(node.id) ||
+          startNodesArray.includes(node.id) || endNodesArray.includes(node.id))) {
           newJsonEdges = {}
-          for(edge in node.JSON_edges){
-            if (!isNaN(edge) || startNodesArray.includes(edge) || 
-              endNodesArray.includes(edge)){
-                newJsonEdges[edge] = node.JSON_edges[edge];
-              }
+          for (edge in node.JSON_edges) {
+            if (!isNaN(edge) || startNodesArray.includes(edge) ||
+              endNodesArray.includes(edge)) {
+              newJsonEdges[edge] = node.JSON_edges[edge];
+            }
 
           }
           route.addNode(node.id, newJsonEdges);
@@ -52,13 +53,15 @@ exports.view = function (req, res) {
           data.startNodesStr += ",";
           data.endNodesStr += ",";
         }
-        findShortestPath(startNode, endNode, data,route, addedNodes);
+        findShortestPath(startNode, endNode, data, route, addedNodes);
       }
 
     }
 
   }
-
+  else {
+    testGraph(data);
+  }
   data.stringify = JSON.stringify(data);
   res.render('map', {
     'data': data,
@@ -67,19 +70,19 @@ exports.view = function (req, res) {
   });
 };
 
-function findShortestPath(startNode, endNode, data, route,addedNodes) {
-  data.nodes = [];
-  data.edges = [];
+function findShortestPath(startNode, endNode, data, route, addedNodes) {
 
   var path = route.path(startNode, endNode);
+  console.log(path)
   if (path == null) {
     data = {};
     return;
   }
   for (var i = 0; i < path.length; i++) {
     var pathNode = nodes.find(function (node) { return node.id === path[i] });
-    if(addedNodes[pathNode.id] != 1){
+    if (addedNodes[pathNode.id] != 1) {
       data.nodes.push(pathNode);
+      console.log("Pushed " + pathNode.id);
       addedNodes[pathNode.id] = 1;
     }
 
@@ -95,6 +98,7 @@ function findShortestPath(startNode, endNode, data, route,addedNodes) {
     }
 
   }
+  console.log(data);
   return data;
 
 }

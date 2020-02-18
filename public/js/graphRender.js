@@ -19,7 +19,6 @@ var tooltip = d3.select("body")
     .text("a simple tooltip");
 console.log(data)
 if (JSON.stringify(data) != JSON.stringify({})) {
-    console.log(JSON.stringify(data))
     renderGraph(data);
     $("#restaurants").attr("href", "/restaurants/" + startNodes + "/" + endNodes);
 }

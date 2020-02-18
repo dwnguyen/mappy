@@ -37,39 +37,40 @@
 			<img src="/images/search-bar.png" class="img-responsive">
 		</div>
 		{{#each restaurants}}
-		<a class="rLink" id="{{name}}" href="/map">
+		<a class="rLink" id="{{id}}" href="/map">
 			<div class="row shop-card">
 				<div class="col-xs-4">
-					<img src="/images/{{image}}" class="img-responsive vertical-align" alt="{{name}}">
+					<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
 				</div>
 				<div class="col-xs-8">
 					<h3 class="card-title">{{name}}</h3>
-					<p class="card-content">Location: {{terminal}} {{gate}}</p>
+					<p class="card-content">Location:Terminal {{terminal}}</p>
 					<p class="card-content">Hours: {{hours}}</p>
 				</div>
 			</div>
 		</a>
 		{{/each}}
-		<script>
-			if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
-				$("#back").attr("href", "/map/{{startNodes}}/{{endNodes}}");
-				$(".rLink").each(function () {
-					console.log(this.id)
-					var endNodesStr = "{{endNodes}}"
-					var index = endNodesStr.lastIndexOf("+");
-					var leftStr = endNodesStr.substring(0, index);
-					var rightStr = endNodesStr.substring(index + 1, endNodesStr.length);
-					var combStr = leftStr + this.id + rightStr;
-					var linkStr = '/map/{{startNodes}}' +this.Id+'/'+combStr; 
-					var id = "#" + this.id;
-					console.log(id)
-					$(id).attr('href',linkStr);
-				})
-			}
 
-		</script>
-		
+
 	</div>
+	<script>
+		if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
+			$("#back").attr("href", "/map/{{startNodes}}/{{endNodes}}");
+			$(".rLink").each(function () {
+				var endNodesStr = "{{endNodes}}"
+				var index = endNodesStr.lastIndexOf("+");
+				var leftStr = endNodesStr.substring(0, index);
+				var rightStr = "+" + endNodesStr.substring(index + 1, endNodesStr.length);
+				var combStr = leftStr + this.id + rightStr;
+				console.log(leftStr)
+				console.log(rightStr)
+				var linkStr = '/map/{{startNodes}}+' + this.id + '/' + combStr;
+				var id = "#" + this.id;
+				$(id).attr('href', linkStr);
+			})
+		}
+
+	</script>
 
 </body>
 
