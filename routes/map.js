@@ -65,7 +65,7 @@ exports.view = function (req, res) {
     }
 
   }
-  else {
+  else if(startNodes == "test") {
     testGraph(data);
   }
   data.stringify = JSON.stringify(data);
