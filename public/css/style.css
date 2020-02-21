@@ -53,15 +53,17 @@
 
 /*Map CSS*/
 .node{
-     r:20px;
+     r:30px;
      fill: rgba(255,255,255,0);
 }
 .nodeText{
      pointer-events: none;
      fill: black;
+     font-size: 40px;
 }
 .edge{
      stroke:rgba(1,1,1,1);
+     stroke-width:2px;
      pointer-events: none;
 }
 .start{
@@ -107,6 +109,21 @@
      padding: 5px;
      margin-top: 15px;
      box-shadow: 2px 4px 10px gray;
+}
+.legend-container{
+     position: absolute;
+     right: 15px;
+     background-color: white;
+     border-radius: 5px;
+     border-style: solid;
+     padding: 5px;
+     margin-top: 15px;
+     box-shadow: 2px 4px 10px gray;
+     text-align: right;
+}
+.legend-pin{
+     width:20px;
+     height:20px;
 }
 
 .rerouting-text{

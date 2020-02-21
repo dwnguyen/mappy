@@ -13,7 +13,7 @@ var tooltip = d3.select("body")
     .style("position", "absolute")
     .style("z-index", "10")
     .style("visibility", "hidden")
-    .style("background-color","#FFF")
+    .style("background-color", "#FFF")
     .text("a simple tooltip");
 
 var maxX = -1;
@@ -54,10 +54,10 @@ function renderGraph(data) {
 
     var nodes = g.selectAll(".node")
         .data(data.nodes)
-        .enter().append("g")        
+        .enter().append("g")
         .attr("id", function (d) { return d.id });
 
-        
+
     nodes.append("circle")
         .attr("class", function (d) {
             if (isNaN(d.id * 1)) return "node";
@@ -99,20 +99,36 @@ function renderGraph(data) {
         .attr("class", "nodeText")
         .attr("dx", 12)
         .attr("dy", ".35em")
-        .attr("x" , function(d){return d.x})
-        .attr("y" , function(d){return d.y})
+        .attr("x", function (d) { return d.x })
+        .attr("y", function (d) { return d.y })
         .text(function (d) {
-            if(isNaN(d.name))
-             return d.name
+            if (isNaN(d.name))
+                return d.name
             else return ""
         });
 
-    g.selectAll(data.startNodesStr).append("svg:image")
-        .attr("xlink:href", "/images/pin.svg")
-        .attr("width", 100)
-        .attr("height", 100)
-        .attr("x", function(d){return d.x-50})
-        .attr("y", function(d){return d.y-100});
+    g.select("#" + startNodeArray[0]).append("svg:image")
+        .attr("xlink:href", "/images/pinStart.svg")
+        .attr("width", 200)
+        .attr("height", 200)
+        .attr("x", function (d) { return d.x - 100 })
+        .attr("y", function (d) { return d.y - 200 });
+    g.select("#" + endNodeArray[endNodeArray.length - 1]).append("svg:image")
+        .attr("xlink:href", "/images/pinEnd.svg")
+        .attr("width", 200)
+        .attr("height", 200)
+        .attr("x", function (d) { return d.x - 100 })
+        .attr("y", function (d) { return d.y - 200 });
+    var selector = data.startNodesStr.substring(startNodeArray[0].length + 2, data.startNodesStr.length)
+    if (selector != "") {
+        g.selectAll(selector).append("svg:image")
+            .attr("xlink:href", "/images/pinStop.svg")
+            .attr("width", 200)
+            .attr("height", 200)
+            .attr("x", function (d) { return d.x - 100 })
+            .attr("y", function (d) { return d.y - 200 });
+
+    }
     /*
     g.selectAll(data.endNodesStr).filter(".start").attr("class", "node dest");
     g.selectAll(data.endNodesStr).filter("*:not(.dest)")
