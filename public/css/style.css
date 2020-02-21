@@ -112,16 +112,22 @@
 }
 .legend-container{
      position: absolute;
-     left: 35vw;
+     left:15px;
+     top: 25vh;
      background-color: rgba(255,255,255, 0.5);
      width: 30vw;
      border-radius: 5px;
      border-style: solid;
      padding: 5px;
-     margin-top: 15px;
      box-shadow: 2px 4px 10px gray;
-     text-align: right;
+     text-align: left;
 }
+
+.legend-item{
+     margin-bottom: 2px;
+     margin-top: 0px;
+}
+
 .legend-pin{
      width:20px;
      height:20px;
@@ -218,6 +224,11 @@
      border-radius: 5px;
      padding: 20px;
      display: inline-block;
+}
+
+#mySidenav{
+     background: #F76D6D;
+     padding: 2px;
 }
 
 .card-title{

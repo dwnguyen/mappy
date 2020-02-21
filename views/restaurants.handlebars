@@ -44,22 +44,21 @@
 	</div>
 		
 		{{#each restaurants}}
-		<a>
-			<div class="row shop-card">
-				<div class="col-xs-4">
-					<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
-				</div>
-				<div class="col-xs-8">
-					<h3 class="card-title">{{name}}</h3>
-					<p class="card-content">Hours: {{hours}}</p>
-				</div>
-				<div class="col-xs-10">
-				</div>
-				<div id="mySidenav" class="col-xs-2">
-					<a class="rLink" id="{{id}}" href="/map" class="w3-button w3-red">Add Stop</a>
-				</div>
+		<div class="row shop-card">
+			<div class="col-xs-4">
+				<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
 			</div>
-		</a>
+			<div class="col-xs-8">
+				<h3 class="card-title">{{name}}</h3>
+				<p class="card-content">Hours: {{hours}}</p>
+			</div>
+			<div class="col-xs-10">
+			</div>
+			<div id="mySidenav" class="col-xs-2">
+				<a class="rLink" id="{{id}}" href="/map" class="w3-button w3-red">Add Stop</a>
+			</div>
+		</div>
+
 		{{/each}}
 
 
