@@ -58,7 +58,7 @@
 }
 .nodeText{
      pointer-events: none;
-     fill: #999;
+     fill: black;
 }
 .edge{
      stroke:rgba(1,1,1,1);
@@ -144,8 +144,8 @@
 }
 
 .optn-text{
-     color: #4D595E;
      padding-left: 16px;
+     color: black;
 }
 
 .shop-optn{
