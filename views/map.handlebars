@@ -24,7 +24,7 @@
 	<div class="container">
 		<div class="rerouting-container">
 			<p class="rerouting-text"><strong>Start Gate</strong></p>
-			<select id="start" class="custom-select-lg startgate">
+			<select id="start" class="custom-select-lg startgate" onmousedown="if(this.options.length>6){this.size=6;}>
                 {{#each gates}}
                 <option value="{{id}}" id="optnS{{id}}">{{name}}</option>
                 {{/each}}
