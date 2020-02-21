@@ -16,6 +16,7 @@
 
 	<!-- Stylesheet -->
 	<link href="/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,6 +26,7 @@
     <![endif]-->
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
 <style>
@@ -34,13 +36,13 @@
 </style>
 <body>
 	<div class="container screen-bg-restaurants">
-		<a id="back" href="/map">
-			<h5>Back</h5>
-		</a>
-
-		<div class="search-bar">
-			<img src="/images/search-bar.png" class="img-responsive">
+		<div class="back-btn">
+				<a id="back" href="/map" class="w3-button w3-red">
+					<h5>Back</h5>
+				</a>
 		</div>
+	</div>
+		
 		{{#each restaurants}}
 		<a>
 			<div class="row shop-card">
@@ -50,6 +52,8 @@
 				<div class="col-xs-8">
 					<h3 class="card-title">{{name}}</h3>
 					<p class="card-content">Hours: {{hours}}</p>
+				</div>
+				<div class="col-xs-10">
 				</div>
 				<div id="mySidenav" class="col-xs-2">
 					<a class="rLink" id="{{id}}" href="/map" class="w3-button w3-red">Add</a>
