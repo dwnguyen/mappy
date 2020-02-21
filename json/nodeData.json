@@ -7,7 +7,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "1",
     "JSON_edges": {
       "2": 52069,
@@ -24,7 +24,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "2",
     "JSON_edges": {
       "1": 52069,
@@ -44,7 +44,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "1": 10226,
       "4": 27592,
@@ -61,7 +61,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "3": 27592,
       "5": 30440,
@@ -79,7 +79,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "4": 30440,
       "6": 7744,
@@ -96,7 +96,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "5": 7744,
       "7": 10834,
@@ -114,7 +114,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "5": 21218,
       "6": 10834,
@@ -133,17 +133,17 @@
     "id": "8",
     "x": 1021,
     "y": 875,
-    "edges": "Warwick'sOfLaJolla,12,Swarovski,7",
+    "edges": "Warwick’sOfLaJolla,12,Swarovski,7",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "8",
     "JSON_edges": {
       "7": 26632,
       "11": 21645,
       "12": 5437,
-      "Warwick'sOfLaJolla": 4624,
+      "Warwick’sOfLaJolla": 4624,
       "Swarovski": 2888
     }
   },
@@ -155,7 +155,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "7": 14834,
       "10": 11465,
@@ -174,7 +174,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "10",
     "JSON_edges": {
       "9": 11465,
@@ -188,18 +188,18 @@
     "id": "11",
     "x": 1027,
     "y": 728,
-    "edges": "Gate47,Warwick'sOfLaJolla,12,8",
+    "edges": "Gate47,Warwick’sOfLaJolla,12,8",
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "11",
     "JSON_edges": {
       "8": 21645,
       "12": 18610,
       "22": 7785,
       "Gate47": 6058,
-      "Warwick'sOfLaJolla": 9013
+      "Warwick’sOfLaJolla": 9013
     }
   },
   {
@@ -210,7 +210,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "8": 5437,
       "11": 18610,
@@ -227,7 +227,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "13",
     "JSON_edges": {
       "15": 50850,
@@ -247,7 +247,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "15",
     "JSON_edges": {
       "13": 50850,
@@ -268,7 +268,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "16",
     "JSON_edges": {
       "15": 17837,
@@ -287,7 +287,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "17",
     "JSON_edges": {
       "16": 13745,
@@ -305,7 +305,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "6": 6309,
       "19": 13572,
@@ -323,7 +323,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "6": 12465,
       "18": 13572,
@@ -340,7 +340,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "20",
     "JSON_edges": {
       "16": 17173,
@@ -358,7 +358,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "21",
     "JSON_edges": {
       "13": 9448,
@@ -374,7 +374,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "11": 7785,
       "13": 8658,
@@ -394,7 +394,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "9": 18914,
       "10": 7993,
@@ -413,7 +413,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "10": 14717,
       "25": 24786,
@@ -432,7 +432,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "25",
     "JSON_edges": {
       "24": 24786,
@@ -449,7 +449,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "26",
     "JSON_edges": {
       "25": 41834,
@@ -466,7 +466,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "26": 40804,
       "28": 80314,
@@ -483,7 +483,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "27": 80314,
       "29": 13226,
@@ -499,7 +499,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "28": 13226,
       "30": 34821,
@@ -515,7 +515,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "29": 34821,
       "31": 10537,
@@ -533,7 +533,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "30": 10537,
       "32": 14713,
@@ -552,7 +552,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "31": 14713,
       "33": 19649,
@@ -569,7 +569,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "32": 19649,
       "34": 15665,
@@ -586,7 +586,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "33": 15665,
       "35": 9081,
@@ -604,7 +604,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "34": 9081,
       "36": 18241,
@@ -623,7 +623,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "35": 18241,
       "37": 5125,
@@ -648,7 +648,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 5125,
       "38": 10026,
@@ -675,7 +675,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "37": 10026,
       "39": 24021,
@@ -695,7 +695,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "38": 24021,
       "Gate31": 1384,
@@ -711,7 +711,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "38": 16661,
       "Gate28": 2377,
@@ -728,7 +728,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "41",
     "JSON_edges": {
       "31": 27794,
@@ -744,7 +744,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "41": 15997,
       "43": 15289
@@ -759,7 +759,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "42": 15289,
       "44": 9250
@@ -774,7 +774,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "43": 9250,
       "46": 25108,
@@ -790,7 +790,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "45",
     "JSON_edges": {
       "46": 12136,
@@ -805,7 +805,7 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "44": 25108,
       "45": 12136
@@ -820,7 +820,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/airspace_detail2.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "29": 9533,
       "30": 22178
@@ -835,7 +835,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/AL-4.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "7": 2525
     },
@@ -849,7 +849,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/artisan-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "30": 6185
     },
@@ -863,7 +863,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "2": 14125
     },
@@ -877,7 +877,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "23": 1825
     },
@@ -891,7 +891,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "37": 4349,
       "38": 4361
@@ -906,7 +906,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "26": 4036
     },
@@ -920,7 +920,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "24": 5597,
       "25": 8405
@@ -935,7 +935,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "33": 4834,
       "34": 6217
@@ -950,7 +950,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "38": 7501
     },
@@ -964,7 +964,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "3": 6929
     },
@@ -978,7 +978,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "2": 12020
     },
@@ -992,7 +992,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "2": 20000
     },
@@ -1006,7 +1006,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "name": "Bathroom 4"
   },
   {
@@ -1017,7 +1017,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "4": 2880
     },
@@ -1031,7 +1031,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "13": 5573
     },
@@ -1045,7 +1045,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "13": 3364
     },
@@ -1059,7 +1059,7 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "15": 3924
     },
@@ -1073,7 +1073,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beaudevin-3.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "17": 3761,
       "20": 3349
@@ -1088,7 +1088,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beRelax-3.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 8114,
       "37": 2669
@@ -1103,7 +1103,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/brighton-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "4": 5480
     },
@@ -1117,7 +1117,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/brighton-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "35": 6976,
       "36": 9809,
@@ -1133,7 +1133,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/T2W_Brookstone_365.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "7": 7825
     },
@@ -1147,7 +1147,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Bubbles-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "18": 1906
     },
@@ -1161,23 +1161,12 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/CPK-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 4706,
       "37": 13921
     },
     "name": "California Pizza Kitchen"
-  },
-  {
-    "id": "CamdenFoodCo",
-    "x": 1047,
-    "y": 922,
-    "edges": "",
-    "category": "food",
-    "terminal": 2,
-    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/camden-1.jpg",
-    "hours": "TBD",
-    "name": "Camden Food Co"
   },
   {
     "id": "CNBCNewsSanDiego",
@@ -1187,7 +1176,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/CNBCExpress-(2)_365.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "10": 5573,
       "23": 26482,
@@ -1203,7 +1192,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/elegantDesserts-detail.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "15": 6889,
       "21": 5945
@@ -1218,7 +1207,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/glm-11.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "15": 3946
     },
@@ -1232,7 +1221,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/GQN-main.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "1": 3816
     },
@@ -1246,7 +1235,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "45": 1125
     },
@@ -1260,7 +1249,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "44": 100
     },
@@ -1274,7 +1263,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "31": 5801,
       "41": 9169
@@ -1289,7 +1278,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "32": 5409,
       "33": 4688
@@ -1304,7 +1293,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "34": 3649,
       "35": 6154
@@ -1319,7 +1308,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "34": 4096,
       "35": 2425
@@ -1334,7 +1323,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "35": 3249,
       "36": 7696
@@ -1349,7 +1338,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "37": 7146,
       "38": 11700
@@ -1364,7 +1353,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "40": 2377
     },
@@ -1378,7 +1367,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "39": 1928
     },
@@ -1392,7 +1381,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "40": 3706
     },
@@ -1406,7 +1395,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "39": 1384
     },
@@ -1420,7 +1409,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "40": 1936
     },
@@ -1434,7 +1423,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "27": 41026,
       "28": 8324
@@ -1449,7 +1438,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "26": 25236,
       "27": 3016
@@ -1464,7 +1453,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "24": 12546,
       "25": 2664
@@ -1479,7 +1468,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "12": 1517
     },
@@ -1493,7 +1482,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "13": 5713,
       "22": 5617
@@ -1508,7 +1497,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "15": 7444,
       "21": 7514
@@ -1523,7 +1512,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "16": 13730
     },
@@ -1537,7 +1526,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "20": 1629
     },
@@ -1551,7 +1540,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "20": 2617
     },
@@ -1565,7 +1554,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "20": 6977
     },
@@ -1579,7 +1568,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "17": 6050
     },
@@ -1593,7 +1582,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "17": 2920
     },
@@ -1607,7 +1596,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "17": 3946
     },
@@ -1621,7 +1610,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "15": 5120
     },
@@ -1635,7 +1624,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "11": 6058
     },
@@ -1649,7 +1638,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "3": 5321
     },
@@ -1663,7 +1652,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "2": 13298
     },
@@ -1677,7 +1666,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "2": 14585
     },
@@ -1691,7 +1680,7 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "2": 49177
     },
@@ -1705,7 +1694,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/hudson_store_gallery1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "22": 1594
     },
@@ -1719,7 +1708,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/MW-gallery1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 3301,
       "37": 5696
@@ -1734,7 +1723,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/gallery-Chicken.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 4000,
       "37": 4525
@@ -1749,7 +1738,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/klsd-4.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "7": 3816
     },
@@ -1763,7 +1752,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/pallet.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "7": 3601,
       "9": 6341
@@ -1778,7 +1767,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 5050,
       "37": 3825
@@ -1793,7 +1782,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/OldTownNewsMarket-(1)_365.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 3253,
       "37": 10368
@@ -1808,7 +1797,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/panda-gallery2.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 3485,
       "37": 8410
@@ -1823,7 +1812,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/pannikin-2.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "15": 5860
     },
@@ -1837,7 +1826,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "7": 2116
     },
@@ -1851,7 +1840,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "36": 6388,
       "37": 19773
@@ -1866,7 +1855,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/PGA_Grill-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "9": 14800,
       "24": 5002
@@ -1878,10 +1867,10 @@
     "x": 961,
     "y": 952,
     "edges": "",
-    "category": "food",
+    "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/PGA_Grill-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "7": 5965
     },
@@ -1895,7 +1884,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/phils-1.png",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "16": 5914
     },
@@ -1909,7 +1898,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/qdoba-1.png",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "18": 6725
     },
@@ -1923,7 +1912,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/red_mango-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "18": 2825
     },
@@ -1937,7 +1926,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/RipCurl_store_gallery1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "22": 1517
     },
@@ -1951,7 +1940,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/saffron-1.png",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "19": 2920
     },
@@ -1965,7 +1954,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://media.flysfo.com/SeesCandiesT3Hub_850x677.gif",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "31": 4177,
       "32": 4490
@@ -1980,7 +1969,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/SKY%20SAN%206.JPG",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "6": 3364
     },
@@ -1994,7 +1983,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/SB_1A_226x226.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "5": 6084
     },
@@ -2008,7 +1997,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/starbucks-2.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "13": 3681,
       "22": 1305
@@ -2023,7 +2012,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/T2W_StellarNews-365.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "16": 3204
     },
@@ -2037,7 +2026,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/stone-7.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "9": 6400,
       "10": 8105,
@@ -2053,7 +2042,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/sunglass_hut-2.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "4": 1970
     },
@@ -2067,7 +2056,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Swarovski-2.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "8": 2888
     },
@@ -2081,7 +2070,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/techonthego_store_gallery1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "22": 3578
     },
@@ -2095,7 +2084,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/prado-gallery3.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "37": 5098,
       "38": 8320
@@ -2110,7 +2099,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Tommy-Vs-2.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "19": 5584
     },
@@ -2124,7 +2113,7 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/urban-1.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "1": 4468
     },
@@ -2138,27 +2127,12 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/USNews-4.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
     "JSON_edges": {
       "30": 10285,
       "31": 6786
     },
     "name": "USReport And World News"
-  },
-  {
-    "id": "Warwick'sOfLaJolla",
-    "x": 989,
-    "y": 815,
-    "edges": "",
-    "category": "shop",
-    "terminal": 2,
-    "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/WARWICKS-PIC-365.jpg",
-    "hours": "TBD",
-    "JSON_edges": {
-      "8": 4624,
-      "11": 9013
-    },
-    "name": "Warwick's Of La Jolla"
   },
   {
     "id": "Warwick’sOfLaJolla",
@@ -2168,7 +2142,11 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/WARWICKS-PIC-365.jpg",
-    "hours": "TBD",
+    "hours": "8AM-8PM",
+    "JSON_edges": {
+      "8": 4624,
+      "11": 9013
+    },
     "name": "Warwick’s Of La Jolla"
   }
 ]

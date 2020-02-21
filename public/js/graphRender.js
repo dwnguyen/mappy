@@ -24,10 +24,13 @@ console.log(data)
 if (JSON.stringify(data) != JSON.stringify({})) {
     renderGraph(data);
     $("#restaurants").attr("href", "/restaurants/" + startNodes + "/" + endNodes);
+    $("#rest").attr("href", "/rest/" + startNodes + "/" + endNodes);
+    $("#shops").attr("href", "/shops/" + startNodes + "/" + endNodes);
 }
 else {
     data = {}
 }
+
 function renderGraph(data) {
 
     var edges = g.selectAll(".edge")

@@ -58,9 +58,9 @@
 					<h4 class="optn-text"> Rest <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
 				</a>
 			</div>
-			<!--<div class="br-btn">
-			<h4 class="optn-text" style="padding-left: 2px; padding-right: 2px;">Go To Gate</h4>
-			</div>-->
+			<div class="br-btn">
+			<h4 class="optn-text" style="padding-left: 5px; padding-right: 5px;">Start</h4>
+			</div>
 		</div>
 
 		<div>
@@ -1140,6 +1140,8 @@
 	</div>
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	
 	<script>
 		var data = {{{ data.stringify }}};
 		var startNodes = "{{startNodes}}";
@@ -1177,14 +1179,50 @@
 	    }
 		
 		for (var i=0; i<endNodeArray.length-1; i++){
-				$( "#stops" ).append('<p class="stop-item" id="'+endNodeArray[i]+'">'+endNodeArray[i]+'</p>');
+				$( "#stops" ).append('<p class="stop-item" id="'+endNodeArray[i]+'"><strong>'+endNodeArray[i]+
+					'<a id="delete'+endNodeArray[i]+'-'+i+'"<span style="float: right; padding-left: 5px;">&times;</span></strong></p>');
+				
+				$("#delete"+endNodeArray[i]+'-'+i).click(removeStop);
 			}
 
 		$("select.startgate").change(reroute);
 		$("select.endgate").change(reroute);
+
+		function removeStop(){
+			idArray = this.id.split('-')
+			var endNodesIndex = parseInt(idArray[idArray.length-1], 10);
+			var startNodesIndex = endNodesIndex+1
+			console.log(endNodesIndex)
+			console.log(startNodesIndex)
+
+
+			$("#"+endNodeArray[endNodesIndex]).remove();
+			endNodeArray.splice(endNodesIndex,1);
+
+			startNodeArray.splice(startNodesIndex,1);
+			console.log(startNodeArray)
+
+			var startNodeString = "";
+			for (var j=0; j<startNodeArray.length; j++){
+				startNodeString+=startNodeArray[j]+"+";
+			}
+			startNodeString = startNodeString.substr(0,startNodeString.length-1);
+
+
+			var endNodeString = "";
+			for (var j=0; j<endNodeArray.length; j++){
+				endNodeString+=endNodeArray[j]+"+";
+			}
+			endNodeString = endNodeString.substr(0,endNodeString.length-1);
+			var linkStr = "/map" + '/'+ startNodeString + '/' + endNodeString;
+			window.location.href = linkStr;
+		}
+		
+
+
 	</script>
-	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="/js/graphRender.js"></script>
+	
 </body>
 
 </html>
