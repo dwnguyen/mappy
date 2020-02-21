@@ -10,6 +10,9 @@
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<!-- this is a comment in HTML -->
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,25 +25,24 @@
 
 <body>
 	<div class="container">
-		<div class="rerouting-container">
+		<h4><a id="back" href="/map/{{startNodes}}/{{endNodes}}">&#8249; Back</a></h4>
+		<div class="rerouting-container" style="margin-top: 0px;">
 			<p class="rerouting-text"><strong>Start Gate</strong></p>
-			<select id="start" class="custom-select-lg startgate" onmousedown="if(this.options.length>6){this.size=6;}">
-                {{#each gates}}
-                <option value="{{id}}" id="optnS{{id}}">{{name}}</option>
-                {{/each}}
+			<select id="start" class="custom-select-lg startgate">
+                <option>Gate 49</option>
             </select>
 
 			<div id="stops">
+				<p class="stop-item"><strong>Phil's BBQ</strong></p>
 			</div>
 
 			<p class="rerouting-text"><strong>End Gate</strong></p> 
-            <select id="end" class="custom-select-lg endgate" onmousedown="if(this.options.length>6){this.size=6;}">
-                {{#each gates}}
-                <option value="{{id}}" id="optnE{{id}}">{{name}}</option>
-                {{/each}}
+            <select id="end" class="custom-select-lg endgate">
+                <option>Gate 49</option>
             </select>
 		</div>
-		<div class="legend-container">
+
+		<div class="legend-container" style="margin-top: 0px;">
 			<h4><strong>Legend</strong></h4>
 			<p class="legend-item">
 				<strong>Start Gate 
@@ -61,31 +63,26 @@
 
 		</div>
 
-		<div class="btn-container center-block">
-			<h3 class="optn-text">Add A Stop</h3>
-			<div class="shop-optn" href="/shops">
-				<a id="shops" >
-					<h4 class="optn-text"> Shop <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>				
-				</a>
+			<div class="btn-container center-block">
+			<h3>Directions:</h3>
+			{{#each directions.directions}}
+			<div class="step-item">
+				<h4>{{direction}} {{context}} <img id="{{direction}}"+"-"+"{{id}}" class="step-img img-responsive"></h4>	
 			</div>
-			<div class="eat-optn" href="/restaurants">
-				<a id="restaurants">
-					<h4 class="optn-text"> Eat <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
-				</a>
-			</div>
-			<div class="rest-optn" href="/rest">
-				<a id="rest" >
-					<h4 class="optn-text"> Rest <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
-				</a>
-			</div>
-			<div class="br-btn">
-			<h4 class="optn-text" style="padding-left: 5px; padding-right: 5px;"><a href="/directions/Gate49+Phil’sBBQ/Phil’sBBQ+Gate39">Start</a></h4>
-			</div>
+			{{/each}}
 		</div>
+
+		<script>
+			var directionData = {{{ directions.stringify }}}
+			$(".step-img").each(function(){
+				var curDir = this.id.split("-")[0]
+				this.src = directionData.directionsKey[curDir]
+			})
+		</script>
 
 		<div>
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" font-size="50px"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
 				style="enable-background:new 0 0 4887.9 2436;" xml:space="preserve">
 				<g id="graph">
 					<style type="text/css">
@@ -1158,9 +1155,7 @@
 		
 
 	</div>
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-	<script src="https://d3js.org/d3.v5.min.js"></script>
+	
 	
 	<script>
 		var data = {{{ data.stringify }}};
@@ -1198,12 +1193,6 @@
 
 	    }
 		
-		for (var i=0; i<endNodeArray.length-1; i++){
-				$( "#stops" ).append('<p class="stop-item" id="'+endNodeArray[i]+'"><strong>'+endNodeArray[i]+
-					'<a id="delete'+endNodeArray[i]+'-'+i+'"<span style="float: right; padding-left: 5px;">&times;</span></strong></p>');
-				
-				$("#delete"+endNodeArray[i]+'-'+i).click(removeStop);
-			}
 
 		$("select.startgate").change(reroute);
 		$("select.endgate").change(reroute);

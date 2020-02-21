@@ -6,9 +6,9 @@
             "id:":0
         },
         {
-            "direction": "Turn left",
-            "context": "towards MAC cosmetics, passing Peets Coffee",
-            "id:":1
+            "direction": "Slight left",
+            "id:":1,
+            "context": "towards MAC cosmetics, passing Peets Coffee"
         },
         {
             "direction": "Go straight",
@@ -16,17 +16,19 @@
             "id:":2
         },
         {
-            "directions": "Go straight",
+            "direction": "Go straight",
             "context": "across towards Stellar News",
             "id:":3
         },
         {
-            "directions": "Go straight",
+            "direction": "Go straight",
             "context": "until you reach Gate 39 on the left",
             "id:":4
         }
     ],
     "directionsKey":{
-        "Turn left": "ImageURL"
+        "Turn left": "/images/turn_left.svg",
+        "Slight left": "/images/slight_left.svg",
+        "Go straight": "/images/go_straight.svg"
     }
 }

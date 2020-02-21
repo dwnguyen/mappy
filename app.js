@@ -13,6 +13,7 @@ var restaurants = require('./routes/restaurants');
 var shops = require('./routes/shops');
 var rest = require('./routes/rest');
 var map = require('./routes/map');
+var directions = require('./routes/directions');
 var login = require('./routes/login')
 // Example route
 // var user = require('./routes/user');
@@ -46,6 +47,7 @@ app.get('/shops', shops.view);
 app.get('/shops/:startNodes/:endNodes', shops.view);
 app.get('/rest', rest.view);
 app.get('/rest/:startNodes/:endNodes', rest.view);
+app.get('/directions/:startNodes/:endNodes', directions.view);
 app.get('/login', login.view);
 // Example route
 // app.get('/users', user.list);
