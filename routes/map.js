@@ -5,6 +5,11 @@
 
 const Graph = require('node-dijkstra');
 var nodes = require('../json/nodeData.json');
+var gates = [];
+for(var i = 0; i<nodes.length; i++){
+    var node = nodes[i]
+    if(node.category === "gate") gates.push(node);
+}
 
 exports.view = function (req, res) {
   var data = {};
@@ -67,7 +72,8 @@ exports.view = function (req, res) {
   res.render('map', {
     'data': data,
     'startNodes': startNodes,
-    'endNodes': endNodes
+    'endNodes': endNodes,
+    'gates': gates
   });
 };
 

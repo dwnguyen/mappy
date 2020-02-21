@@ -5,7 +5,7 @@
 // OR
 // node: x, y, id, {nodes which this node has directed edge to}
 var width = 5000;
-var height = 5000;
+var height = 8000;
 var svg = d3.select('svg').attr("viewBox", "0 0 " + width + " " + height);
 var g = d3.select('#graph');
 var tooltip = d3.select("body")
@@ -51,14 +51,15 @@ function renderGraph(data) {
 
     var nodes = g.selectAll(".node")
         .data(data.nodes)
-        .enter().append("g")
+        .enter().append("g")        
+        .attr("id", function (d) { return d.id });
+
         
     nodes.append("circle")
         .attr("class", function (d) {
             if (isNaN(d.id * 1)) return "node";
             else return "path";
         })
-        .attr("id", function (d) { return d.id })
         .attr("cx", function (d) {
             if (d.x > maxX) maxX = d.x;
             if (d.x < minX) minX = d.x;
@@ -103,16 +104,23 @@ function renderGraph(data) {
             else return ""
         });
 
-    g.selectAll(data.startNodesStr).attr("class", "node start")
+    g.selectAll(data.startNodesStr).append("svg:image")
+        .attr("xlink:href", "/images/pin.svg")
+        .attr("width", 100)
+        .attr("height", 100)
+        .attr("x", function(d){return d.x-50})
+        .attr("y", function(d){return d.y-100});
+    /*
     g.selectAll(data.endNodesStr).filter(".start").attr("class", "node dest");
     g.selectAll(data.endNodesStr).filter("*:not(.dest)")
         .attr("class", "node end");
+        */
     console.log(minX);
     console.log(maxX);
     console.log(minY);
     console.log(maxY);
     var zoom = d3.zoom()
-        .scaleExtent([1, 8])
+        .scaleExtent([1, 15])
         .on("zoom", zoomed);
 
     svg.call(zoom);/*

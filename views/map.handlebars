@@ -22,12 +22,50 @@
 
 <body>
 	<div class="container">
-		<div class="search-bar">
-			<img src="/images/search-bar.png" class="img-responsive">
+		<div class="rerouting-container">
+			<p class="rerouting-text"><strong>Start Gate</strong></p>
+			<select id="start" class="custom-select-lg startgate">
+                {{#each gates}}
+                <option value="{{id}}" id="optnS{{id}}">{{name}}</option>
+                {{/each}}
+            </select>
+
+			<div id="stops">
+			</div>
+
+			<p class="rerouting-text"><strong>End Gate</strong></p> 
+            <select id="end" class="custom-select-lg endgate">
+                {{#each gates}}
+                <option value="{{id}}" id="optnE{{id}}">{{name}}</option>
+                {{/each}}
+            </select>
 		</div>
+
+		<div class="btn-container center-block">
+			<h3 class="optn-text">Add A Stop</h3>
+			<div class="shop-optn" href="/shops">
+				<a id="shops" >
+					<h4 class="optn-text"> Shop <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>				
+				</a>
+			</div>
+			<div class="eat-optn" href="/restaurants">
+				<a id="restaurants">
+					<h4 class="optn-text"> Eat <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
+				</a>
+			</div>
+			<div class="rest-optn" href="/rest">
+				<a id="rest" >
+					<h4 class="optn-text"> Rest <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
+				</a>
+			</div>
+			<!--<div class="br-btn">
+			<h4 class="optn-text" style="padding-left: 2px; padding-right: 2px;">Go To Gate</h4>
+			</div>-->
+		</div>
+
 		<div>
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 4887.9 10000"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
 				style="enable-background:new 0 0 4887.9 2436;" xml:space="preserve">
 				<g id="graph">
 					<style type="text/css">
@@ -1097,27 +1135,7 @@
 
 
 		</div>
-		<div class="btn-container">
-			<h3 class="optn-text">Explore SAN Airport</h3>
-			<div class="shop-optn">
-				<a id="shops" href="/shops">
-					<h4 class="optn-text"> Shop </h4>
-				</a>
-			</div>
-			<div class="eat-optn">
-				<a id="restaurants" href="/restaurants">
-					<h4 class="optn-text"> Eat </h4>
-				</a>
-			</div>
-			<div class="rest-optn">
-				<a id="rest" href="/rest">
-					<h4 class="optn-text"> Rest </h4>
-				</a>
-			</div>
-			<!--<div class="br-btn">
-			<h4 class="optn-text" style="padding-left: 2px; padding-right: 2px;">Go To Gate</h4>
-			</div>-->
-		</div>
+		
 
 	</div>
 	<script src="https://code.jquery.com/jquery.js"></script>
@@ -1126,6 +1144,44 @@
 		var data = {{{ data.stringify }}};
 		var startNodes = "{{startNodes}}";
 		var endNodes = "{{endNodes}}";
+		var startNodeArray = startNodes.split("+")
+		var startGate = startNodeArray[0]
+		var endNodeArray = endNodes.split("+")
+		var endIndex = endNodeArray.length - 1
+		var endGate = endNodeArray[endIndex]
+		$("#optnS"+startGate).attr("selected", "selected");
+		$("#optnE"+endGate).attr("selected", "selected");
+
+		function reroute(){
+			var newStart = $("#start").val();
+			var newEnd =$("#end").val();
+			startNodeArray[0] = newStart
+			var startNodeString = "";
+			for (var i=0; i<startNodeArray.length; i++){
+				startNodeString+=startNodeArray[i]+"+";
+			}
+			startNodeString = startNodeString.substr(0,startNodeString.length-1);
+			console.log(startNodeString)
+
+			endNodeArray[endIndex] = newEnd
+			var endNodeString = "";
+			for (var i=0; i<endNodeArray.length; i++){
+				endNodeString+=endNodeArray[i]+"+";
+			}
+			endNodeString = endNodeString.substr(0,endNodeString.length-1);
+			console.log(endNodeString)
+
+			var linkStr = "/map" + '/'+ startNodeString + '/' + endNodeString;
+			window.location.href = linkStr;
+
+	    }
+		
+		for (var i=0; i<endNodeArray.length-1; i++){
+				$( "#stops" ).append('<p class="stop-item" id="'+endNodeArray[i]+'">'+endNodeArray[i]+'</p>');
+			}
+
+		$("select.startgate").change(reroute);
+		$("select.endgate").change(reroute);
 	</script>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="/js/graphRender.js"></script>
