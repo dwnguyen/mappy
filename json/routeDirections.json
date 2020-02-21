@@ -1,0 +1,27 @@
+{
+    "directions":[
+        {
+            "direction": "Turn left",
+            "context": "at urban crave"
+        },
+        {
+            "direction": "Turn left",
+            "context": "towards MAC cosmetics, passing Peets Coffee"
+        },
+        {
+            "direction": "Go straight",
+            "context": "until you reach Phil's BBQ which will be on the left"
+        },
+        {
+            "directions": "Go straight",
+            "context": "across towards Stellar News"
+        },
+        {
+            "directions": "Go straight",
+            "context": "until you reach Gate 39 on the left"
+        }
+    ],
+    "directionsKey":{
+        "Turn left": "ImageURL"
+    }
+}
