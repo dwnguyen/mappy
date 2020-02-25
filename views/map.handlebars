@@ -25,25 +25,25 @@
 		<div class="rerouting-container">
 			<p class="rerouting-text"><strong>Start Gate</strong></p>
 			<select id="start" class="custom-select-lg startgate" onmousedown="if(this.options.length>6){this.size=6;}">
-                {{#each gates}}
-                <option value="{{id}}" id="optnS{{id}}">{{name}}</option>
-                {{/each}}
-            </select>
+				{{#each gates}}
+				<option value="{{id}}" id="optnS{{id}}">{{name}}</option>
+				{{/each}}
+			</select>
 
 			<div id="stops">
 			</div>
 
-			<p class="rerouting-text"><strong>End Gate</strong></p> 
-            <select id="end" class="custom-select-lg endgate" onmousedown="if(this.options.length>6){this.size=6;}">
-                {{#each gates}}
-                <option value="{{id}}" id="optnE{{id}}">{{name}}</option>
-                {{/each}}
-            </select>
+			<p class="rerouting-text"><strong>End Gate</strong></p>
+			<select id="end" class="custom-select-lg endgate" onmousedown="if(this.options.length>6){this.size=6;}">
+				{{#each gates}}
+				<option value="{{id}}" id="optnE{{id}}">{{name}}</option>
+				{{/each}}
+			</select>
 		</div>
 		<div class="legend-container">
 			<h4 class="legend-item"><strong>Legend</strong></h4>
 			<p class="legend-item">
-				<strong>Start Gate 
+				<strong>Start Gate
 					<img class="legend-pin" src="/images/pinStart.svg">
 				</strong>
 			</p>
@@ -57,15 +57,17 @@
 					<img class="legend-pin" src="/images/pinStop.svg">
 				</strong>
 			</p>
-			<p class="legend-item"><muted>Scroll to zoom, drag to pan</muted></p>
+			<p class="legend-item">
+				<muted>Scroll to zoom, drag to pan</muted>
+			</p>
 
 		</div>
 
 		<div class="btn-container center-block">
 			<h3 class="optn-text">Add A Stop</h3>
 			<div class="shop-optn" href="/shops">
-				<a id="shops" >
-					<h4 class="optn-text"> Shop <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>				
+				<a id="shops">
+					<h4 class="optn-text"> Shop <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
 				</a>
 			</div>
 			<div class="eat-optn" href="/restaurants">
@@ -74,12 +76,13 @@
 				</a>
 			</div>
 			<div class="rest-optn" href="/rest">
-				<a id="rest" >
+				<a id="rest">
 					<h4 class="optn-text"> Rest <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
 				</a>
 			</div>
 			<div class="br-btn">
-			<h3 class="optn-text" style="padding-left: 5px; padding-right: 5px;"><strong><a href="/directions/Gate49+Phil’sBBQ/Phil’sBBQ+Gate39">Start Routing</a></strong></h3>
+				<h3 class="optn-text" style="padding-left: 5px; padding-right: 5px;"><strong><a
+							href="/directions/Gate49+Phil’sBBQ/Phil’sBBQ+Gate39">Start Routing</a></strong></h3>
 			</div>
 		</div>
 
@@ -1155,13 +1158,14 @@
 
 
 		</div>
-		
+
 
 	</div>
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
-	
+	<script src="/js/graphRender.js"></script>
+
 	<script>
 		var data = {{{ data.stringify }}};
 		var startNodes = "{{startNodes}}";
@@ -1171,78 +1175,83 @@
 		var endNodeArray = endNodes.split("+")
 		var endIndex = endNodeArray.length - 1
 		var endGate = endNodeArray[endIndex]
-		$("#optnS"+startGate).attr("selected", "selected");
-		$("#optnE"+endGate).attr("selected", "selected");
+		$("#optnS" + startGate).attr("selected", "selected");
+		$("#optnE" + endGate).attr("selected", "selected");
 
-		function reroute(){
+		function reroute() {
 			var newStart = $("#start").val();
-			var newEnd =$("#end").val();
+			var newEnd = $("#end").val();
 			startNodeArray[0] = newStart
 			var startNodeString = "";
-			for (var i=0; i<startNodeArray.length; i++){
-				startNodeString+=startNodeArray[i]+"+";
+			for (var i = 0; i < startNodeArray.length; i++) {
+				startNodeString += startNodeArray[i] + "+";
 			}
-			startNodeString = startNodeString.substr(0,startNodeString.length-1);
+			startNodeString = startNodeString.substr(0, startNodeString.length - 1);
 			console.log(startNodeString)
 
 			endNodeArray[endIndex] = newEnd
 			var endNodeString = "";
-			for (var i=0; i<endNodeArray.length; i++){
-				endNodeString+=endNodeArray[i]+"+";
+			for (var i = 0; i < endNodeArray.length; i++) {
+				endNodeString += endNodeArray[i] + "+";
 			}
-			endNodeString = endNodeString.substr(0,endNodeString.length-1);
+			endNodeString = endNodeString.substr(0, endNodeString.length - 1);
 			console.log(endNodeString)
 
-			var linkStr = "/map" + '/'+ startNodeString + '/' + endNodeString;
+			var linkStr = "/map" + '/' + startNodeString + '/' + endNodeString;
 			window.location.href = linkStr;
 
-	    }
-		
-		for (var i=0; i<endNodeArray.length-1; i++){
-				$( "#stops" ).append('<p class="stop-item" id="'+endNodeArray[i]+'"><strong>'+endNodeArray[i]+
-					'<a id="delete'+endNodeArray[i]+'-'+i+'"<span style="float: right; padding-left: 5px;">&times;</span></strong></p>');
-				
-				$("#delete"+endNodeArray[i]+'-'+i).click(removeStop);
-			}
+		}
+
+		for (var i = 0; i < endNodeArray.length - 1; i++) {
+			$("#stops").append('<p class="stop-item" id="' + endNodeArray[i] + '"><strong>' + endNodeArray[i] +
+				'<a id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></strong></p>');
+
+			$("#delete" + endNodeArray[i] + '-' + i).click(removeStop);
+		}
 
 		$("select.startgate").change(reroute);
 		$("select.endgate").change(reroute);
 
-		function removeStop(){
+		function removeStop() {
 			idArray = this.id.split('-')
-			var endNodesIndex = parseInt(idArray[idArray.length-1], 10);
-			var startNodesIndex = endNodesIndex+1
+			var endNodesIndex = parseInt(idArray[idArray.length - 1], 10);
+			var startNodesIndex = endNodesIndex + 1
 			console.log(endNodesIndex)
 			console.log(startNodesIndex)
 
 
-			$("#"+endNodeArray[endNodesIndex]).remove();
-			endNodeArray.splice(endNodesIndex,1);
+			$("#" + endNodeArray[endNodesIndex]).remove();
+			endNodeArray.splice(endNodesIndex, 1);
 
-			startNodeArray.splice(startNodesIndex,1);
+			startNodeArray.splice(startNodesIndex, 1);
 			console.log(startNodeArray)
 
 			var startNodeString = "";
-			for (var j=0; j<startNodeArray.length; j++){
-				startNodeString+=startNodeArray[j]+"+";
+			for (var j = 0; j < startNodeArray.length; j++) {
+				startNodeString += startNodeArray[j] + "+";
 			}
-			startNodeString = startNodeString.substr(0,startNodeString.length-1);
+			startNodeString = startNodeString.substr(0, startNodeString.length - 1);
 
 
 			var endNodeString = "";
-			for (var j=0; j<endNodeArray.length; j++){
-				endNodeString+=endNodeArray[j]+"+";
+			for (var j = 0; j < endNodeArray.length; j++) {
+				endNodeString += endNodeArray[j] + "+";
 			}
-			endNodeString = endNodeString.substr(0,endNodeString.length-1);
-			var linkStr = "/map" + '/'+ startNodeString + '/' + endNodeString;
+			endNodeString = endNodeString.substr(0, endNodeString.length - 1);
+			var linkStr = "/map" + '/' + startNodeString + '/' + endNodeString;
 			window.location.href = linkStr;
 		}
-		
+		if (JSON.stringify(data) != JSON.stringify({})) {
+			renderGraph(data);
+			$("#restaurants").attr("href", "/stores/food/" + startNodes + "/" + endNodes);
+			$("#rest").attr("href", "/stores/rest/" + startNodes + "/" + endNodes);
+			$("#shops").attr("href", "/stores/shop/" + startNodes + "/" + endNodes);
+		}
+
 
 
 	</script>
-	<script src="/js/graphRender.js"></script>
-	
+
 </body>
 
 </html>

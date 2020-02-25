@@ -193,18 +193,14 @@
 .screen-bg{
      background-color: #A8D1E7;
 }
-
-.screen-bg-rest{
-     background-color: #A8D1E7;
+.shop-bg{
+     background-color: #F7E9A0
 }
-
-.screen-bg-restaurants{
-     background-color: #F76D6D;
+.rest-bg{
+     background-color: #A8D1E7
 }
-
-
-.screen-bg-shops{
-     background-color: #F7E9A0;
+.food-bg{
+     background-color: #F76D6D
 }
 
 .shop-card {

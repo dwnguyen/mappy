@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>Mappy: Rest</title>
+	<title>Mappy: {{storeType}}</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,49 +27,44 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	
+
 </head>
-<style>
-	body {
-		background-color: #A8D1E7
-	}
-</style>
-	<body>
-		<div class="container screen-bg-rest">
-			<div class="back-btn">
-				<a id="back" href="/map" class="w3-button w3-red">
-					<h5>Back</h5>
-				</a>
-			</div>
-
+<body>
+	<div class="container {{storeType}}-bg">
+		<div class="back-btn">
+			<a id="back" href="/map" class="w3-button w3-red">
+				<h5>Back</h5>
+			</a>
 		</div>
-			{{#each rest}}
-			<div class="row shop-card">
-				<div class="col-xs-4">
-					<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
-				</div>
-				<div class="col-xs-8">
-					<h3 class="card-title">{{name}}</h3>
-					<p class="card-content">Hours: {{hours}}</p>
-				</div>
-				<div class="col-xs-10">
-				</div>
-				<div id="mySidenav" class="col-xs-2">
-					<a class="rLink" id="{{id}}" href="/map" class="w3-button w3-red">Add Stop</a>
-				</div>
-			</div>
-			{{/each}}
 
-
+	</div>
+	{{#each stores}}
+	<div class="row shop-card">
+		<div class="col-xs-4">
+			<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
 		</div>
-		<script>
-			if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
+		<div class="col-xs-8">
+			<h3 class="card-title">{{name}}</h3>
+			<p class="card-content">Hours: {{hours}}</p>
+		</div>
+		<div class="col-xs-10">
+		</div>
+		<div id="mySidenav" class="col-xs-2">
+			<a class="rLink" id="{{id}}" href="/map" class="w3-button w3-red">Add Stop</a>
+		</div>
+	</div>
+	{{/each}}
+
+
+	</div>
+	<script>
+		if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
 			$("#back").attr("href", "/map/{{startNodes}}/{{endNodes}}");
 			$(".rLink").each(function () {
 				var endNodesStr = "{{endNodes}}"
 				var index = endNodesStr.lastIndexOf("+");
 				var leftStr = endNodesStr.substring(0, index);
-				if(index != -1) leftStr+="+"
+				if (index != -1) leftStr += "+"
 				var rightStr = "+" + endNodesStr.substring(index + 1, endNodesStr.length);
 				var combStr = leftStr + this.id + rightStr;
 				console.log(leftStr)
@@ -82,11 +77,11 @@
 		}
 
 
-		$(".rLink").click(function(){
+		$(".rLink").click(function () {
 			alert("Adding a stop")
 		})
 
-		</script>
-	</body>
+	</script>
+</body>
 
 </html>
