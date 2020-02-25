@@ -118,7 +118,8 @@ function renderGraph(data) {
         .attr("width", 200)
         .attr("height", 200)
         .attr("x", function (d) { return d.x - 100 })
-        .attr("y", function (d) { return d.y - 200 });
+        .attr("y", function (d) { return d.y - 200 })
+        .on("click",function(d){ zoomToBox(d.x-50,d.y-50,d.x+50,d.y+50,zoom)});
     /*
     g.selectAll(data.endNodesStr).filter(".start").attr("class", "node dest");
     g.selectAll(data.endNodesStr).filter("*:not(.dest)")
@@ -137,6 +138,8 @@ function renderGraph(data) {
 }
 
 function zoomToBox(minX, minY,maxX,maxY,zoom){
+    console.log(minX)
+    console.log(minY)
     dx = maxX - minX;
     dy = maxY - minY;
     x = (maxX + minX) / 2;

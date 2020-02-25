@@ -25,7 +25,7 @@ function reroute() {
     }
     endNodeString = endNodeString.substr(0, endNodeString.length - 1);
     console.log(endNodeString)
-
+    if(version !="") endNodeString+="/"+ version
     var linkStr = "/map" + '/' + startNodeString + '/' + endNodeString;
     window.location.href = linkStr;
 
@@ -67,14 +67,19 @@ function removeStop() {
         endNodeString += endNodeArray[j] + "+";
     }
     endNodeString = endNodeString.substr(0, endNodeString.length - 1);
+    if(version !="") endNodeString+="/"+ version
     var linkStr = "/map" + '/' + startNodeString + '/' + endNodeString;
     window.location.href = linkStr;
 }
 if (JSON.stringify(data) != JSON.stringify({})) {
     renderGraph(data);
-    $("#restaurants").attr("href", "/stores/food/" + startNodes + "/" + endNodes);
-    $("#rest").attr("href", "/stores/rest/" + startNodes + "/" + endNodes);
-    $("#shops").attr("href", "/stores/shop/" + startNodes + "/" + endNodes);
+    nodesStr = startNodes + "/" + endNodes 
+    if(version != ""){
+        nodesStr+="/"+version
+    }
+    $("#restaurants").attr("href", "/stores/food/" + nodesStr);
+    $("#rest").attr("href", "/stores/rest/" + nodesStr);
+    $("#shops").attr("href", "/stores/shop/" + nodesStr);
 }
 else {
     data = {}

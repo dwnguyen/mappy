@@ -76,6 +76,7 @@ exports.view = function (req, res) {
       'startNodes': startNodes,
       'endNodes': endNodes,
       'gates': gates,
+      'version': version
     
     });
   }
@@ -85,6 +86,7 @@ exports.view = function (req, res) {
       'startNodes': startNodes,
       'endNodes': endNodes,
       'gates': gates,
+      'version': version
     
     });
   }

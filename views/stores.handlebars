@@ -58,6 +58,7 @@
 		if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
 			$("#back").attr("href", "/map/{{startNodes}}/{{endNodes}}");
 			$(".rLink").each(function () {
+				var version = "{{version}}"
 				var endNodesStr = "{{endNodes}}"
 				var index = endNodesStr.lastIndexOf("+");
 				var leftStr = endNodesStr.substring(0, index);
@@ -67,6 +68,9 @@
 				console.log(leftStr)
 				console.log(rightStr)
 				console.log(index)
+				if(version != ""){
+					combStr += "/" + version
+				}
 				var linkStr = '/map/{{startNodes}}+' + this.id + '/' + combStr;
 				var id = "#" + this.id;
 				$(id).attr('href', linkStr);
