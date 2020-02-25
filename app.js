@@ -6,7 +6,7 @@ var index = require('./routes/index');
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var handlebars = require('express3-handlebars')
+var exphbs = require('express3-handlebars')
 var fs = require('fs');
 var index = require('./routes/index');
 var map = require('./routes/map');
@@ -16,11 +16,15 @@ var login = require('./routes/login')
 // Example route
 // var user = require('./routes/user');
 var app = express();
-
+var hbs = exphbs.create({
+  partialsDir: [
+      'views/partials/'
+  ]
+});
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-app.engine('handlebars', handlebars());
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(express.favicon());
 app.use(express.logger('dev'));
@@ -31,7 +35,6 @@ app.use(express.cookieParser('IxD secret key'));
 app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
-
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());

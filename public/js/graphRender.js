@@ -20,7 +20,6 @@ var maxX = -1;
 var minX = Number.MAX_SAFE_INTEGER;
 var maxY = -1;
 var minY = Number.MAX_SAFE_INTEGER;
-console.log(data)
 
 function renderGraph(data) {
 
