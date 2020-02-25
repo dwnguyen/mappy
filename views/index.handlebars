@@ -12,6 +12,10 @@
     <link href="/css/style.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        
+    </script>
+
     <!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,22 +31,22 @@
         <div class="center-block">
             <img class="img-responsive login-logo center-block" src="/images/mappy_logo.svg">
             <br>
-            <div action="/map" class="form" method="get">
-            <select id="start" class="custom-select-lg center-block startgate">
+            <div action="/map" class="form" method="get" id="frm">
+            <select id="start" class="custom-select-lg center-block startgate" required>
                 <option>Select Current Location</option>
                 {{#each gates}}
                 <option value="{{id}}">{{name}}</option>
                 {{/each}}
             </select>
             <br>
-            <select id="end" class="custom-select-lg center-block endgate">
+            <select id="end" class="custom-select-lg center-block endgate" required>
                 <option>Select Destination Gate</option>
                 {{#each gates}}
                 <option value="{{id}}">{{name}}</option>
                 {{/each}}
             </select>
             <br>
-            <a id='gotomap'><button class="center-block">Map Me!</button></a>
+            <a id='gotomap'><button onclick="setGate()" class="center-block">Map Me!</button></a>
             <!--<button type="button" class="btn center-block">Map Me!</button>-->
             </div>
             <br>
@@ -58,10 +62,34 @@
     function setLink(){
         var startGate = $("#start").val();
         var endGate =$("#end").val();
-        var linkStr = "/map" + '/'+ startGate + '/' + endGate;
-        $("#gotomap").attr("href", linkStr);
+
+        if (startGate===endGate){
+            linkStr = "/";
+            alert("please select different gates");
+        }
+
     }
 
+    function setGate(){
+        var startGate = $("#start").val();
+        var endGate =$("#end").val();
+        var linkStr = "";
+        //var linkStr = "/map" + '/'+ startGate + '/' + endGate;
+        var empty = "";
+
+        if (startGate==="Select Current Location"){
+            linkStr = "/";
+            alert("please select a gate");
+        }
+        else if (endGate==="Select Destination Gate"){
+            linkStr = "/";
+            alert("please select a gate");
+        }
+        else {
+            linkStr = "/map" + '/'+ startGate + '/' + endGate;
+             $("#gotomap").attr("href", linkStr);
+        }
+    }
     </script>
 </body>
 
