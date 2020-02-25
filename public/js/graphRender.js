@@ -23,6 +23,9 @@ var minY = Number.MAX_SAFE_INTEGER;
 
 function renderGraph(data) {
 
+    var zoom = d3.zoom()
+        .scaleExtent([1, 15])
+        .on("zoom", zoomed);
     var edges = g.selectAll(".edge")
         .data(data.edges)
         .enter().append("line")
@@ -99,26 +102,23 @@ function renderGraph(data) {
 
     g.select("#" + startNodeArray[0]).append("svg:image")
         .attr("xlink:href", "/images/pinStart.svg")
-        .attr("width", 200)
-        .attr("height", 200)
-        .attr("x", function (d) { return d.x - 100 })
-        .attr("y", function (d) { return d.y - 200 });
+        .attr("class", "pin");
+        
     g.select("#" + endNodeArray[endNodeArray.length - 1]).append("svg:image")
         .attr("xlink:href", "/images/pinEnd.svg")
-        .attr("width", 200)
-        .attr("height", 200)
-        .attr("x", function (d) { return d.x - 100 })
-        .attr("y", function (d) { return d.y - 200 });
+        .attr("class", "pin");
     var selector = data.startNodesStr.substring(startNodeArray[0].length + 2, data.startNodesStr.length)
     if (selector != "") {
         g.selectAll(selector).append("svg:image")
             .attr("xlink:href", "/images/pinStop.svg")
-            .attr("width", 200)
-            .attr("height", 200)
-            .attr("x", function (d) { return d.x - 100 })
-            .attr("y", function (d) { return d.y - 200 });
+            .attr("class", "pin");
 
     }
+    g.selectAll(".pin")
+        .attr("width", 200)
+        .attr("height", 200)
+        .attr("x", function (d) { return d.x - 100 })
+        .attr("y", function (d) { return d.y - 200 });
     /*
     g.selectAll(data.endNodesStr).filter(".start").attr("class", "node dest");
     g.selectAll(data.endNodesStr).filter("*:not(.dest)")
@@ -128,14 +128,15 @@ function renderGraph(data) {
     console.log(maxX);
     console.log(minY);
     console.log(maxY);
-    var zoom = d3.zoom()
-        .scaleExtent([1, 15])
-        .on("zoom", zoomed);
 
     svg.call(zoom);/*
     maxY += 100;
     minY += 100;
     */
+    zoomToBox(minX,minY,maxX,maxY,zoom)
+}
+
+function zoomToBox(minX, minY,maxX,maxY,zoom){
     dx = maxX - minX;
     dy = maxY - minY;
     x = (maxX + minX) / 2;
@@ -144,12 +145,10 @@ function renderGraph(data) {
     translate = [width / 2 - scale * x, height / 2 - scale * y];
     svg.transition()
         .duration(1000)
-        // .call(zoom.translate(translate).scale(scale).event); // not in d3 v4
+        //.call(zoom.translate(translate).scale(scale).event); // not in d3 v4
         .call(zoom.transform, d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale));
 
 }
-
-
 function zoomed() {
     g.attr("transform", d3.event.transform);
     tooltip.style("visibility", "hidden");
