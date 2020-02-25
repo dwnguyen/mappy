@@ -46,6 +46,12 @@
                 {{/each}}
             </select>
             <br>
+            <p style="text-align: center;">Select Version</p>
+            <select id="version" class="custom-select-lg center-block" required>
+                <option>A</option>
+                <option>B</option>
+            </select>
+            <br>
             <a id='gotomap'><button onclick="setGate()" class="center-block">Map Me!</button></a>
             <!--<button type="button" class="btn center-block">Map Me!</button>-->
             </div>
@@ -73,6 +79,7 @@
     function setGate(){
         var startGate = $("#start").val();
         var endGate =$("#end").val();
+        var version = $("#version").val();
         var linkStr = "";
         //var linkStr = "/map" + '/'+ startGate + '/' + endGate;
         var empty = "";
@@ -86,7 +93,7 @@
             alert("please select a gate");
         }
         else {
-            linkStr = "/map" + '/'+ startGate + '/' + endGate;
+            linkStr = "/map" + '/'+ startGate + '/' + endGate + '/' + version;
              $("#gotomap").attr("href", linkStr);
         }
     }
