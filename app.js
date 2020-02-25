@@ -43,7 +43,6 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/directions/:startNodes/:endNodes', directions.view);
-app.get('/directions/:startNodes/:endNodes/:version', directions.view);
 app.get('/stores/:storeType', stores.view);
 app.get('/stores/:storeType/:startNodes/:endNodes', stores.view);
 app.get('/directions/:startNodes/:endNodes/:version', directions.view);
@@ -51,6 +50,7 @@ app.get('/login', login.view);
 // Example route
 // app.get('/users', user.list);
 app.get('/map/:startNodes/:endNodes', map.view);
+app.get('/map/:startNodes/:endNodes/:version', map.view);
 app.get('/map/:startNodes', map.view);
 app.get('/map', map.view);
 http.createServer(app).listen(app.get('port'), function () {
