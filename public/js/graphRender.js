@@ -21,15 +21,6 @@ var minX = Number.MAX_SAFE_INTEGER;
 var maxY = -1;
 var minY = Number.MAX_SAFE_INTEGER;
 console.log(data)
-if (JSON.stringify(data) != JSON.stringify({})) {
-    renderGraph(data);
-    $("#restaurants").attr("href", "/restaurants/" + startNodes + "/" + endNodes);
-    $("#rest").attr("href", "/rest/" + startNodes + "/" + endNodes);
-    $("#shops").attr("href", "/shops/" + startNodes + "/" + endNodes);
-}
-else {
-    data = {}
-}
 
 function renderGraph(data) {
 
