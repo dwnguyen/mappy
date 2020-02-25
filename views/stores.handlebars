@@ -16,7 +16,6 @@
 
 	<!-- Stylesheet -->
 	<link href="/css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,25 +36,23 @@
 			</a>
 		</div>
 
-	</div>
+	
 	{{#each stores}}
 	<div class="row shop-card">
-		<div class="col-xs-4">
+		<div class="col-xs-4 card-img">
 			<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
 		</div>
-		<div class="col-xs-8">
+		<div class="col-xs-5 card-text">
 			<h3 class="card-title">{{name}}</h3>
 			<p class="card-content">Hours: {{hours}}</p>
 		</div>
-		<div class="col-xs-10">
-		</div>
-		<div id="mySidenav" class="col-xs-2">
-			<a class="rLink" id="{{id}}" href="/map" class="w3-button w3-red">Add Stop</a>
+		<div class="col-xs-3 card-btn">
+			<button class="add-btn"><a class="rLink" id="{{id}}" href="/map">Add Stop</a></button>
 		</div>
 	</div>
 	{{/each}}
 
-
+	</div>
 	</div>
 	<script>
 		if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {

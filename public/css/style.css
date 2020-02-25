@@ -206,25 +206,39 @@
 .shop-card {
      background-color:white;
      padding: 16px;
-     margin: 0px;
-     border-style: outset;
-     border-width: 1px;
+     margin: 10px;
+     /*box-shadow: 2px 2px 5px gray;*/
+     border-width: 0.5px;
      border-radius: 0px;
 }
 
-.card-add-btn{
+.card-img{
+     padding-left: 0px;
+     padding-right: 15px;
+}
+
+.card-text{
+     padding: 0px;
+}
+
+.card-btn{
+     padding-right: 0px;
+     padding-left: 15px;
+     margin-top: 35px;
+}
+
+.add-btn{
      color: white;
-     text-transform: lowercase;
      text-decoration: none;
      background: #F76D6D;
-     border-radius: 5px;
-     padding: 20px;
+     /*border-radius: 5px;*/
+     border-style: none;
+     padding: 5px;
      display: inline-block;
 }
 
-#mySidenav{
-     background: #F76D6D;
-     padding: 2px;
+.rLink{
+     color: white;
 }
 
 .card-title{
