@@ -4,9 +4,10 @@ var startGate = startNodeArray[0]
 var endNodeArray = endNodes.split("+")
 var endIndex = endNodeArray.length - 1
 var endGate = endNodeArray[endIndex]
-$("#optnS" + startGate).attr("selected", "selected");
-$("#optnE" + endGate).attr("selected", "selected");
+$("#start").val(startGate);
+$("#end").val(endGate);
 $("select").attr("onmousedown","if(this.options.length>6){this.size=4;}")
+
 function reroute() {
     var newStart = $("#start").val();
     var newEnd = $("#end").val();
