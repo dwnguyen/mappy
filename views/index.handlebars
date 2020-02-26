@@ -72,37 +72,24 @@
     </div>
     <script>
 
-    $("select.startgate").change(setLink);
-    $("select.endgate").change(setLink);
-    function setLink(){
-        var startGate = $("#start").val();
-        var endGate =$("#end").val();
-
-        if (startGate===endGate){
-            linkStr = "/";
-            alert("please select different gates");
-        }
-
-    }
 
     function setGate(){
         var startGate = $("#start").val();
         var endGate =$("#end").val();
         var version = $("#version").val();
-        var linkStr = "";
-        //var linkStr = "/map" + '/'+ startGate + '/' + endGate;
-        var empty = "";
-
+        
         if (startGate==="Select Current Location"){
-            linkStr = "/";
-            alert("please select a gate");
+            alert("Please select a starting gate.");
         }
         else if (endGate==="Select Destination Gate"){
-            linkStr = "/";
-            alert("please select a gate");
+            alert("Please select a destination gate.");
+        }
+        else if (startGate===endGate){
+            alert("Please select two different gates.");
         }
         else {
-            linkStr = "/map" + '/'+ startGate + '/' + endGate + '/' + version;
+            var linkStr = "/map" + '/'+ startGate + '/' + endGate + '/' + version;
+
              $("#gotomap").attr("href", linkStr);
         }
     }
