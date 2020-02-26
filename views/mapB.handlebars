@@ -7,6 +7,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -37,20 +39,20 @@
 	<div class="bottom-navbar">
 		<div class="row">
 			<div class="col-xs-10">
-				<h4 class="rerouting-text no-top-m"><strong>Start Gate</strong></h4>
+				<h4 class="gate-title no-top-m"><strong>Start Gate</strong></h4>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-2 no-right-padding">
-				<img class="img-responsive" src="/images/pinStart.svg">
-			</div>
-			<div class="col-xs-10">
-				<select id="start" class="custom-select-lg startgate">
-					{{#each gates}}
-					<option value="{{id}}" id="optnS{{id}}">{{name}}</option>
-					{{/each}}
-				</select>
-			</div>
+		<div class="col-xs-2 no-right-padding">
+			<img class="img-responsive" src="/images/pinStart_noText.svg">
+		</div>
+		<div class="col-xs-10">
+		<select id="start" class="custom-select-lg startgate">
+			{{#each gates}}
+			<option value="{{id}}" id="optnS{{id}}">{{name}}</option>
+			{{/each}}
+		</select>
+		</div>
 		</div>
 
 		<div id="stops">
@@ -58,36 +60,37 @@
 
 		<div class="row">
 			<div class="col-xs-12">
-				<h4 class="rerouting-text no-top-m"><strong>End Gate</strong></h4>
+				<h4 class="gate-title no-top-m"><strong>End Gate</strong></h4>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-2 no-right-padding">
-				<img class="img-responsive" src="/images/pinEnd.svg">
-			</div>
-			<div class="col-xs-10">
-				<select id="end" class="custom-select-lg endgate">
-					{{#each gates}}
-					<option value="{{id}}" id="optnE{{id}}">{{name}}</option>
-					{{/each}}
-				</select>
-			</div>
+		<div class="col-xs-2 no-right-padding">
+			<img class="img-responsive" src="/images/pinEnd_noText.svg">
 		</div>
+		<div class="col-xs-10">
+		<select id="end" class="custom-select-lg endgate">
+			{{#each gates}}
+			<option value="{{id}}" id="optnE{{id}}">{{name}}</option>
+			{{/each}}
+		</select>
+		</div>
+		</div>
+		<br>
 		<div class="row">
 			<div class="col-xs-6">
-				<button id="dialog-link" class="ui-button ui-corner-all ui-widget center-block">
+				<button type="button" id="dialog-link" class="btn btn-outline-secondary ui-button ui-corner-all ui-widget center-block">
 					<h4>Add Stop</h4>
 				</button>
 				<div id="dialog" title="Explore SAN">
 					<p>Add a stop to your route.</p>
-					<a id="restaurants"><button>Eat</button></a>
-					<a id="shops"><button>Shop</button></a>
-					<a id="rest"><button>Rest</button></a>
+					<a id="restaurants"><button type="button" class="btn btn-outline-secondary eat-btn">Eat</button></a>
+					<a id="shops"><button type="button" class="btn btn-outline-secondary shop-btn">Shop</button></a>
+					<a id="rest"><button type="button" class="btn btn-outline-secondary rest-btn">Rest</button></a>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<a href="/directions/Gate49+Phil’sBBQ/Phil’sBBQ+Gate39/B">
-					<button id="route" class="ui-button ui-corner-all ui-widget center-block">
+					<button type="button" id="route" class="btn btn-outline-secondary ui-button ui-corner-all ui-widget center-block">
 						<h4>Route Me</h4>
 					</button>
 				</a>
@@ -118,7 +121,7 @@
 	<script src="/js/map.js"></script>
 	<script>
 
-		var maxY = $(".bottom-navbar").position().top - 15;
+		var maxY = $(".bottom-navbar").position().top;
 		var maxX = $(window).width()
 		console.log(`maxY = ${maxY})`)
 		$('svg').attr("height", `${maxY}`)

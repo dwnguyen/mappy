@@ -97,7 +97,7 @@
 
 /*Login Screen*/
 .login-logo{
-     padding-top: 50%;
+     padding-top: 30%;
      padding-left: 45px;
 }
 
@@ -105,9 +105,10 @@
 .bottom-navbar{
      width:100vw;
      position: absolute;
-     bottom: 15px;
-     padding-left: 15px;
-     padding-right: 15px;
+     bottom: 0px;
+     padding:15px;
+     background-color: white;
+     box-shadow: 2px 4px 10px gray;;
 }
 
 .custom-select-lg{
@@ -145,6 +146,22 @@
      border-radius: .5em;
      border: 1px solid #aaa;
 
+}
+
+.gate-title{
+     margin-bottom: 5px;
+}
+
+.eat-btn{
+     background-color: #F76D6D;
+}
+
+.shop-btn{
+     background-color: #F7E9A0;
+}
+
+.rest-btn{
+     background-color: #A8D1E7;
 }
 
 /*JQuery UI Dialog*/

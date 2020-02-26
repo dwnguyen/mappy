@@ -36,7 +36,7 @@ if(version=="B" && startNodeArray.length > 1 && endNodeArray.length > 1){
 }
 for (var i = 0; i < endNodeArray.length - 1; i++) {
     if (version=="B") {
-        $("#stops").append('<div class="row"><div class="col-xs-2 no-right-padding"><img class="img-responsive" src="/images/pinStop.svg"></div>'+
+        $("#stops").append('<div class="row"><div class="col-xs-2 no-right-padding"><img class="img-responsive" src="/images/pinStop_noText.svg"></div>'+
         '<div class="col-xs-10"><h4 class="stop-item-B" id="' + endNodeArray[i] + '">' 
         + endNodeArray[i] + '<a id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></a></h4></div></div>');
     }

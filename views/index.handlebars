@@ -54,19 +54,18 @@
                     {{/each}}
                 </select>
                 <br>
-                <p style="text-align: center;">Select Version</p>
+                <h4 style="text-align: center;">Select Version</h4>
                 <select id="version" class="custom-select-lg center-block" required>
                     <option>A</option>
                     <option>B</option>
                 </select>
                 <br>
-                <a id='gotomap'><button onclick="setGate()" class="center-block">Map Me!</button></a>
+                <a id='gotomap'><button type="button" onclick="setGate()" class="btn btn-outline-secondary center-block">Map Me!</button></a>
                 <!--<button type="button" class="btn center-block">Map Me!</button>-->
             </div>
             <br>
             <p class="text-muted text-center">OR</p>
-            <br>
-            <a href="/login"><button class="center-block">
+            <a href="/login"><button type="button" class="btn btn-outline-secondary center-block">
                     <h4>Login with Expedia</h4>
                 </button></a>
         </div>
