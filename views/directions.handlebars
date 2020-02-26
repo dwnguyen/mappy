@@ -31,47 +31,54 @@
 			<p class="rerouting-text">Gate 49</p>
 			<p class="rerouting-text">--------------</p>
 			<div id="stops">
-				<p class="stop-item"><strong>Phil's BBQ</strong></p>
 			</div>
 			<p class="rerouting-text">--------------</p>
-			<p class="rerouting-text"><strong>End Gate:</strong></p> 
-            <p class="rerouting-text">Gate 39</p>
+			<p class="rerouting-text"><strong>End Gate:</strong></p>
+			<p class="rerouting-text">Gate 39</p>
 		</div>
 
-		
 
-			<div class="btn-container center-block">
+
+		<div class="btn-container center-block">
 			<h3>Directions:</h3>
 			{{#each directions.directions}}
 			<div class="step-item">
-				<h4>{{direction}} {{context}} <img id="{{direction}}"+"-"+"{{id}}" class="step-img img-responsive"></h4>	
+				<h4>{{direction}} {{context}} <img id="{{direction}}" +"-"+"{{id}}" class="step-img img-responsive">
+				</h4>
 			</div>
 			{{/each}}
 		</div>
 
-		<script>
-			var directionData = {{{ directions.stringify }}}
-			$(".step-img").each(function(){
-				var curDir = this.id.split("-")[0]
-				this.src = directionData.directionsKey[curDir]
-			})
-		</script>
 
 
 
-		{{> mapSVG}}	
+		{{> mapSVG}}
 
 	</div>
-	
-	
+
+
+	<script>
+		var directionData = {{{ directions.stringify }}}
+	</script>
+	<script>
+		var version = "{{version}}"
+		$(".step-img").each(function () {
+			var curDir = this.id.split("-")[0]
+			this.src = directionData.directionsKey[curDir]
+		})
+		if (version != "") {
+			$("#back").attr("href", "/map/{{startNodes}}/{{endNodes}}/" + version)
+		}
+	</script>
 	<script src="/js/graphRender.js"></script>
-	
+
 	<script>
 		var data = {{{ data.stringify }}};
 		var startNodes = "{{startNodes}}";
 		var endNodes = "{{endNodes}}";
 	</script>
 	<script src="/js/map.js"></script>
+	<script>$("#deletePhil’sBBQ-0").remove()</script>
 </body>
 
 </html>

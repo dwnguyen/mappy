@@ -17,6 +17,7 @@ exports.view = function (req, res) {
   var addedNodes = {};
   var startNodes = req.params.startNodes;
   var endNodes = req.params.endNodes;
+  var version = req.params.version;
   console.log(startNodes);
   console.log(endNodes);
   if (startNodes != undefined && endNodes != undefined) {
@@ -66,9 +67,6 @@ exports.view = function (req, res) {
     }
 
   }
-  else {
-    testGraph(data);
-  }
   data.stringify = JSON.stringify(data);
   directions.stringify = JSON.stringify(directions);
   res.render('directions', {
@@ -76,7 +74,8 @@ exports.view = function (req, res) {
     'startNodes': startNodes,
     'endNodes': endNodes,
     'gates': gates,
-    'directions': directions
+    'directions': directions,
+    'version':version
   });
 };
 
@@ -111,19 +110,4 @@ function findShortestPath(startNode, endNode, data, route, addedNodes) {
   console.log(data);
   return data;
 
-}
-
-function testGraph(data) {
-  data.nodes = nodes;
-  newEdges = [];
-  for (i in nodes) {
-    node = nodes[i]
-    for (targetID in node.JSON_edges) {
-      var newEdge = {};
-      newEdge.source = node.id;
-      newEdge.target = targetID;
-      newEdges.push(newEdge);
-    }
-  }
-  data.edges = newEdges;
 }

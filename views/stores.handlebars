@@ -28,6 +28,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 </head>
+
 <body>
 	<div class="container {{storeType}}-bg">
 		<div class="back-btn">
@@ -36,29 +37,31 @@
 			</a>
 		</div>
 
-	
-	{{#each stores}}
-	<div class="row shop-card">
-		<div class="col-xs-4 card-img">
-			<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
+
+		{{#each stores}}
+		<div class="row shop-card">
+			<div class="col-xs-4 card-img">
+				<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
+			</div>
+			<div class="col-xs-5 card-text">
+				<h3 class="card-title">{{name}}</h3>
+				<p class="card-content">Hours: {{hours}}</p>
+			</div>
+			<div class="col-xs-3 card-btn">
+				<button class="add-btn"><a class="rLink" id="{{id}}" href="/map">Add Stop</a></button>
+			</div>
 		</div>
-		<div class="col-xs-5 card-text">
-			<h3 class="card-title">{{name}}</h3>
-			<p class="card-content">Hours: {{hours}}</p>
-		</div>
-		<div class="col-xs-3 card-btn">
-			<button class="add-btn"><a class="rLink" id="{{id}}" href="/map">Add Stop</a></button>
-		</div>
-	</div>
-	{{/each}}
+		{{/each}}
 
 	</div>
 	</div>
 	<script>
+		var version = "{{version}}"
 		if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
-			$("#back").attr("href", "/map/{{startNodes}}/{{endNodes}}");
+			var backString = "/map/{{startNodes}}/{{endNodes}}"
+			if (version != "") backString += "/" + version
+			$("#back").attr("href", backString);
 			$(".rLink").each(function () {
-				var version = "{{version}}"
 				var endNodesStr = "{{endNodes}}"
 				var index = endNodesStr.lastIndexOf("+");
 				var leftStr = endNodesStr.substring(0, index);
@@ -68,7 +71,7 @@
 				console.log(leftStr)
 				console.log(rightStr)
 				console.log(index)
-				if(version != ""){
+				if (version != "") {
 					combStr += "/" + version
 				}
 				var linkStr = '/map/{{startNodes}}+' + this.id + '/' + combStr;

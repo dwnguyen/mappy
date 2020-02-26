@@ -10,11 +10,8 @@
     <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        
-    </script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
     <!-- this is a comment in HTML -->
 
@@ -25,14 +22,16 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-158806082-2', 'auto');
-    ga('send', 'pageview');
-</script>
+        ga('create', 'UA-158806082-2', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -41,58 +40,57 @@
             <img class="img-responsive login-logo center-block" src="/images/mappy_logo.svg">
             <br>
             <div action="/map" class="form" method="get" id="frm">
-            <select id="start" class="custom-select-lg center-block startgate" required>
-                <option>Select Current Location</option>
-                {{#each gates}}
-                <option value="{{id}}">{{name}}</option>
-                {{/each}}
-            </select>
-            <br>
-            <select id="end" class="custom-select-lg center-block endgate" required>
-                <option>Select Destination Gate</option>
-                {{#each gates}}
-                <option value="{{id}}">{{name}}</option>
-                {{/each}}
-            </select>
-            <br>
-            <p style="text-align: center;">Select Version</p>
-            <select id="version" class="custom-select-lg center-block" required>
-                <option>A</option>
-                <option>B</option>
-            </select>
-            <br>
-            <a id='gotomap'><button onclick="setGate()" class="center-block">Map Me!</button></a>
-            <!--<button type="button" class="btn center-block">Map Me!</button>-->
+                <select id="start" class="custom-select-lg center-block startgate" required>
+                    <option>Select Current Location</option>
+                    {{#each gates}}
+                    <option value="{{id}}">{{name}}</option>
+                    {{/each}}
+                </select>
+                <br>
+                <select id="end" class="custom-select-lg center-block endgate" required>
+                    <option>Select Destination Gate</option>
+                    {{#each gates}}
+                    <option value="{{id}}">{{name}}</option>
+                    {{/each}}
+                </select>
+                <br>
+                <p style="text-align: center;">Select Version</p>
+                <select id="version" class="custom-select-lg center-block" required>
+                    <option>A</option>
+                    <option>B</option>
+                </select>
+                <br>
+                <a id='gotomap'><button onclick="setGate()" class="center-block">Map Me!</button></a>
+                <!--<button type="button" class="btn center-block">Map Me!</button>-->
             </div>
             <br>
             <p class="text-muted text-center">OR</p>
             <br>
-            <a href="/login"><button class="center-block"><h4>Login with Expedia</h4></button></a>
+            <a href="/login"><button class="center-block">
+                    <h4>Login with Expedia</h4>
+                </button></a>
         </div>
     </div>
     <script>
+        function setGate() {
+            var startGate = $("#start").val();
+            var endGate = $("#end").val();
+            var version = $("#version").val();
 
+            if (startGate === "Select Current Location") {
+                alert("Please select a starting gate.");
+            }
+            else if (endGate === "Select Destination Gate") {
+                alert("Please select a destination gate.");
+            }
+            else if (startGate === endGate) {
+                alert("Please select two different gates.");
+            }
+            else {
+                var linkStr = "/map" + '/' + startGate + '/' + endGate + '/' + version;
 
-    function setGate(){
-        var startGate = $("#start").val();
-        var endGate =$("#end").val();
-        var version = $("#version").val();
-        
-        if (startGate==="Select Current Location"){
-            alert("Please select a starting gate.");
+                $("#gotomap").attr("href", linkStr);
+            }
         }
-        else if (endGate==="Select Destination Gate"){
-            alert("Please select a destination gate.");
-        }
-        else if (startGate===endGate){
-            alert("Please select two different gates.");
-        }
-        else {
-            var linkStr = "/map" + '/'+ startGate + '/' + endGate + '/' + version;
-
-             $("#gotomap").attr("href", linkStr);
-        }
-    }
     </script>
 </body>
-
