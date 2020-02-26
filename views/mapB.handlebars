@@ -6,10 +6,19 @@
 	<title>Mappy</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 	<link href="/css/style.css" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
 	<!-- this is a comment in HTML -->
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,7 +31,7 @@
 
 <body>
 	<div class="container">
-		<div class="rerouting-container">
+		<!--<div class="rerouting-container">
 			<p class="rerouting-text"><strong>Start Gate</strong></p>
 			<select id="start" class="custom-select-lg startgate" onmousedown="if(this.options.length>6){this.size=6;}">
 				{{#each gates}}
@@ -61,36 +70,82 @@
 				<muted>Scroll to zoom, drag to pan</muted>
 			</p>
 
-		</div>
-
-		<div class="btn-container center-block">
-			<h3 class="optn-text">Add A Stop</h3>
-			<div class="shop-optn" href="/shops">
-				<a id="shops">
-					<h4 class="optn-text"> Shop <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
-				</a>
-			</div>
-			<div class="eat-optn" href="/restaurants">
-				<a id="restaurants">
-					<h4 class="optn-text"> Eat <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
-				</a>
-			</div>
-			<div class="rest-optn" href="/rest">
-				<a id="rest">
-					<h4 class="optn-text"> Rest <span style="float: right; margin-right: 15px">&rsaquo;</span></h4>
-				</a>
-			</div>
-			<div class="br-btn">
-				<h3 class="optn-text" style="padding-left: 5px; padding-right: 5px;"><strong><a
-							href="/directions/Gate49+Phil’sBBQ/Phil’sBBQ+Gate39/B">Start Routing</a></strong></h3>
-			</div>
-		</div>
+		</div>-->
 
 		{{> mapSVG}}
 
 
 	</div>
-	<script src="https://code.jquery.com/jquery.js"></script>
+	<div class="bottom-navbar">
+		<div class="row">
+		<div class="col-xs-10">
+		<h4 class="rerouting-text no-top-m"><strong>Start Gate</strong></h4>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-xs-2 no-right-padding">
+			<img class="img-responsive" src="/images/pinStart.svg">
+		</div>
+		<div class="col-xs-10">
+		<select id="start" class="custom-select-lg startgate">
+			{{#each gates}}
+			<option value="{{id}}" id="optnS{{id}}">{{name}}</option>
+			{{/each}}
+		</select>
+		</div>
+		</div>
+
+		<div id="stops">
+		</div>
+
+		<div class="row">
+		<div class="col-xs-12">
+		<h4 class="rerouting-text no-top-m"><strong>End Gate</strong></h4>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-xs-2 no-right-padding">
+			<img class="img-responsive" src="/images/pinEnd.svg">
+		</div>
+		<div class="col-xs-10">
+		<select id="end" class="custom-select-lg endgate">
+			{{#each gates}}
+			<option value="{{id}}" id="optnE{{id}}">{{name}}</option>
+			{{/each}}
+		</select>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<button id="dialog-link" class="ui-button ui-corner-all ui-widget center-block">
+					<h4>Add Stop</h4>
+				</button>
+				<div id="dialog" title="Explore SAN">
+					<p>Add a stop to your route.</p>
+					<a id="restaurants"><button>Eat</button></a>
+					<a id="shops"><button>Shop</button></a>
+					<a id="rest"><button>Rest</button></a>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<button id="route" class="ui-button ui-corner-all ui-widget center-block">
+					<h4>Route Me</h4>
+				</button>
+			</div>
+    	<script type="text/javascript">
+			$( "#dialog" ).dialog({
+				autoOpen: false,
+				width: 300,
+			});
+
+			$( "#dialog-link" ).click(function( event ) {
+				$( "#dialog" ).dialog( "open");
+				console.log("clicked");
+				event.preventDefault();
+			});
+   		 </script>
+		</div>
+	</div>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="/js/graphRender.js"></script>

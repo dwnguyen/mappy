@@ -6,7 +6,7 @@ var endIndex = endNodeArray.length - 1
 var endGate = endNodeArray[endIndex]
 $("#optnS" + startGate).attr("selected", "selected");
 $("#optnE" + endGate).attr("selected", "selected");
-
+$("select").attr("onmousedown","if(this.options.length>6){this.size=4;}")
 function reroute() {
     var newStart = $("#start").val();
     var newEnd = $("#end").val();
@@ -31,11 +31,25 @@ function reroute() {
 
 }
 
+if(version=="B" && startNodeArray.length > 1 && endNodeArray.length > 1){
+    $("#stops").append('<div class="row"><div class="col-xs-10"><h4 class="rerouting-text no-top-m"><strong>Stops</strong></h4></div>')
+}
 for (var i = 0; i < endNodeArray.length - 1; i++) {
-    $("#stops").append('<p class="stop-item" id="' + endNodeArray[i] + '"><strong>' + endNodeArray[i] +
-        '<a id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></strong></p>');
+    if (version=="B") {
+        $("#stops").append('<div class="row"><div class="col-xs-2 no-right-padding"><img class="img-responsive" src="/images/pinStop.svg"></div>'+
+        '<div class="col-xs-10"><h4 class="stop-item-B" id="' + endNodeArray[i] + '">' 
+        + endNodeArray[i] + '<a id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></a></h4></div></div>');
+    }
+    if (version=="A") {
+        $("#stops").append('<p class="stop-item" id="' + endNodeArray[i] + '">' + endNodeArray[i] +
+        '<a id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></p>');
+    }
 
     $("#delete" + endNodeArray[i] + '-' + i).click(removeStop);
+}
+
+if(version=="B" && startNodeArray.length > 2 && endNodeArray.length > 2){
+    $("#stops").addClass("scrollable");
 }
 
 $("select.startgate").change(reroute);
