@@ -178,6 +178,7 @@
      padding: 5px;
      margin-top: 15px;
      box-shadow: 2px 4px 10px gray;
+     z-index: 1000;
 }
 .legend-container{
      position: absolute;

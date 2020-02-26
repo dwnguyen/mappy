@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-	
+
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 
@@ -30,90 +30,48 @@
 </head>
 
 <body>
-	<div class="container">
-		<!--<div class="rerouting-container">
-			<p class="rerouting-text"><strong>Start Gate</strong></p>
-			<select id="start" class="custom-select-lg startgate" onmousedown="if(this.options.length>6){this.size=6;}">
-				{{#each gates}}
-				<option value="{{id}}" id="optnS{{id}}">{{name}}</option>
-				{{/each}}
-			</select>
 
-			<div id="stops">
-			</div>
-
-			<p class="rerouting-text"><strong>End Gate</strong></p>
-			<select id="end" class="custom-select-lg endgate" onmousedown="if(this.options.length>6){this.size=6;}">
-				{{#each gates}}
-				<option value="{{id}}" id="optnE{{id}}">{{name}}</option>
-				{{/each}}
-			</select>
-		</div>
-		<div class="legend-container">
-			<h4 class="legend-item"><strong>Legend</strong></h4>
-			<p class="legend-item">
-				<strong>Start Gate
-					<img class="legend-pin" src="/images/pinStart.svg">
-				</strong>
-			</p>
-			<p class="legend-item">
-				<strong>End Gate
-					<img class="legend-pin" src="/images/pinEnd.svg">
-				</strong>
-			</p>
-			<p class="legend-item">
-				<strong>Stop
-					<img class="legend-pin" src="/images/pinStop.svg">
-				</strong>
-			</p>
-			<p class="legend-item">
-				<muted>Scroll to zoom, drag to pan</muted>
-			</p>
-
-		</div>-->
-
-		{{> mapSVG}}
+	{{> mapSVG}}
 
 
-	</div>
 	<div class="bottom-navbar">
 		<div class="row">
-		<div class="col-xs-10">
-		<h4 class="rerouting-text no-top-m"><strong>Start Gate</strong></h4>
-		</div>
+			<div class="col-xs-10">
+				<h4 class="rerouting-text no-top-m"><strong>Start Gate</strong></h4>
+			</div>
 		</div>
 		<div class="row">
-		<div class="col-xs-2 no-right-padding">
-			<img class="img-responsive" src="/images/pinStart.svg">
-		</div>
-		<div class="col-xs-10">
-		<select id="start" class="custom-select-lg startgate">
-			{{#each gates}}
-			<option value="{{id}}" id="optnS{{id}}">{{name}}</option>
-			{{/each}}
-		</select>
-		</div>
+			<div class="col-xs-2 no-right-padding">
+				<img class="img-responsive" src="/images/pinStart.svg">
+			</div>
+			<div class="col-xs-10">
+				<select id="start" class="custom-select-lg startgate">
+					{{#each gates}}
+					<option value="{{id}}" id="optnS{{id}}">{{name}}</option>
+					{{/each}}
+				</select>
+			</div>
 		</div>
 
 		<div id="stops">
 		</div>
 
 		<div class="row">
-		<div class="col-xs-12">
-		<h4 class="rerouting-text no-top-m"><strong>End Gate</strong></h4>
-		</div>
+			<div class="col-xs-12">
+				<h4 class="rerouting-text no-top-m"><strong>End Gate</strong></h4>
+			</div>
 		</div>
 		<div class="row">
-		<div class="col-xs-2 no-right-padding">
-			<img class="img-responsive" src="/images/pinEnd.svg">
-		</div>
-		<div class="col-xs-10">
-		<select id="end" class="custom-select-lg endgate">
-			{{#each gates}}
-			<option value="{{id}}" id="optnE{{id}}">{{name}}</option>
-			{{/each}}
-		</select>
-		</div>
+			<div class="col-xs-2 no-right-padding">
+				<img class="img-responsive" src="/images/pinEnd.svg">
+			</div>
+			<div class="col-xs-10">
+				<select id="end" class="custom-select-lg endgate">
+					{{#each gates}}
+					<option value="{{id}}" id="optnE{{id}}">{{name}}</option>
+					{{/each}}
+				</select>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-6">
@@ -128,22 +86,24 @@
 				</div>
 			</div>
 			<div class="col-xs-6">
-				<button id="route" class="ui-button ui-corner-all ui-widget center-block">
-					<h4>Route Me</h4>
-				</button>
+				<a href="/directions/Gate49+Phil’sBBQ/Phil’sBBQ+Gate39/B">
+					<button id="route" class="ui-button ui-corner-all ui-widget center-block">
+						<h4>Route Me</h4>
+					</button>
+				</a>
 			</div>
-    	<script type="text/javascript">
-			$( "#dialog" ).dialog({
-				autoOpen: false,
-				width: 300,
-			});
+			<script type="text/javascript">
+				$("#dialog").dialog({
+					autoOpen: false,
+					width: 300,
+				});
 
-			$( "#dialog-link" ).click(function( event ) {
-				$( "#dialog" ).dialog( "open");
-				console.log("clicked");
-				event.preventDefault();
-			});
-   		 </script>
+				$("#dialog-link").click(function (event) {
+					$("#dialog").dialog("open");
+					console.log("clicked");
+					event.preventDefault();
+				});
+			</script>
 		</div>
 	</div>
 	<script src="/js/bootstrap.min.js"></script>
@@ -156,6 +116,15 @@
 		var version = "{{version}}"
 	</script>
 	<script src="/js/map.js"></script>
+	<script>
+
+		var maxY = $(".bottom-navbar").position().top - 15;
+		var maxX = $(window).width()
+		console.log(`maxY = ${maxY})`)
+		$('svg').attr("height", `${maxY}`)
+		$('svg').attr("width", `${maxX}`)
+
+	</script>
 
 </body>
 
