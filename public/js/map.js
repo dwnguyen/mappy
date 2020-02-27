@@ -11,6 +11,10 @@ $("select").attr("onmousedown","if(this.options.length>6){this.size=4;}")
 function reroute() {
     var newStart = $("#start").val();
     var newEnd = $("#end").val();
+    if(newStart == newEnd){
+        alert("Please select two different gates")
+        return
+    }
     startNodeArray[0] = newStart
     var startNodeString = "";
     for (var i = 0; i < startNodeArray.length; i++) {

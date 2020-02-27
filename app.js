@@ -41,7 +41,9 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/', index.view);
+app.get('/', index.viewB);
+app.get('/A', index.viewA);
+app.get('/B', index.viewB);
 app.get('/directions/:startNodes/:endNodes', directions.view);
 app.get('/stores/:storeType', stores.view);
 app.get('/stores/:storeType/:startNodes/:endNodes', stores.view);
