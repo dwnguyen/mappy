@@ -31,14 +31,24 @@
 
 <body>
 	<div class="container {{storeType}}-bg">
-		<div class="back-btn">
-			<a id="back" href="/map" class="w3-button w3-red">
-				<h5>Back</h5>
-			</a>
-		</div>
+		<div class="row top-bar">
+			<div class="col-xs-3 no-right-padding no-left-padding">
+				<div class="back-btn">
+					<a id="back" href="/map">
+						<button class="btn btn-outline-secondary">Back</button>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-9 no-left-padding no-right-padding">
+				<div class="search-bar">
+					<input type="text" id="seeker" placeholder='Search'>
+				</div>
+			</div>
+			</div>
 
-
-		{{#each stores}}
+	<div id="content">
+	</div>
+		<!--{{#each stores}}
 		<div class="row shop-card">
 			<div class="col-xs-4 card-img">
 				<img src="{{image}}" class="img-responsive vertical-align" alt="{{name}}">
@@ -51,11 +61,56 @@
 				<button class="add-btn"><a class="rLink" id="{{id}}" href="/map">Add Stop</a></button>
 			</div>
 		</div>
-		{{/each}}
+		{{/each}}-->
 
 	</div>
 	</div>
 	<script>
+		var stores = {{{ stores.stringify }}}
+		output = "";
+		$.each(stores, function(key, val){
+			output += "<div class='row shop-card'>";
+			output += "<div class='col-xs-4 card-img'>";
+				output += "<img src=" + val.image + " class='img-responsive vertical-align' alt=" + val.name + ">";
+			output += "</div>";
+			output += "<div class='col-xs-5 card-text'>"
+				output += "<h3 class='card-title'>" + val.name + "</h3>";
+			output += "</div>";
+			output += "<div class='col-xs-3 card-btn'>"
+				output += "<button class='add-btn'><a class='rLink' id=" + val.id + " href='/map'>Add Stop</a></button>";
+			output += "</div>";
+		output += "</div>";
+		});
+
+		$('#content').html(output);
+
+		/* SEEKER FUNCTION */
+		if (!RegExp.escape) {
+		RegExp.escape = function (s) {
+			return s.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&")
+		};
+		}
+		
+		jQuery(function(){
+		var $rows = $('.shop-card');
+		/*
+		$rows.each(function(){
+			console.log($(this).children(".card-text").text())
+		})
+		*/
+		$('#seeker').keyup(function () {
+			var regex =  new RegExp(RegExp.escape($.trim(this.value).replace(/\s+/g, ' ')).replace(/'/g, '’'), 'i')
+			console.log(regex)
+			$rows.hide().filter(function () {
+				var text = $(this).children(".card-text").text().replace(/\s+/g, ' ').replace(/'/g, '’');
+				console.log(text)
+				return regex.test(text)
+			}).show();
+		});
+		});
+
+
+
 		var version = "{{version}}"
 		if ("{{startNodes}}" != "" && "{{endNodes}}" != "") {
 			var backString = "/map/{{startNodes}}/{{endNodes}}"
@@ -79,7 +134,6 @@
 				$(id).attr('href', linkStr);
 			})
 		}
-
 
 		$(".rLink").click(function () {
 			alert("Adding a stop")

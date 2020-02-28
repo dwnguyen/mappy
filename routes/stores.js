@@ -9,6 +9,7 @@ exports.view = function (req, res) {
     var node = nodes[i]
     if (node.category === storeType) stores.push(node);
   }
+  stores.stringify = JSON.stringify(stores);
   res.render("stores", {
     'stores': stores,
     'storeType': storeType,
