@@ -88,7 +88,7 @@ function reroute() {
 }
 
 function removeStop() {
-    ga("send", "event", `button${version}`, "delete");
+    ga("send", "event", `button${version}`, "delete stop");
     idArray = this.id.split('-')
     var endNodesIndex = parseInt(idArray[idArray.length - 1], 10);
     var startNodesIndex = endNodesIndex + 1
