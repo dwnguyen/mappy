@@ -6,12 +6,63 @@ var endIndex = endNodeArray.length - 1
 var endGate = endNodeArray[endIndex]
 $("#start").val(startGate);
 $("#end").val(endGate);
-$("select").attr("onmousedown","if(this.options.length>6){this.size=4;}")
+$("select").attr("onmousedown", "if(this.options.length>6){this.size=4;}")
+$("select.startgate").change(reroute);
+$("select.endgate").change(reroute);
+$("#routeBtn").click(function(){
+    ga("send", "event", `button${version}`, "route");
+})
+
+
+if (version == "B" && startNodeArray.length > 1 && endNodeArray.length > 1) {
+    $("#stops").append('<div class="row"><div class="col-xs-10"><h4 class="rerouting-text no-top-m"><strong>Stops</strong></h4></div>')
+}
+for (var i = 0; i < endNodeArray.length - 1; i++) {
+    if (version == "B") {
+        $("#stops").append('<div class="row"><div class="col-xs-2 no-right-padding"><img class="img-responsive" src="/images/pinStop_noText.svg"></div>' +
+            '<div class="col-xs-10"><h4 class="stop-item-B" id="' + endNodeArray[i] + '">'
+            + endNodeArray[i] + '<a class="deleteButton" id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></a></h4></div></div>');
+    }
+    if (version == "A") {
+        $("#stops").append('<p class="stop-item" id="' + endNodeArray[i] + '">' + endNodeArray[i] +
+            '<a class="deleteButton" id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></p>');
+    }
+
+    $("#delete" + endNodeArray[i] + '-' + i).click(removeStop);
+}
+
+if (version == "B" && startNodeArray.length > 2 && endNodeArray.length > 2) {
+    $("#stops").addClass("scrollable");
+}
+
+if (JSON.stringify(data) != JSON.stringify({})) {
+    renderGraph(data);
+    nodesStr = startNodes + "/" + endNodes
+    if (version != "") {
+        nodesStr += "/" + version
+    }
+    $("#restaurants").attr("href", "/stores/food/" + nodesStr)
+        .click(function () {
+            ga("send", "event", `button${version}`, "addRestaurant");
+        });
+    $("#rest").attr("href", "/stores/rest/" + nodesStr)
+        .click(function () {
+            ga("send", "event", `button${version}`, "addRest");
+        });
+    $("#shops").attr("href", "/stores/shop/" + nodesStr)
+        .click(function () {
+            ga("send", "event", `button${version}`, "addShop");
+        });
+}
+else {
+    data = {}
+}
 
 function reroute() {
+    ga("send", "event", `button${version}`, "change gate");
     var newStart = $("#start").val();
     var newEnd = $("#end").val();
-    if(newStart == newEnd){
+    if (newStart == newEnd) {
         alert("Please select two different gates")
         return
     }
@@ -30,37 +81,14 @@ function reroute() {
     }
     endNodeString = endNodeString.substr(0, endNodeString.length - 1);
     console.log(endNodeString)
-    if(version !="") endNodeString+="/"+ version
+    if (version != "") endNodeString += "/" + version
     var linkStr = "/map" + '/' + startNodeString + '/' + endNodeString;
     window.location.href = linkStr;
 
 }
 
-if(version=="B" && startNodeArray.length > 1 && endNodeArray.length > 1){
-    $("#stops").append('<div class="row"><div class="col-xs-10"><h4 class="rerouting-text no-top-m"><strong>Stops</strong></h4></div>')
-}
-for (var i = 0; i < endNodeArray.length - 1; i++) {
-    if (version=="B") {
-        $("#stops").append('<div class="row"><div class="col-xs-2 no-right-padding"><img class="img-responsive" src="/images/pinStop_noText.svg"></div>'+
-        '<div class="col-xs-10"><h4 class="stop-item-B" id="' + endNodeArray[i] + '">' 
-        + endNodeArray[i] + '<a id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></a></h4></div></div>');
-    }
-    if (version=="A") {
-        $("#stops").append('<p class="stop-item" id="' + endNodeArray[i] + '">' + endNodeArray[i] +
-        '<a id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></p>');
-    }
-
-    $("#delete" + endNodeArray[i] + '-' + i).click(removeStop);
-}
-
-if(version=="B" && startNodeArray.length > 2 && endNodeArray.length > 2){
-    $("#stops").addClass("scrollable");
-}
-
-$("select.startgate").change(reroute);
-$("select.endgate").change(reroute);
-
 function removeStop() {
+    ga("send", "event", `button${version}`, "delete");
     idArray = this.id.split('-')
     var endNodesIndex = parseInt(idArray[idArray.length - 1], 10);
     var startNodesIndex = endNodesIndex + 1
@@ -86,20 +114,7 @@ function removeStop() {
         endNodeString += endNodeArray[j] + "+";
     }
     endNodeString = endNodeString.substr(0, endNodeString.length - 1);
-    if(version !="") endNodeString+="/"+ version
+    if (version != "") endNodeString += "/" + version
     var linkStr = "/map" + '/' + startNodeString + '/' + endNodeString;
     window.location.href = linkStr;
-}
-if (JSON.stringify(data) != JSON.stringify({})) {
-    renderGraph(data);
-    nodesStr = startNodes + "/" + endNodes 
-    if(version != ""){
-        nodesStr+="/"+version
-    }
-    $("#restaurants").attr("href", "/stores/food/" + nodesStr);
-    $("#rest").attr("href", "/stores/rest/" + nodesStr);
-    $("#shops").attr("href", "/stores/shop/" + nodesStr);
-}
-else {
-    data = {}
 }
