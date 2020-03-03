@@ -153,6 +153,8 @@ function zoomToBox(minX, minY,maxX,maxY,zoom){
 
 }
 function zoomed() {
+    console.log("zooming")
+    ga("send", "event", `${version}`, "zoomed");
     g.attr("transform", d3.event.transform);
     tooltip.style("visibility", "hidden");
 }

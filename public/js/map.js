@@ -11,6 +11,9 @@ $("select.startgate").change(reroute);
 $("select.endgate").change(reroute);
 $("#routeBtn").click(function(){
     ga("send", "event", `${version}`, "route");
+    if(startNodes === "Gate49+Phil’sBBQ" && endNodes ==="Phil’sBBQ+Gate39"){
+        ga("send", "event", `${version}`, "correctly route");
+    }
 })
 
 
