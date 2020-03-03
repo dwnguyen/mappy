@@ -10,7 +10,7 @@ $("select").attr("onmousedown", "if(this.options.length>6){this.size=4;}")
 $("select.startgate").change(reroute);
 $("select.endgate").change(reroute);
 $("#routeBtn").click(function(){
-    ga("send", "event", `button${version}`, "route");
+    ga("send", "event", `${version}`, "route");
 })
 
 
@@ -43,15 +43,15 @@ if (JSON.stringify(data) != JSON.stringify({})) {
     }
     $("#restaurants").attr("href", "/stores/food/" + nodesStr)
         .click(function () {
-            ga("send", "event", `button${version}`, "addRestaurant");
+            ga("send", "event", `${version}`, "addRestaurant");
         });
     $("#rest").attr("href", "/stores/rest/" + nodesStr)
         .click(function () {
-            ga("send", "event", `button${version}`, "addRest");
+            ga("send", "event", `${version}`, "addRest");
         });
     $("#shops").attr("href", "/stores/shop/" + nodesStr)
         .click(function () {
-            ga("send", "event", `button${version}`, "addShop");
+            ga("send", "event", `${version}`, "addShop");
         });
 }
 else {
@@ -59,7 +59,7 @@ else {
 }
 
 function reroute() {
-    ga("send", "event", `button${version}`, "change gate");
+    ga("send", "event", `${version}`, "change gate");
     var newStart = $("#start").val();
     var newEnd = $("#end").val();
     if (newStart == newEnd) {
@@ -88,7 +88,7 @@ function reroute() {
 }
 
 function removeStop() {
-    ga("send", "event", `button${version}`, "delete stop");
+    ga("send", "event", `${version}`, "delete stop");
     idArray = this.id.split('-')
     var endNodesIndex = parseInt(idArray[idArray.length - 1], 10);
     var startNodesIndex = endNodesIndex + 1
