@@ -17,16 +17,16 @@ $("#routeBtn").click(function(){
 })
 
 
-if (version == "B" && startNodeArray.length > 1 && endNodeArray.length > 1) {
+if (version!="A" && startNodeArray.length > 1 && endNodeArray.length > 1) {
     $("#stops").append('<div class="row"><div class="col-xs-10"><h4 class="rerouting-text no-top-m"><strong>Stops</strong></h4></div>')
 }
 for (var i = 0; i < endNodeArray.length - 1; i++) {
-    if (version == "B") {
+    if (version !="A") {
         $("#stops").append('<div class="row"><div class="col-xs-2 no-right-padding"><img class="img-responsive" src="/images/pinStop_noText.svg"></div>' +
             '<div class="col-xs-10"><h4 class="stop-item-B" id="' + endNodeArray[i] + '">'
             + endNodeArray[i] + '<a class="deleteButton" id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></a></h4></div></div>');
     }
-    if (version == "A") {
+    else {
         $("#stops").append('<p class="stop-item" id="' + endNodeArray[i] + '">' + endNodeArray[i] +
             '<a class="deleteButton" id="delete' + endNodeArray[i] + '-' + i + '"<span style="float: right; padding-left: 5px;">&times;</span></p>');
     }
@@ -34,7 +34,7 @@ for (var i = 0; i < endNodeArray.length - 1; i++) {
     $("#delete" + endNodeArray[i] + '-' + i).click(removeStop);
 }
 
-if (version == "B" && startNodeArray.length > 2 && endNodeArray.length > 2) {
+if (version !="A" && startNodeArray.length > 2 && endNodeArray.length > 2) {
     $("#stops").addClass("scrollable");
 }
 
