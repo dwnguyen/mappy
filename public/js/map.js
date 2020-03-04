@@ -1,4 +1,3 @@
-
 var startNodeArray = startNodes.split("+")
 var startGate = startNodeArray[0]
 var endNodeArray = endNodes.split("+")
@@ -10,9 +9,10 @@ $("select").attr("onmousedown", "if(this.options.length>6){this.size=4;}")
 $("select.startgate").change(reroute);
 $("select.endgate").change(reroute);
 $("#routeBtn").click(function(){
-    ga("send", "event", `${version}`, "route");
+    sendGAEvent("route")
     if(startNodes === "Gate49+Phil’sBBQ" && endNodes ==="Phil’sBBQ+Gate39"){
-        ga("send", "event", `${version}`, "correctly route");
+        sendGAEvent("correctly route")
+
     }
 })
 
@@ -39,22 +39,22 @@ if (version !="A" && startNodeArray.length > 2 && endNodeArray.length > 2) {
 }
 
 if (JSON.stringify(data) != JSON.stringify({})) {
-    renderGraph(data);
     nodesStr = startNodes + "/" + endNodes
     if (version != "") {
         nodesStr += "/" + version
     }
     $("#restaurants").attr("href", "/stores/food/" + nodesStr)
         .click(function () {
-            ga("send", "event", `${version}`, "addRestaurant");
+            sendGAEvent("addRestaurant")
         });
     $("#rest").attr("href", "/stores/rest/" + nodesStr)
         .click(function () {
-            ga("send", "event", `${version}`, "addRest");
+            sendGAEvent("addRest")
+
         });
     $("#shops").attr("href", "/stores/shop/" + nodesStr)
         .click(function () {
-            ga("send", "event", `${version}`, "addShop");
+            sendGAEvent("addShop")
         });
 }
 else {
@@ -62,7 +62,7 @@ else {
 }
 
 function reroute() {
-    ga("send", "event", `${version}`, "change gate");
+    sendGAEvent("change gate");
     var newStart = $("#start").val();
     var newEnd = $("#end").val();
     if (newStart == newEnd) {
@@ -91,7 +91,7 @@ function reroute() {
 }
 
 function removeStop() {
-    ga("send", "event", `${version}`, "delete stop");
+    sendGAEvent("delete stop")
     idArray = this.id.split('-')
     var endNodesIndex = parseInt(idArray[idArray.length - 1], 10);
     var startNodesIndex = endNodesIndex + 1
@@ -121,3 +121,4 @@ function removeStop() {
     var linkStr = "/map" + '/' + startNodeString + '/' + endNodeString;
     window.location.href = linkStr;
 }
+

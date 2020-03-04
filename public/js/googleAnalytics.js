@@ -1,3 +1,5 @@
+var DEBUG = true;
+
 (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
         (i[r].q = i[r].q || []).push(arguments)
@@ -7,4 +9,10 @@
 
 ga('create', 'UA-158806082-2', 'auto');
 ga('require', 'GTM-NHDJ4HB')
-ga('send', 'pageview')
+if(DEBUG == false)
+    ga('send', 'pageview')
+
+function sendGAEvent(event){
+    if(DEBUG == false)
+        ga("send", "event", `${version}`, event);
+}

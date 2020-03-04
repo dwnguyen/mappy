@@ -20,7 +20,9 @@ var maxX = -1;
 var minX = Number.MAX_SAFE_INTEGER;
 var maxY = -1;
 var minY = Number.MAX_SAFE_INTEGER;
-
+if (JSON.stringify(data) != JSON.stringify({})) {
+    renderGraph(data);
+}
 function renderGraph(data) {
 
     var zoom = d3.zoom()
@@ -154,7 +156,7 @@ function zoomToBox(minX, minY,maxX,maxY,zoom){
 }
 function zoomed() {
     console.log("zooming")
-    ga("send", "event", `${version}`, "zoomed");
+    sendGAEvent("zoomed")
     g.attr("transform", d3.event.transform);
     tooltip.style("visibility", "hidden");
 }
