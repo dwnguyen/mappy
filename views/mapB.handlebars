@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
 
@@ -35,15 +35,9 @@
 </head>
 
 <body>
+<div class="light-bg">
 	<div class="logo-header">
-		<div class="row">
-			<div class="col-xs-1">
-				<img class="small-logo img-responsive" src="/images/mappy_logo.svg">
-			</div>
-			<div class="col-xs-3">
-				<h4 class="wordmark">mappy</h4>
-			</div>
-		</div>
+		<img class="small-logo img-responsive" src="/images/wordmark.svg">
 	</div>
 
 	{{> mapSVG}}
@@ -91,20 +85,20 @@
 		<br>
 		<div class="row">
 			<div class="col-xs-6">
-				<button type="button" id="dialog-link" class="btn btn-outline-secondary ui-button ui-corner-all ui-widget center-block">
-					<h4>Add Stop</h4>
+				<button type="button" id="dialog-link" class="btn center-block">
+					<h4 class="btn-text">Add Stop</h4>
 				</button>
 				<div id="dialog" title="Explore SAN">
 					<p>Add a stop to your route.</p>
-					<a id="restaurants"><button type="button" class="btn btn-outline-secondary eat-btn">Eat</button></a>
-					<a id="shops"><button type="button" class="btn btn-outline-secondary shop-btn">Shop</button></a>
-					<a id="rest"><button type="button" class="btn btn-outline-secondary rest-btn">Rest</button></a>
+					<a id="restaurants"><button type="button" class="btn eat-btn">Eat</button></a>
+					<a id="shops"><button type="button" class="btn shop-btn">Shop</button></a>
+					<a id="rest"><button type="button" class="btn rest-btn">Rest</button></a>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<a id="routeBtn" href="/directions/Gate49+Phil’sBBQ/Phil’sBBQ+Gate39/B">
-					<button type="button" id="route" class="btn btn-outline-secondary ui-button ui-corner-all ui-widget center-block">
-						<h4>Route Me</h4>
+					<button type="button" id="route" class="btn center-block">
+						<h4 class="btn-text">Route Me</h4>
 					</button>
 				</a>
 			</div>
@@ -143,7 +137,7 @@
 		$('svg').attr("width", `${maxX}`)
 
 	</script>
-
+</div>
 </body>
 
 </html>

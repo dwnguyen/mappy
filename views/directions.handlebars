@@ -71,7 +71,6 @@
 			$("#back").attr("href", "/map/{{startNodes}}/{{endNodes}}/" + version)
 		}
 	</script>
-	<script src="/js/graphRender.js"></script>
 
 	<script>
 		var data = {{{ data.stringify }}};
@@ -79,6 +78,8 @@
 		var endNodes = "{{endNodes}}";
 	</script>
 	<script src="/js/map.js"></script>
+	<script src="/js/graphRender.js"></script>
+
 	<script>$("#stops").remove()</script>
 </body>
 

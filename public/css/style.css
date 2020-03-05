@@ -3,19 +3,6 @@
      font-family: 'Roboto', sans-serif;
 }
 
-.top-bar{
-     margin-left: 0px;
-     margin-right: 0px;
-     padding: 10px;
-     margin-top: 5px;
-}
-
-#seeker{
-     width: 100%;
-     padding: 5px;
-     margin-right: -10px;                                                         
-}
-
 .no-left-padding{
      padding-left: 0px;
 }
@@ -34,10 +21,24 @@
      overflow-y: scroll;
 }
 
+.btn{
+     background-color: #24315E;
+}
+
+.btn-text{
+     color: white;
+}
+
+.light-bg{
+     height: 100vh;
+     background-color: #EEF4F6;
+     z-index: -100000;
+}
 /*Logo/Wordmark*/
-.small-logo{
-     width: 50px;
-     height: auto;
+.logo-header{
+     margin: 15px;
+     width: 200px;
+     position: absolute;
 }
 
 /*Map CSS*/
@@ -86,19 +87,18 @@
      display: block;
 	font-size: 20px;
 	font-weight: 400;
-	color: rgb(0, 0, 0);
 	line-height: 1.3;
 	padding: .6em 1.4em .5em .8em;
 	width: 100%;
 	max-width: 100%;
 	box-sizing: border-box;
 	margin: 0;
-     /*border: 1px solid #aaa;*/
-	border-radius: .5em;
+     border-color: rgba(0, 0, 0,0);
+	border-radius: 5px;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-	background-color: rgba(168,209,231,.25);
+	background-color: #EEF4F6;
 	background-image: url("../images/caret-down.svg");
 	background-repeat: no-repeat;
 	background-position: right .7em top 50%;
@@ -109,14 +109,18 @@
      display: block;
 	font-size: 20px;
 	font-weight: 400;
-	color: rgb(0, 0, 0);
-	line-height: 1;
-	padding: .75em 1.4em .75em .8em;
-     width: 100%;
-     background-color: rgba(168,209,231,.25);
-     border-radius: .5em;
-     border: 1px solid #aaa;
-
+	line-height: 1.3;
+	padding: .6em 1.4em .5em .8em;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+     border-color: rgba(0, 0, 0,0);
+	border-radius: 5px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #EEF4F6;
 }
 
 .gate-title{
@@ -151,11 +155,6 @@
 }
 .img-gray{
      filter: grayscale(50%) brightness(60%);
-}
-
-.back-btn{
-     left: 5%;
-     top: 10%; 
 }
 
 .rerouting-container{
@@ -261,13 +260,42 @@
      background-color: #F76D6D
 }
 
+.top-bar{
+     margin-left: 0px;
+     margin-right: 0px;
+     padding-top: 25px;
+     padding-bottom: 15px;
+}
+
+.back-btn{
+     height: 2.5em;
+     padding-top: 0.25em;
+     padding-bottom: 0.25em;
+}
+
+#seeker{
+     margin-left: 15px;
+     width: 300px;
+     height: 2em;
+     border-color: rgba(0, 0, 0,0);
+     border-radius: 5px;
+     font-size: 20px;                                                   
+}
+
+::placeholder {
+     font-size: 20px;
+   }
+
 .shop-card {
      background-color:white;
      padding: 16px;
-     margin: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 0px;
+     margin-right: 0px;
      /*box-shadow: 2px 2px 5px gray;*/
      border-width: 0.5px;
-     border-radius: 0px;
+     border-radius: 5px;
 }
 
 .card-img{
@@ -286,13 +314,8 @@
 }
 
 .add-btn{
-     color: white;
-     text-decoration: none;
      background: #F76D6D;
-     /*border-radius: 5px;*/
-     border-style: none;
-     padding: 5px;
-     display: inline-block;
+     border-radius: 5px;
 }
 
 .rLink{
