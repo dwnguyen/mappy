@@ -13,6 +13,8 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+
     <!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,19 +40,21 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="center-block">
+    <div class="container blue-bg">
+        <div class="center-align">
+            <img class="img-responsive center-block" src="/images/wordmark-only.svg">
+            <br>
             <img class="img-responsive login-logo center-block" src="/images/mappy_logo.svg">
             <br>
-            <div action="/map" class="form" method="get" id="frm">
-                <select id="start" class="custom-select-lg center-block startgate" required>
+            <div>
+                <select id="start" class="custom-select-lg gate-select startgate" required>
                     <option>Select Current Location</option>
                     {{#each gates}}
                     <option value="{{id}}">{{name}}</option>
                     {{/each}}
                 </select>
                 <br>
-                <select id="end" class="custom-select-lg center-block endgate" required>
+                <select id="end" class="custom-select-lg gate-select endgate" required>
                     <option>Select Destination Gate</option>
                     {{#each gates}}
                     <option value="{{id}}">{{name}}</option>
@@ -65,13 +69,15 @@
                 </select>
                 <br>
                 -->
-                <a id='gotomap'><button type="button" onclick="setGate()" class="btn btn-outline-secondary center-block">Map Me!</button></a>
+                <a id='gotomap'><button type="button" onclick="setGate()" class="btn btn-outline-secondary center-block">
+                    <h4 class="btn-text">Map Me!</h4>
+                </button></a>
                 <!--<button type="button" class="btn center-block">Map Me!</button>-->
             </div>
             <br>
-            <p class="text-muted text-center">OR</p>
+            <p class="text-center">OR</p>
             <a href="/login"><button type="button" class="btn btn-outline-secondary center-block">
-                    <h4>Login with Expedia</h4>
+                    <h4 class="btn-text">Login with Expedia</h4>
                 </button></a>
         </div>
     </div>

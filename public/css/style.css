@@ -64,13 +64,25 @@
 }
 .dest{
      fill: rgba(0,255,0,0) 
+}
 
+.center-align{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
 }
 
 /*Login Screen*/
 .login-logo{
-     padding-top: 30%;
      padding-left: 45px;
+}
+
+.blue-bg{
+     height: 100vh;
+     background-color: #A8D1E7;
+     position: relative;
+
 }
 
 /*Index Screen B*/
@@ -80,7 +92,7 @@
      bottom: 0px;
      padding:15px;
      background-color: white;
-     box-shadow: 2px 4px 10px gray;;
+     box-shadow: 2px 4px 10px gray;
 }
 
 .custom-select-lg{
@@ -103,6 +115,11 @@
 	background-repeat: no-repeat;
 	background-position: right .7em top 50%;
 	background-size: .65em auto, 100%;
+}
+
+.gate-select{
+     width: 300px;
+     background-color: white;
 }
 
 .stop-item-B{
@@ -143,6 +160,17 @@
 .ui-widget-header{
      background: none;
      background-color:lightgray;
+     border-color: rgba(0, 0, 0,0);
+}
+
+.ui-widget.ui-widget-content {
+     border: 1px solid rgba(0,0,0,0);
+ }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    background: #FFFF;
+    font-weight: normal;
+    color: #555555;
 }
 
 /* Index Screen */
@@ -309,8 +337,8 @@
 
 .card-btn{
      padding-right: 0px;
-     padding-left: 15px;
-     margin-top: 35px;
+     padding-left: 0px;
+     margin-top: 55px;
 }
 
 .add-btn{
@@ -343,4 +371,8 @@
      float: right;
 }
 
-
+.expedia-border{
+    background: repeat-x scroll 0 0 #ffcb00;
+    height: 16px;
+    width: 100vw;
+}
