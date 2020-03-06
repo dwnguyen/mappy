@@ -156,6 +156,10 @@
      background-color: #A8D1E7;
 }
 
+.add-stop-btn{
+     background-color: #374DA0;
+}
+
 /*JQuery UI Dialog*/
 .ui-widget-header{
      background: none;
@@ -362,7 +366,7 @@
 
 .step-item{
      margin: 5px;
-     background-color: #E5E5E5;
+     background-color: #EEF4F6;
 }
 
 .step-img{

@@ -28,22 +28,46 @@
 </head>
 
 <body>
-	<div class="container">
-		<h4><a id="back" href="/map/{{startNodes}}/{{endNodes}}">&#8249; Back</a></h4>
-		<div class="rerouting-container" style="margin-top: 0px;">
-			<p class="rerouting-text"><strong>Start Gate:</strong></p>
-			<p class="rerouting-text">Gate 49</p>
+	<div class="light-bg">
+		<div class="row" style="padding-top: 15px;">
+			<div class="col-xs-2 back-btn">
+					<a id="back" href="href="/map/{{startNodes}}/{{endNodes}}"">
+						<img class="img-responsive back-btn" src="/images/back.svg">
+					</a>
+			</div>
+			<div class="col-xs-10">
+				<img class="small-logo img-responsive" src="/images/wordmark.svg" style="width: 150px; margin-bottom: 5px;">
+			</div>
+		</div>
+		<div>
+			
+			<div class="col-xs-4">
+				<p class="rerouting-text"><strong>Start Gate:</strong></p>
+				<p class="rerouting-text">Gate 49</p>
+			</div>
+			<div class="col-xs-4">
+				<p class="rerouting-text"><strong>Stops:</strong></p>
+				<p>Phil's BBQ</p>
+			</div>
+			<div class="col-xs-4">
+				<p class="rerouting-text"><strong>End Gate:</strong></p>
+				<p class="rerouting-text">Gate 39</p>
+			</div>
+			</div>
+			
+		<!--<div class="rerouting-container" style="margin-top: 0px;">
+			
 			<p class="rerouting-text">--------------</p>
 			<p>Phil's BBQ</p>
 			<p class="rerouting-text">--------------</p>
 			<p class="rerouting-text"><strong>End Gate:</strong></p>
 			<p class="rerouting-text">Gate 39</p>
-		</div>
+		</div>-->
 
 
 
-		<div class="btn-container center-block">
-			<h3>Directions:</h3>
+		<div class="bottom-navbar">
+			<h3 class="no-top-m"><strong>Directions:</strong></h3>
 			{{#each directions.directions}}
 			<div class="step-item">
 				<h4>{{direction}} {{context}} <img id="{{direction}}" +"-"+"{{id}}" class="step-img img-responsive">
