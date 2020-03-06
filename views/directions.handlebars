@@ -106,7 +106,15 @@
 	<script src="/js/map.js"></script>
 	<script src="/js/graphRender.js"></script>
 
-	<script>$("#stops").remove()</script>
+	<script>
+		var maxY = $(".bottom-navbar").position().top;
+		var maxX = $(window).width()
+		console.log(`maxY = ${maxY})`)
+		$('svg').attr("height", `${maxY}`)
+		$('svg').attr("width", `${maxX}`)
+		$("#stops").remove()
+
+	</script>
 </body>
 
 </html>
