@@ -7,7 +7,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 15,
@@ -137,7 +150,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 16,
@@ -147,7 +161,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 17,
@@ -157,7 +172,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 18,
@@ -167,7 +183,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 19,
@@ -177,7 +194,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 20,
@@ -187,7 +205,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 21,
@@ -197,7 +216,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 22,
@@ -207,7 +227,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 23,
@@ -217,7 +238,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 24,
@@ -227,7 +249,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 25,
@@ -237,7 +260,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 26,
@@ -247,7 +271,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 27,
@@ -257,7 +282,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 28,
@@ -267,7 +293,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 29,
@@ -277,7 +304,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 30,
@@ -287,7 +315,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 31,
@@ -297,7 +326,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 32,
@@ -307,7 +337,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 33,
@@ -317,7 +348,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 34,
@@ -327,7 +359,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 35,
@@ -337,7 +370,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 36,
@@ -347,7 +381,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 37,
@@ -357,7 +392,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 38,
@@ -367,7 +403,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 39,
@@ -377,7 +414,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 40,
@@ -387,7 +425,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 41,
@@ -397,7 +436,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 42,
@@ -407,7 +447,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 43,
@@ -417,7 +458,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 44,
@@ -427,7 +469,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 45,
@@ -437,7 +480,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": 46,
@@ -447,7 +491,8 @@
     "category": "",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "AirspaceLounge",
@@ -457,7 +502,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/airspace_detail2.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "ApricotLaneBoutique",
@@ -467,7 +513,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/AL-4.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "ArtisianMarket",
@@ -477,7 +524,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/artisan-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom1",
@@ -487,7 +535,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Bathroom10",
@@ -497,7 +546,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom12",
@@ -507,7 +557,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom13",
@@ -517,7 +568,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom14",
@@ -527,7 +579,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom15",
@@ -537,7 +590,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom16",
@@ -547,7 +601,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom17",
@@ -557,7 +612,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Bathroom2",
@@ -567,7 +623,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Bathroom3",
@@ -577,7 +634,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Bathroom4",
@@ -587,7 +645,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Bathroom5",
@@ -597,7 +656,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Bathroom7",
@@ -607,7 +667,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Bathroom8",
@@ -617,7 +678,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Bathroom9",
@@ -627,7 +689,8 @@
     "category": "rest",
     "terminal": 2,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvi_WsISm58FD4Ep_urAnpqRlUV4OmvUeIQ_jk5YwoM9FLsjJ",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "BeaudevinWineAndTapasBar",
@@ -637,7 +700,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beaudevin-3.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "BeRelaxSpa",
@@ -647,7 +711,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/beRelax-3.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "BrightonCollectibles1",
@@ -657,7 +722,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/brighton-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "BrightonCollectibles2",
@@ -667,7 +733,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/brighton-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Brookstone",
@@ -677,7 +744,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/T2W_Brookstone_365.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "BubblesSeafoodAndWineBar",
@@ -687,7 +755,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Bubbles-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "CaliforniaPizzaKitchen",
@@ -697,7 +766,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/CPK-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "CNBCNewsSanDiego",
@@ -707,7 +777,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/CNBCExpress-(2)_365.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "ElegantDesserts",
@@ -717,7 +788,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/elegantDesserts-detail.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "GaslampMarketPlace",
@@ -727,7 +799,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/glm-11.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "GaslampQuarterNews",
@@ -737,7 +810,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/GQN-main.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Gate20",
@@ -747,7 +821,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate21",
@@ -757,7 +832,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate22",
@@ -767,7 +843,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate23",
@@ -777,7 +854,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate24",
@@ -787,7 +865,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate25",
@@ -797,7 +876,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate26",
@@ -807,7 +887,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate27",
@@ -817,7 +898,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate28",
@@ -827,7 +909,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate29",
@@ -837,7 +920,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate30",
@@ -847,7 +931,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate31",
@@ -857,7 +942,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate32",
@@ -867,7 +953,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate33",
@@ -877,7 +964,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate34",
@@ -887,7 +975,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate35",
@@ -897,7 +986,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate36",
@@ -907,7 +997,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate37",
@@ -917,7 +1008,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate38",
@@ -927,7 +1019,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate39",
@@ -937,7 +1030,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate40",
@@ -947,7 +1041,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate41",
@@ -957,7 +1052,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate42",
@@ -967,7 +1063,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate43",
@@ -977,7 +1074,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate44",
@@ -987,7 +1085,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate45",
@@ -997,7 +1096,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate46",
@@ -1007,7 +1107,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate47",
@@ -1017,7 +1118,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate48",
@@ -1027,7 +1129,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate49",
@@ -1037,7 +1140,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate50",
@@ -1047,7 +1151,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Gate51",
@@ -1057,7 +1162,8 @@
     "category": "gate",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "HudsonNews",
@@ -1067,7 +1173,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/hudson_store_gallery1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "InMotion",
@@ -1077,7 +1184,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/MW-gallery1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "JackInTheBox",
@@ -1087,7 +1195,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/gallery-Chicken.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "KidsLoveSanDiego",
@@ -1097,7 +1206,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/klsd-4.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "MACCosmetics",
@@ -1107,7 +1217,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/pallet.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "MindWorks",
@@ -1117,7 +1228,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.mountaineers.org/images/placeholder-images/placeholder-400-x-400/image_preview",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "OldTownNewsAndMarket",
@@ -1127,7 +1239,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/OldTownNewsMarket-(1)_365.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "PandaExpress",
@@ -1137,7 +1250,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/panda-gallery2.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "PannikinCoffeeAndTea",
@@ -1147,7 +1261,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/pannikin-2.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Peet’sCoffeeAndTea",
@@ -1157,7 +1272,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "PeetsCoffeeTea",
@@ -1167,7 +1283,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/peets-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "PGATourGrill",
@@ -1177,7 +1294,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/PGA_Grill-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "PGATourShops",
@@ -1187,7 +1305,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/PGA_Grill-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Phil’sBBQ",
@@ -1197,7 +1316,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/phils-1.png",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "QdobaMexicanGrill",
@@ -1207,7 +1327,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/qdoba-1.png",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "RedMango",
@@ -1217,7 +1338,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/red_mango-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "RipCurl",
@@ -1227,7 +1349,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/RipCurl_store_gallery1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "SaffronThai",
@@ -1237,7 +1360,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/saffron-1.png",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "SeesCandies",
@@ -1247,7 +1371,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://media.flysfo.com/SeesCandiesT3Hub_850x677.gif",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "SkyFreeShop",
@@ -1257,7 +1382,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/SKY%20SAN%206.JPG",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Soundbalance",
@@ -1267,7 +1393,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/SB_1A_226x226.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Starbucks",
@@ -1277,7 +1404,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/starbucks-2.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "StellarNews",
@@ -1287,7 +1415,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/T2W_StellarNews-365.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "StoneBrewingCompany",
@@ -1297,7 +1426,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/stone-7.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "SunglassHut",
@@ -1307,7 +1437,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/sunglass_hut-2.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "Swarovski",
@@ -1317,7 +1448,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Swarovski-2.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "TechOnTheGo",
@@ -1327,7 +1459,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/techonthego_store_gallery1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "ThePradoAtBalboaPark",
@@ -1337,7 +1470,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/prado-gallery3.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "TommyV’sPizzeria",
@@ -1347,7 +1481,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/Tommy-Vs-2.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "UrbanCrave",
@@ -1357,7 +1492,8 @@
     "category": "food",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/urban-1.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   },
   {
     "id": "USReportAndWorldNews",
@@ -1367,7 +1503,8 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/USNews-4.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 0
   },
   {
     "id": "Warwick’sOfLaJolla",
@@ -1377,6 +1514,7 @@
     "category": "shop",
     "terminal": 2,
     "image": "https://www.san.org/portals/_default/skins/sdairport/images/stores/WARWICKS-PIC-365.jpg",
-    "hours": "8AM-8PM"
+    "hours": "8AM-8PM",
+    "nearby": 1
   }
 ]

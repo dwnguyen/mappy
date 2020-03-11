@@ -17,7 +17,8 @@
 	<!-- Stylesheet -->
 	<link href="/css/style.css" rel="stylesheet">
 
-	<link rel="icon" href="favicon.ico" type="image/x-icon"> <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,64 +36,86 @@
 	<div class="container {{storeType}}-bg">
 		<div class="row top-bar">
 			<div class="col-xs-1 no-right-padding no-left-padding back-btn">
-					<a id="back" href="/map">
-						<img class="img-responsive back-btn center-block" src="/images/back.svg">
-					</a>
+				<a id="back" href="/map">
+					<img class="img-responsive back-btn center-block" src="/images/back.svg">
+				</a>
 			</div>
 			<div class="col-xs-11 no-left-padding no-right-padding">
 				<div class="search-bar">
 					<input type="text" id="seeker" placeholder='Search'>
 				</div>
 			</div>
-			</div>
+		</div>
 
-	<div id="content">
-	</div>
+		<div id="content">
+		</div>
 
 	</div>
 	</div>
 	<script>
+		var showNearby = "{{showNearby}}" == "yes";
 		var stores = {{{ stores.stringify }}}
 		output = "";
-		$.each(stores, function(key, val){
+		function addStore(val){
 			output += "<div class='row shop-card'>";
 			output += "<div class='col-xs-4 card-img'>";
-				output += "<img src=" + val.image + " class='img-responsive vertical-align' alt=" + val.name + ">";
+			output += "<img src=" + val.image + " class='img-responsive vertical-align' alt=" + val.name + ">";
 			output += "</div>";
 			output += "<div class='col-xs-5 card-text'>"
-				output += "<h3 class='card-title'>" + val.name + "</h3>";
+			output += "<h3 class='card-title'>" + val.name + "</h3>";
 			output += "</div>";
 			output += "<div class='col-xs-3 card-btn'>"
-				output += "<button class='btn add-btn'><a class='rLink' id=" + val.id + " href='/map'>Add Stop</a></button>";
+			output += "<button class='btn add-btn'><a class='rLink' id=" + val.id + " href='/map'>Add Stop</a></button>";
 			output += "</div>";
-		output += "</div>";
-		});
+			output += "</div>";
+		}
+		if(showNearby){
+			output += "<div class='row' style='margin-left:0px;'><h2>Stops on the Way</h2></div>"
+			$.each(stores, function (key, val) {
+				if(val.nearby == 1){
+					addStore(val)
+				}
+			});
+			output += "<div class='row' style='margin-left:0px;'><h2>Other Stops</h2></div>"
+
+			$.each(stores, function (key, val) {
+				if(val.nearby == 0){
+					addStore(val)
+				}
+			});
+
+		}
+		else{
+			$.each(stores, function (key, val) {
+				addStore(val)
+			});
+		}
 
 		$('#content').html(output);
 
 		/* SEEKER FUNCTION */
 		if (!RegExp.escape) {
-		RegExp.escape = function (s) {
-			return s.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&")
-		};
+			RegExp.escape = function (s) {
+				return s.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&")
+			};
 		}
-		
-		jQuery(function(){
-		var $rows = $('.shop-card');
-		/*
-		$rows.each(function(){
-			console.log($(this).children(".card-text").text())
-		})
-		*/
-		$('#seeker').keyup(function () {
-			var regex =  new RegExp(RegExp.escape($.trim(this.value).replace(/\s+/g, ' ')).replace(/'/g, '’'), 'i')
-			console.log(regex)
-			$rows.hide().filter(function () {
-				var text = $(this).children(".card-text").text().replace(/\s+/g, ' ').replace(/'/g, '’');
-				console.log(text)
-				return regex.test(text)
-			}).show();
-		});
+
+		jQuery(function () {
+			var $rows = $('.shop-card');
+			/*
+			$rows.each(function(){
+				console.log($(this).children(".card-text").text())
+			})
+			*/
+			$('#seeker').keyup(function () {
+				var regex = new RegExp(RegExp.escape($.trim(this.value).replace(/\s+/g, ' ')).replace(/'/g, '’'), 'i')
+				console.log(regex)
+				$rows.hide().filter(function () {
+					var text = $(this).children(".card-text").text().replace(/\s+/g, ' ').replace(/'/g, '’');
+					console.log(text)
+					return regex.test(text)
+				}).show();
+			});
 		});
 
 
@@ -124,7 +147,6 @@
 		$(".rLink").click(function () {
 			alert("Adding a stop")
 		})
-
 	</script>
 </body>
 
